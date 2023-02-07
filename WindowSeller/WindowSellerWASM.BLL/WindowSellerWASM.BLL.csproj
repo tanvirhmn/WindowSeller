@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -16,6 +16,10 @@
   <ItemGroup>
     <ProjectReference Include="..\WindowSeller.Domain\WindowSeller.Domain.csproj" />
     <ProjectReference Include="..\WindowSellerWASM\Shared\WindowSellerWASM.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Windows\" />
   </ItemGroup>
 
 </Project>
