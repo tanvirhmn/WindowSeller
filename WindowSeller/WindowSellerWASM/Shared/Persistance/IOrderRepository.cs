@@ -9,6 +9,5 @@ namespace WindowSellerWASM.Shared.Persistance
 {
     public interface IOrderRepository : IGenericRepository<Order>
     {
-        Task<List<Order>> GetOrderDetailsAsync(int id);
     }
 }

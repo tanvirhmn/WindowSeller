@@ -9,6 +9,6 @@ namespace WindowSellerWASM.Shared.Persistance
 {
     public interface ISubElementRepository : IGenericRepository<SubElement>
     {
-        Task<List<SubElement>> GetByWindowIdAsync(int windowId);
+        Task<List<SubElement>> GetByWindowIdAsync(long windowId);
     }
 }

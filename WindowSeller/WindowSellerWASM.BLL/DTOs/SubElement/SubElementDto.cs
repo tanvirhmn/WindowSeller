@@ -8,7 +8,7 @@ namespace WindowSellerWASM.BLL.DTOs.SubElement
 {
     public class SubElementDto
     {
-        public int SubElementId { get; set; }
+        public long SubElementId { get; set; }
         public int Element { get; set; }
         public decimal Width { get; set; }
         public decimal Height { get; set; }

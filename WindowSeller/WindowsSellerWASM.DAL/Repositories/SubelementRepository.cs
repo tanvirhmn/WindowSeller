@@ -18,7 +18,7 @@ namespace WindowsSellerWASM.DAL.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<List<SubElement>> GetByWindowIdAsync(int windowId)
+        public async Task<List<SubElement>> GetByWindowIdAsync(long windowId)
         {
             var windows = await _dbContext.SubElements
             .Where(sbel => sbel.WindowId == windowId)

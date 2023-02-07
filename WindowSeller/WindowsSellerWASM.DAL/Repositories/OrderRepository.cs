@@ -17,16 +17,5 @@ namespace WindowsSellerWASM.DAL.Repositories
         {
             _dbContext = dbContext;
         }
-
-        public async Task<List<Order>> GetOrderDetailsAsync(int orderId)
-        {
-            var orders = await _dbContext.Orders
-            .Where(ordr => ordr.OrderId == orderId)
-            .Include(ordr => ordr.Windows)
-                .ThenInclude(wnd=>wnd.SubElements)
-            .AsNoTracking()
-            .ToListAsync();
-            return orders;
-        }
     }
 }

@@ -18,11 +18,10 @@ namespace WindowsSellerWASM.DAL.Repositories
             _dbContext = dbContext;
         }
 
-        public async Task<List<Window>> GetByOrderIdAsync(int orderId)
+        public async Task<List<Window>> GetByOrderIdAsync(long orderId)
         {
             var windows = await _dbContext.Windows
             .Where(wndw => wndw.OrderId == orderId)
-            .Include(wndw => wndw.SubElements)
             .AsNoTracking()
             .ToListAsync();
 

@@ -41,7 +41,6 @@ namespace WindowSellerWASM.BLL.Features.Orders.Handlers.Commands
             }
             else
             {
-
                 var order = await _unitOfWork.OrderRepository.GetAsync(request.OrderDto.OrderId);
 
                 if (order is null)
