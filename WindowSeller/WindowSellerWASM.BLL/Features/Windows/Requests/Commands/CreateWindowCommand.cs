@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using WindowSellerWASM.BLL.DTOs.Window;
 using WindowSellerWASM.BLL.Responses;
 
-namespace WindowSellerWASM.BLL.Features.Window.Requests.Commands
+namespace WindowSellerWASM.BLL.Features.Windows.Requests.Commands
 {
     public class CreateWindowCommand : IRequest<BaseCommandResponse>
     {

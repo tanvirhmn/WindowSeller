@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowSellerWASM.BLL.Features.Window.Requests.Commands
+namespace WindowSellerWASM.BLL.Features.Windows.Requests.Commands
 {
     public class DeleteWindowCommand : IRequest
     {

@@ -9,11 +9,11 @@ using WindowSeller.Domain;
 using WindowSellerWASM.BLL.DTOs.SubElement.Validators;
 using WindowSellerWASM.BLL.DTOs.Window.Validators;
 using WindowSellerWASM.BLL.Exceptions;
-using WindowSellerWASM.BLL.Features.Window.Requests.Commands;
+using WindowSellerWASM.BLL.Features.Windows.Requests.Commands;
 using WindowSellerWASM.BLL.Responses;
 using WindowSellerWASM.Shared.Persistance;
 
-namespace WindowSellerWASM.BLL.Features.Window.Commands
+namespace WindowSellerWASM.BLL.Features.Windows.Handlers.Commands
 {
     public class UpdateWindowCommandHandler : IRequestHandler<UpdateWindowCommand, BaseCommandResponse>
     {

@@ -1,18 +1,12 @@
 ﻿using AutoMapper;
 using MediatR;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using WindowSeller.Domain;
-using WindowSellerWASM.BLL.DTOs.SubElement.Validators;
 using WindowSellerWASM.BLL.DTOs.Window.Validators;
-using WindowSellerWASM.BLL.Features.Window.Requests.Commands;
+using WindowSellerWASM.BLL.Features.Windows.Requests.Commands;
 using WindowSellerWASM.BLL.Responses;
 using WindowSellerWASM.Shared.Persistance;
 
-namespace WindowSellerWASM.BLL.Features.Window.Handlers.Commands
+namespace WindowSellerWASM.BLL.Features.Windows.Handlers.Commands
 {
     public class CreateWindowCommandHandler : IRequestHandler<CreateWindowCommand, BaseCommandResponse>
     {

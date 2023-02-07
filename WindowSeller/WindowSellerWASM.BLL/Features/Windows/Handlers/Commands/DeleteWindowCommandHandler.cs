@@ -8,10 +8,10 @@ using System.Threading.Tasks;
 using WindowSeller.Domain;
 using WindowSellerWASM.BLL.Exceptions;
 using WindowSellerWASM.BLL.Features.SubElements.Requests.Commands;
-using WindowSellerWASM.BLL.Features.Window.Requests.Commands;
+using WindowSellerWASM.BLL.Features.Windows.Requests.Commands;
 using WindowSellerWASM.Shared.Persistance;
 
-namespace WindowSellerWASM.BLL.Features.Window.Commands
+namespace WindowSellerWASM.BLL.Features.Windows.Handlers.Commands
 {
     public class DeleteWindowCommandHandler : IRequestHandler<DeleteWindowCommand, Unit>
     {

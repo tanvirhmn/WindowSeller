@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 using WindowSellerWASM.BLL.DTOs.SubElement;
 using WindowSellerWASM.BLL.DTOs.Window;
 using WindowSellerWASM.BLL.Features.SubElements.Requests.Queries;
-using WindowSellerWASM.BLL.Features.Window.Requests.Queries;
+using WindowSellerWASM.BLL.Features.Windows.Requests.Queries;
 using WindowSellerWASM.Shared.Persistance;
 
-namespace HR.LeaveManagement.Application.Features.LeaveAllocations.Handlers.Queries
+namespace WindowSellerWASM.BLL.Features.Windows.Handlers.Queries
 {
     public class GetWindowListByOrderIdRequestHandler : IRequestHandler<GetWindowListByOrderIdRequest, List<WindowDto>>
     {
