@@ -12,6 +12,7 @@ namespace WindowSeller.Domain
         public int Element { get; set; }
         public decimal Width { get; set; }
         public decimal Height { get; set; }
+        public string Type { get; set; }
 
         public Window Window { get; set; }  
         public long WindowId { get; set; }

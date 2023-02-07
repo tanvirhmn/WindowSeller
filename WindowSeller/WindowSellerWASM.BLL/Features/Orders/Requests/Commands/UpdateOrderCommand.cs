@@ -1,17 +1,19 @@
-﻿//using HR.LeaveManagement.Application.DTOs.LeaveAllocation;
-//using MediatR;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
+﻿
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WindowSellerWASM.BLL.DTOs.Order;
+using WindowSellerWASM.BLL.Responses;
 
-//namespace HR.LeaveManagement.Application.Features.LeaveAllocations.Requests.Commands
-//{
-//    public class UpdateOrderCommand:IRequest<Unit>
-//    {
-//        //public UpdateLeaveAllocationDto UpdateLeaveAllocationDto { get; set; }
-//        public UpdateLeaveAllocationDto LeaveAllocationDto { get; set; }
+namespace WindowSellerWASM.BLL.Features.Orders.Requests.Commands
+{
+    public class UpdateOrderCommand : IRequest<BaseCommandResponse>
+    {
+        //public UpdateLeaveAllocationDto UpdateLeaveAllocationDto { get; set; }
+        public OrderDto OrderDto { get; set; }
 
-//    }
-//}
+    }
+}

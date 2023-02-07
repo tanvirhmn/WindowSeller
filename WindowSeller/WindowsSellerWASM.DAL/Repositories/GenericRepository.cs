@@ -31,7 +31,7 @@ namespace WindowsSellerWASM.DAL.Repositories
 
         }
 
-        public async Task<bool> DoesExistAsync(int id)
+        public async Task<bool> DoesExistAsync(long id)
         {
             var entity = await GetAsync(id);
             return entity != null;
@@ -44,7 +44,7 @@ namespace WindowsSellerWASM.DAL.Repositories
                 .ToListAsync();
         }
 
-        public async Task<T> GetAsync(int id)
+        public async Task<T> GetAsync(long id)
         {
             return await _dbcontext.Set<T>().FindAsync(id);
         }

@@ -196,17 +196,17 @@
       "mscorlib.dll": "sha256-TYLzIm125RbnX9+RAPqJnwZhd6CnQpJcrjiMpJfZ720=",
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
-      "WindowSeller.Domain.dll": "sha256-9tUyr1UomBeIOQN66z+20C82aVzwwrQSugWsGxezx6U=",
-      "WindowSellerWASM.Shared.dll": "sha256-fnd+cl7BqPi5ozuukVjIG1VbeTHF+ggtoBTu6eZecOI=",
-      "WindowSellerWASM.Client.dll": "sha256-onszt2m1m\/zMvpTFkvww+Of+j5vZsZxtCXZXpSNzJCA="
+      "WindowSeller.Domain.dll": "sha256-aI+FWg\/utC+p67JcJCH6SJYz5Dp8PBAZcR9dAzv0UHQ=",
+      "WindowSellerWASM.Shared.dll": "sha256-IR27MsUM2QlXffZloL+F6shA5Pz9G3dQFOCSq\/dB9+w=",
+      "WindowSellerWASM.Client.dll": "sha256-\/MY5tEC+r5u00YHL13AKl1kNB1MSl3OoK0rYxzjBOUI="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "WindowSellerWASM.Shared.pdb": "sha256-UZ\/GsaAD3jW7fTSZ7L149j\/nnP0k7BTkF3RsiZRA078=",
-      "WindowSeller.Domain.pdb": "sha256-TUDLafZuFTetJ9TEnk4xNxKKeBhxxeuoD0x65z6eOGc=",
-      "WindowSellerWASM.Client.pdb": "sha256-dS9hdVYO61sIq2D\/R1IloDBjd8vquqa4DHkImt5v4+8="
+      "WindowSellerWASM.Shared.pdb": "sha256-G9ZSMWTUhpgNh1EpOTLxS2dsSCFcEF7r1HjjbJaYEUw=",
+      "WindowSeller.Domain.pdb": "sha256-5nsN+wRu+7Bu3plaSmgMZXh8HTCzZpOGaPdSYi03ODY=",
+      "WindowSellerWASM.Client.pdb": "sha256-5PxarusXa7x\/5Z7UACmsSlkUNEbSgqbsEusF5bdVNRs="
     },
     "runtime": {
       "dotnet.6.0.8.tj9dcjyk4v.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

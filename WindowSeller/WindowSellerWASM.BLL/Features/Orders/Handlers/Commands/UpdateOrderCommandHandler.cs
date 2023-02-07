@@ -1,53 +1,63 @@
-﻿//using AutoMapper;
-//using HR.LeaveManagement.Application.DTOs.LeaveAllocation.Validators;
-//using HR.LeaveManagement.Application.Exceptions;
-//using HR.LeaveManagement.Application.Features.LeaveAllocations.Requests.Commands;
-//using HR.LeaveManagement.Application.Contracts.Persistance;
-//using HR.LeaveManagement.Domain;
-//using MediatR;
-//using System;
-//using System.Collections.Generic;
-//using System.Linq;
-//using System.Text;
-//using System.Threading.Tasks;
-//using HR.LeaveManagement.Persistence.Repositories;
+﻿using AutoMapper;
+using MediatR;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using WindowSeller.Domain;
+using WindowSellerWASM.BLL.DTOs.Order.Validators;
+using WindowSellerWASM.BLL.Exceptions;
+using WindowSellerWASM.BLL.Features.Orders.Requests.Commands;
+using WindowSellerWASM.BLL.Responses;
+using WindowSellerWASM.Shared.Persistance;
 
-//namespace HR.LeaveManagement.Application.Features.LeaveAllocations.Handlers.Commands
-//{
-//    public class UpdateOrderCommandHandler : IRequestHandler<UpdateOrderCommand, Unit>
-//    {
-//        private readonly IUnitOfWork _unitOfWork;
-//        private readonly IMapper _mapper;
+namespace WindowSellerWASM.BLL.Features.Orders.Handlers.Commands
+{
+    public class UpdateOrderCommandHandler : IRequestHandler<UpdateOrderCommand, BaseCommandResponse>
+    {
+        private readonly IUnitOfWork _unitOfWork;
+        private readonly IMapper _mapper;
 
-//        public UpdateOrderCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
-//        {
-//            this._mapper = mapper;
-//            this._unitOfWork = unitOfWork;
-//        }
+        public UpdateOrderCommandHandler(IUnitOfWork unitOfWork, IMapper mapper)
+        {
+            this._mapper = mapper;
+            this._unitOfWork = unitOfWork;
+        }
 
-//        public async Task<Unit> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
-//        {
-//            var validator = new UpdateLeaveAllocationDtoValidator(_unitOfWork.LeaveTypeRepository);
-//            var validationResult = await validator.ValidateAsync(request.LeaveAllocationDto);
+        public async Task<BaseCommandResponse> Handle(UpdateOrderCommand request, CancellationToken cancellationToken)
+        {
+            var response = new BaseCommandResponse();
 
-//            if (validationResult.IsValid == false)
-//            {
-//                throw new ValidationException(validationResult);
-//            }
+            var validator = new OrderDtoValidator(_unitOfWork.OrderRepository);
+            var validationResult = await validator.ValidateAsync(request.OrderDto);
 
-//            var leaveAllocation = await _unitOfWork.LeaveAllocationRepository.GetAsync(request.LeaveAllocationDto.Id);
+            if (validationResult.IsValid == false)
+            {
+                response.Success = false;
+                response.Message = "Update Failed";
+                response.Errors = validationResult.Errors.Select(err => err.ErrorMessage).ToList();
+            }
+            else
+            {
 
-//            if (leaveAllocation is null)
-//            {
-//                throw new NotFoundException(nameof(LeaveAllocation), request.LeaveAllocationDto.Id);
-//            }
+                var order = await _unitOfWork.OrderRepository.GetAsync(request.OrderDto.OrderId);
 
-//            _mapper.Map(request.LeaveAllocationDto, leaveAllocation);
+                if (order is null)
+                {
+                    throw new NotFoundException(nameof(Order), request.OrderDto.OrderId);
+                }
 
-//            await _unitOfWork.LeaveAllocationRepository.UpdateAsync(leaveAllocation);
-//            await _unitOfWork.Save();
+                _mapper.Map(request.OrderDto, order);
 
-//            return Unit.Value;
-//        }
-//    }
-//}
+                await _unitOfWork.OrderRepository.UpdateAsync(order);
+
+                response.Success = true;
+                response.Message = "Update Sucessful";
+                response.Id = order.OrderId;
+            }
+            return response;
+        }
+    }
+}
