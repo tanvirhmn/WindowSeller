@@ -783,6 +783,19 @@
         "runtime": {
           "bin/placeholder/WindowSeller.Domain.dll": {}
         }
+      },
+      "WindowSellerWASM.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "WindowSeller.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WindowSellerWASM.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WindowSellerWASM.Shared.dll": {}
+        }
       }
     }
   },
@@ -1991,13 +2004,19 @@
       "type": "project",
       "path": "../WindowSeller.Domain/WindowSeller.Domain.csproj",
       "msbuildProject": "../WindowSeller.Domain/WindowSeller.Domain.csproj"
+    },
+    "WindowSellerWASM.Shared/1.0.0": {
+      "type": "project",
+      "path": "../WindowSellerWASM/Shared/WindowSellerWASM.Shared.csproj",
+      "msbuildProject": "../WindowSellerWASM/Shared/WindowSellerWASM.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Microsoft.EntityFrameworkCore.Relational >= 6.0.13",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.13",
       "Microsoft.Extensions.Options.ConfigurationExtensions >= 6.0.0",
-      "WindowSeller.Domain >= 1.0.0"
+      "WindowSellerWASM.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2035,8 +2054,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\WindowSeller.Domain.csproj": {
-              "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\WindowSeller.Domain.csproj"
+            "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Shared\\WindowSellerWASM.Shared.csproj": {
+              "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Shared\\WindowSellerWASM.Shared.csproj"
             }
           }
         }
@@ -2051,6 +2070,10 @@
       "net6.0": {
         "targetAlias": "net6.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": {
+            "target": "Package",
+            "version": "[6.0.13, )"
+          },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[6.0.13, )"

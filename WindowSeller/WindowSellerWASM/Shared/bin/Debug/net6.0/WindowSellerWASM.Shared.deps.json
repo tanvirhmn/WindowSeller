@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v6.0": {
       "WindowSellerWASM.Shared/1.0.0": {
+        "dependencies": {
+          "WindowSeller.Domain": "1.0.0"
+        },
         "runtime": {
           "WindowSellerWASM.Shared.dll": {}
+        }
+      },
+      "WindowSeller.Domain/1.0.0": {
+        "runtime": {
+          "WindowSeller.Domain.dll": {}
         }
       }
     }
   },
   "libraries": {
     "WindowSellerWASM.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WindowSeller.Domain/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

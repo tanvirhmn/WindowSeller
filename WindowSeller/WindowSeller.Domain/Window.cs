@@ -15,5 +15,6 @@ namespace WindowSeller.Domain
 
         public Order Order { get; set; }
         public long OrderId { get; set; }
+        public ICollection<SubElement>? SubElements { get; set; }
     }
 }

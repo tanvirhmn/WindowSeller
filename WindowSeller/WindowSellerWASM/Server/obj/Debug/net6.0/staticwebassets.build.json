@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mUpGKuz/Zqf+P/kN/LH4VT+HY1UPgyD3MDD1Tzr2VOA=",
+  "Hash": "u8ndDMBFfVGqYSZ0UMeWGaqbW8zhvwrfRFLPhWbmmRY=",
   "Source": "WindowSellerWASM.Server",
   "BasePath": "_content/WindowSellerWASM.Server",
   "Mode": "Default",
@@ -3395,6 +3395,40 @@
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\runtimes\\browser-wasm\\lib\\net6.0\\WindowsBase.dll"
     },
     {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowSeller.Domain.dll",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/WindowSeller.Domain.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\bin\\Debug\\net6.0\\WindowSeller.Domain.dll"
+    },
+    {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowSeller.Domain.pdb",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/WindowSeller.Domain.pdb",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "symbol",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\bin\\Debug\\net6.0\\WindowSeller.Domain.pdb"
+    },
+    {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowSellerWASM.Client.dll",
       "SourceId": "WindowSellerWASM.Client",
       "SourceType": "Project",
@@ -5588,6 +5622,23 @@
       "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Xml.dll"
     },
     {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\mpVlnpLB.gz",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/WindowSeller.Domain.pdb.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowSeller.Domain.pdb",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowSeller.Domain.pdb"
+    },
+    {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\MtzsK7Rl.gz",
       "SourceId": "WindowSellerWASM.Client",
       "SourceType": "Project",
@@ -6742,6 +6793,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Pipes.AccessControl.dll"
+    },
+    {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\xeQPgjGz.gz",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/WindowSeller.Domain.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowSeller.Domain.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowSeller.Domain.dll"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\xgrKL44j.gz",

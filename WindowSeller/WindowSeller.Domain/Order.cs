@@ -11,5 +11,6 @@ namespace WindowSeller.Domain
         public long OrderId { get; set; }
         public string OrderName { get; set; }
         public string State { get; set; }
+        public ICollection<Window>? Windows { get; set; }
     }
 }

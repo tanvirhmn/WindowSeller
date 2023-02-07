@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "WindowSeller.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WindowSeller.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WindowSeller.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "WindowSeller.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../WindowSeller.Domain/WindowSeller.Domain.csproj",
+      "msbuildProject": "../../WindowSeller.Domain/WindowSeller.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "WindowSeller.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\tanvi\\.nuget\\packages\\": {},
@@ -41,7 +60,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\WindowSeller.Domain.csproj": {
+              "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\WindowSeller.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

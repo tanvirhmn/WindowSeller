@@ -2,6 +2,8 @@ C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowsSellerWASM.DAL.dll
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowsSellerWASM.DAL.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowSeller.Domain.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowSellerWASM.Shared.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowSellerWASM.Shared.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowSeller.Domain.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.csproj.AssemblyReference.cache
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.GeneratedMSBuildEditorConfig.editorconfig

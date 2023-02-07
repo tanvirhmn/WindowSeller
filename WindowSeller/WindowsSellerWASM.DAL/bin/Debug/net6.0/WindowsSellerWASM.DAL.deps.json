@@ -8,9 +8,10 @@
     ".NETCoreApp,Version=v6.0": {
       "WindowsSellerWASM.DAL/1.0.0": {
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "Microsoft.Extensions.Options.ConfigurationExtensions": "6.0.0",
-          "WindowSeller.Domain": "1.0.0"
+          "WindowSellerWASM.Shared": "1.0.0"
         },
         "runtime": {
           "WindowsSellerWASM.DAL.dll": {}
@@ -488,6 +489,14 @@
         "runtime": {
           "WindowSeller.Domain.dll": {}
         }
+      },
+      "WindowSellerWASM.Shared/1.0.0": {
+        "dependencies": {
+          "WindowSeller.Domain": "1.0.0"
+        },
+        "runtime": {
+          "WindowSellerWASM.Shared.dll": {}
+        }
       }
     }
   },
@@ -792,6 +801,11 @@
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
     "WindowSeller.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WindowSellerWASM.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

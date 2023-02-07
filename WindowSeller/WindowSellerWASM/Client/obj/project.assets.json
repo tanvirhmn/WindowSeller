@@ -499,9 +499,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "WindowSeller.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WindowSeller.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WindowSeller.Domain.dll": {}
+        }
+      },
       "WindowSellerWASM.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "WindowSeller.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/WindowSellerWASM.Shared.dll": {}
         },
@@ -1002,9 +1015,22 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
+      "WindowSeller.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/WindowSeller.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WindowSeller.Domain.dll": {}
+        }
+      },
       "WindowSellerWASM.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "WindowSeller.Domain": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/WindowSellerWASM.Shared.dll": {}
         },
@@ -1773,6 +1799,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "WindowSeller.Domain/1.0.0": {
+      "type": "project",
+      "path": "../../WindowSeller.Domain/WindowSeller.Domain.csproj",
+      "msbuildProject": "../../WindowSeller.Domain/WindowSeller.Domain.csproj"
     },
     "WindowSellerWASM.Shared/1.0.0": {
       "type": "project",

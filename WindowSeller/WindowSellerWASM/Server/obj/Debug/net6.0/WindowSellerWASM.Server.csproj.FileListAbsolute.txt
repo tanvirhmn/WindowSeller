@@ -24,10 +24,12 @@ C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Serv
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\Microsoft.JSInterop.dll
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\System.IO.Pipelines.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\WindowSeller.Domain.dll
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\WindowSellerWASM.Client.dll
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\WindowSellerWASM.Shared.dll
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\WindowSellerWASM.Client.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\WindowSellerWASM.Shared.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\bin\Debug\net6.0\WindowSeller.Domain.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\obj\Debug\net6.0\WindowSellerWASM.Server.csproj.AssemblyReference.cache
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\obj\Debug\net6.0\WindowSellerWASM.Server.GeneratedMSBuildEditorConfig.editorconfig
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\obj\Debug\net6.0\WindowSellerWASM.Server.AssemblyInfoInputs.cache
