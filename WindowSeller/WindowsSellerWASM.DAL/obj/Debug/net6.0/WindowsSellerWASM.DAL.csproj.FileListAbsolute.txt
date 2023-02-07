@@ -1,0 +1,15 @@
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowsSellerWASM.DAL.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowsSellerWASM.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowsSellerWASM.DAL.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowSeller.Domain.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\bin\Debug\net6.0\WindowSeller.Domain.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.csproj.CopyComplete
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\refint\WindowsSellerWASM.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\WindowsSellerWASM.DAL.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowsSellerWASM.DAL\obj\Debug\net6.0\ref\WindowsSellerWASM.DAL.dll

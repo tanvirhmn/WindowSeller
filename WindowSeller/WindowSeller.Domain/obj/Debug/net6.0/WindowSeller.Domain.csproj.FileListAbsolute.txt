@@ -1,0 +1,12 @@
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\bin\Debug\net6.0\WindowSeller.Domain.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\bin\Debug\net6.0\WindowSeller.Domain.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\bin\Debug\net6.0\WindowSeller.Domain.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\WindowSeller.Domain.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\WindowSeller.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\WindowSeller.Domain.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\WindowSeller.Domain.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\WindowSeller.Domain.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\WindowSeller.Domain.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\refint\WindowSeller.Domain.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\WindowSeller.Domain.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSeller.Domain\obj\Debug\net6.0\ref\WindowSeller.Domain.dll
