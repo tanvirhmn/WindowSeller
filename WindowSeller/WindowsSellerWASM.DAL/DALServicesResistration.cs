@@ -15,7 +15,7 @@ namespace WindowsSellerWASM.DAL
     {
         public static IServiceCollection ConfigureDALServices(this IServiceCollection servicess, IConfiguration configuration)
         {
-            servicess.AddDbContext<WindowSellerDdContext>(options => options.UseSqlServer(configuration.GetConnectionString("LeaveManagementConnectionString")));
+            servicess.AddDbContext<WindowSellerDdContext>(options => options.UseSqlServer(configuration.GetConnectionString("WindowSellerConnectionString")));
 
             servicess.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             servicess.AddScoped<IUnitOfWork, UnitOfWork>();

@@ -17,6 +17,11 @@ namespace WindowsSellerWASM.DAL
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             OrderCreation(modelBuilder);
+            modelBuilder.Entity<Order>()
+    .HasMany<Window>(ordr => ordr.Windows)
+    .WithOne(wnd => wnd.Order)
+    .HasForeignKey(wnd => wnd.OrderId)
+    .OnDelete(DeleteBehavior.Cascade);
             WindowCreation(modelBuilder);
             SubElementtCreation(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(WindowSellerDdContext).Assembly);
@@ -33,11 +38,17 @@ namespace WindowsSellerWASM.DAL
         {
             modelBuilder.Entity<Order>().Property(ordr => ordr.OrderName).IsRequired();
             modelBuilder.Entity<Order>().Property(ordr => ordr.State).IsRequired();
+
         }
         private void WindowCreation(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Window>().Property(wnd => wnd.WindowName).IsRequired();
             modelBuilder.Entity<Window>().Property(wnd => wnd.QuantityOfWindows).IsRequired();
+            modelBuilder.Entity<Window>()
+                .HasMany<SubElement>(wnd => wnd.SubElements)
+                .WithOne(sblmnt => sblmnt.Window)
+                .HasForeignKey(sblmnt => sblmnt.WindowId)
+                .OnDelete(DeleteBehavior.Cascade);
         }
         private void SubElementtCreation(ModelBuilder modelBuilder)
         {

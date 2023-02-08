@@ -35,5 +35,10 @@ namespace WindowsSellerWASM.DAL.Repositories
             throw new NotImplementedException();
         }
 
+        public async Task Save()
+        {
+            await _dbContext.SaveChangesAsync();
+        }
+
     }
 }

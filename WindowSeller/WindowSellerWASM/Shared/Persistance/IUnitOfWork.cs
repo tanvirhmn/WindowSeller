@@ -11,6 +11,7 @@ namespace WindowSellerWASM.Shared.Persistance
         IOrderRepository OrderRepository { get; }
         IWindowRepository WindowRepository { get; }
         ISubElementRepository SubElementRepository { get; }
+        Task Save();
 
     }
 }
