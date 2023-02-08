@@ -18,8 +18,4 @@
     <ProjectReference Include="..\WindowSellerWASM\Shared\WindowSellerWASM.Shared.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Features\Windows\" />
-  </ItemGroup>
-
 </Project>
