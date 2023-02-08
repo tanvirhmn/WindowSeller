@@ -1,8 +1,11 @@
 using Microsoft.AspNetCore.ResponseCompression;
 using Microsoft.OpenApi.Models;
+using WindowsSellerWASM.DAL;
+using WindowSellerWASM.BLL;
 
 var builder = WebApplication.CreateBuilder(args);
 
+var configuration = builder.Configuration;
 // Add services to the container.
 
 builder.Services.AddControllersWithViews();
@@ -16,6 +19,8 @@ builder.Services.AddSwaggerGen(c =>
         Title = "Window Seller WASM Server",
     });
 });
+builder.Services.ConfigureBLLServices();
+builder.Services.ConfigureDALServices(configuration);
 
 var app = builder.Build();
 

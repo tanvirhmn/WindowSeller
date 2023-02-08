@@ -8,9 +8,9 @@ using WindowSeller.Domain;
 
 namespace WindowsSellerWASM.DAL
 {
-    public abstract class WindowSellerDdContext : DbContext
+    public class WindowSellerDdContext : DbContext
     {
-        protected WindowSellerDdContext(DbContextOptions options) : base(options)
+        public WindowSellerDdContext(DbContextOptions options) : base(options)
         {
         }
 
