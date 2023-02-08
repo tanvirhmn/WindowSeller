@@ -11,9 +11,9 @@ using WindowsSellerWASM.DAL.Repositories;
 
 namespace WindowsSellerWASM.DAL
 {
-    public static class PersistenceServicesResistration
+    public static class DALServicesResistration
     {
-        public static IServiceCollection ConfigurePersistenceServices(this IServiceCollection servicess, IConfiguration configuration)
+        public static IServiceCollection ConfigureDALServices(this IServiceCollection servicess, IConfiguration configuration)
         {
             servicess.AddDbContext<WindowSellerDdContext>(options => options.UseSqlServer(configuration.GetConnectionString("LeaveManagementConnectionString")));
 
