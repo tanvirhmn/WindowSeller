@@ -10,5 +10,6 @@ namespace WindowSellerWASM.Shared.Persistance
     public interface IWindowRepository: IGenericRepository<Window>
     {
         Task<List<Window>> GetByOrderIdAsync(long orderId);
+        Task UpdateTotalSubELementsAsync(int count, long windowI);
     }
 }

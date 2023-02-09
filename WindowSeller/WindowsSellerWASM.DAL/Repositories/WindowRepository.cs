@@ -22,10 +22,19 @@ namespace WindowsSellerWASM.DAL.Repositories
         {
             var windows = await _dbContext.Windows
             .Where(wndw => wndw.OrderId == orderId)
-            .AsNoTracking()
             .ToListAsync();
 
             return windows;
+        }
+        public async Task UpdateTotalSubELementsAsync(int count, long windowId)
+        {
+            var window = await _dbContext.Windows
+            .SingleAsync(wndw => wndw.WindowId == windowId);
+
+            window.TotalSubELements = window.TotalSubELements + count;
+
+            _dbContext.Entry(window).State = EntityState.Modified;
+
         }
     }
 }

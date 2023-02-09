@@ -27,8 +27,6 @@ namespace WindowsSellerWASM.DAL.Repositories
         public async Task DeleteAsync(T entity)
         {
             _dbcontext.Set<T>().Remove(entity);
-            //await _dbcontext.SaveChangesAsync();
-
         }
 
         public async Task<bool> DoesExistAsync(long id)
@@ -52,7 +50,6 @@ namespace WindowsSellerWASM.DAL.Repositories
         public async Task UpdateAsync(T entity)
         {
             _dbcontext.Entry(entity).State = EntityState.Modified;
-            //await _dbcontext.SaveChangesAsync();    
         }
     }
 }

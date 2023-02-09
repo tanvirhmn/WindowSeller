@@ -33,6 +33,7 @@ namespace WindowSellerWASM.BLL.Features.SubElements.Handlers.Commands
             }
 
             await _unitOfWork.SubElementRepository.DeleteAsync(subElement);
+            await _unitOfWork.WindowRepository.UpdateTotalSubELementsAsync(-1, subElement.WindowId);
             await _unitOfWork.Save();
 
             response.Success = true;
