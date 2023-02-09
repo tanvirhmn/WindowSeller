@@ -85,9 +85,17 @@
 
     async Task SaveRow(OrderDto order)
     {
-        await Http.PostAsJsonAsync("Orders", order);
+        if (order.OrderId == 0)
+        {
+            await Http.PostAsJsonAsync("Orders", order);
+        }
+        else
+        {
+            await Http.PutAsJsonAsync("Orders", order);
+        }
 
         orderToInsert = null;
+        orderToUpdate = null;
 
         await ordersGrid.Reload();
     }
@@ -118,7 +126,7 @@
 
         if (orders.Contains(order))
         {
-            await Http.DeleteAsync("Orders" + order.OrderId);
+            await Http.DeleteAsync("/Orders/" + order.OrderId);
             await ordersGrid.Reload();
         }
         else
