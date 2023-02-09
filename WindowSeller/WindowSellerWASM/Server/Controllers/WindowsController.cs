@@ -1,80 +1,116 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WindowSeller.Domain;
+using WindowSellerWASM.BLL.DTOs.SubElement;
+using WindowSellerWASM.BLL.DTOs.Window;
+using WindowSellerWASM.BLL.Features.SubElements.Requests.Commands;
+using WindowSellerWASM.BLL.Features.SubElements.Requests.Queries;
+using WindowSellerWASM.BLL.Features.Windows.Requests.Commands;
+using WindowSellerWASM.BLL.Features.Windows.Requests.Queries;
 
 namespace WindowSellerWASM.Server.Controllers
 {
     public class WindowsController : Controller
     {
-        // GET: WindowsController
-        public ActionResult Index()
+        private readonly IMediator _mediator;
+
+        public WindowsController(IMediator mediator)
         {
-            return View();
+            _mediator = mediator;
+        }
+
+        // GET: WindowsController/5
+        public async Task<ActionResult> Index(long id)
+        {
+            var window = await _mediator.Send(new GetWindowListByOrderIdRequest { orderId = id });
+            return View(window);
         }
 
         // GET: WindowsController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(long id)
         {
-            return View();
-        }
-
-        // GET: WindowsController/Create
-        public ActionResult Create()
-        {
-            return View();
+            var window = await _mediator.Send(new GetWindowByIdRequest { windowId = id });
+            return View(window);
         }
 
         // POST: WindowsController/Create
         [HttpPost]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(WindowDto windowDto)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var command = new CreateWindowCommand { WindowDto = windowDto };
+                var respone = await _mediator.Send(command);
+                if (respone.Success)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                if (respone.Errors != null)
+                {
+                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", ex.Message);
             }
+            return View(windowDto);
         }
 
         // GET: WindowsController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(long id)
         {
-            return View();
+            var window = await _mediator.Send(new GetWindowByIdRequest { windowId = id });
+            return View(window);
         }
 
         // POST: WindowsController/Edit/5
         [HttpPost]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(WindowDto windowDto)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var command = new UpdateWindowCommand { WindowDto = windowDto };
+                var respone = await _mediator.Send(command);
+                if (respone.Success)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                if (respone.Errors != null)
+                {
+                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", ex.Message);
             }
-        }
-
-        // GET: WindowsController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
+            return View(windowDto);
         }
 
         // POST: WindowsController/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> Delete(long id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var command = new DeleteWindowCommand { windowId = id };
+                var respone = await _mediator.Send(command);
+                if (respone.Success)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                if (respone.Errors != null)
+                {
+                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", ex.Message);
             }
+            return BadRequest();
         }
     }
 }

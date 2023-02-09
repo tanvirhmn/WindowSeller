@@ -1,80 +1,118 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using WindowSellerWASM.BLL.DTOs.Order;
+using WindowSellerWASM.BLL.DTOs.SubElement;
+using WindowSellerWASM.BLL.Features.Orders.Requests.Commands;
+using WindowSellerWASM.BLL.Features.Orders.Requests.Queries;
+using WindowSellerWASM.BLL.Features.SubElements.Requests.Commands;
+using WindowSellerWASM.BLL.Features.SubElements.Requests.Queries;
+using WindowSellerWASM.BLL.Responses;
 
 namespace WindowSellerWASM.Server.Controllers
 {
     public class SubElementsController : Controller
     {
-        // GET: SubElementsController
-        public ActionResult Index()
+        private readonly IMediator _mediator;
+
+        public SubElementsController(IMediator mediator)
         {
-            return View();
+            _mediator = mediator;
+        }
+
+        //GET: SubElementsController/5
+        public async Task<ActionResult> Index(long id)
+        {
+            var subElements = await _mediator.Send(new GetSubElementListByWindowIdRequest { windowId = id });
+            return View(subElements);
         }
 
         // GET: SubElementsController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(long id)
         {
-            return View();
+            var subElement = await _mediator.Send(new GetSubElementByIdRequest { subElementId = id });
+            return View(subElement);
         }
 
-        // GET: SubElementsController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
         // POST: SubElementsController/Create
         [HttpPost]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(SubElementDto subElementDto)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var command = new CreateSubElementCommand { SubElementDto = subElementDto };
+                var respone = await _mediator.Send(command);
+                if (respone.Success)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                if (respone.Errors != null)
+                {
+                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", ex.Message);
             }
+            return View(subElementDto);
         }
 
         // GET: SubElementsController/Edit/5
-        public ActionResult Edit(int id)
+        public async Task<ActionResult> Edit(long id)
         {
-            return View();
+            var subElement = await _mediator.Send(new GetSubElementByIdRequest { subElementId = id });
+            return View(subElement);
         }
 
-        // POST: SubElementsController/Edit/5
+        // POST: SubElementsController/Edit/
         [HttpPost]
-        public ActionResult Edit(int id, IFormCollection collection)
+        public async Task<ActionResult> Edit(SubElementDto subElementDto)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var command = new UpdateSubElementCommand { SubElementDto = subElementDto };
+                var respone = await _mediator.Send(command);
+                if (respone.Success)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                if (respone.Errors != null)
+                {
+                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", ex.Message);
             }
-        }
-
-        // GET: SubElementsController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
+            return View(subElementDto);
         }
 
         // POST: SubElementsController/Delete/5
         [HttpPost]
-        public ActionResult Delete(int id, IFormCollection collection)
+        public async Task<ActionResult> Delete(long id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var command = new DeleteSubElementCommand { subElementId = id };
+                var respone = await _mediator.Send(command);
+                if (respone.Success)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                if (respone.Errors != null)
+                {
+                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", ex.Message);
             }
+            return BadRequest();
         }
     }
+
 }
