@@ -7,8 +7,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 var configuration = builder.Configuration;
 // Add services to the container.
-
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+//builder.Services.AddControllersWithViews();
 builder.Services.AddRazorPages();
 
 builder.Services.AddSwaggerGen(c =>

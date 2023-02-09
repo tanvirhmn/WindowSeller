@@ -11,6 +11,8 @@ using WindowSellerWASM.BLL.Features.Windows.Requests.Queries;
 
 namespace WindowSellerWASM.Server.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class WindowsController : Controller
     {
         private readonly IMediator _mediator;
@@ -21,6 +23,7 @@ namespace WindowSellerWASM.Server.Controllers
         }
 
         // GET: WindowsController/5
+        [HttpGet]
         public async Task<ActionResult> Index(long id)
         {
             var window = await _mediator.Send(new GetWindowListByOrderIdRequest { orderId = id });
@@ -28,6 +31,7 @@ namespace WindowSellerWASM.Server.Controllers
         }
 
         // GET: WindowsController/Details/5
+        [HttpGet("{id}")]
         public async Task<ActionResult> Details(long id)
         {
             var window = await _mediator.Send(new GetWindowByIdRequest { windowId = id });
@@ -58,15 +62,9 @@ namespace WindowSellerWASM.Server.Controllers
             return View(windowDto);
         }
 
-        // GET: WindowsController/Edit/5
-        public async Task<ActionResult> Edit(long id)
-        {
-            var window = await _mediator.Send(new GetWindowByIdRequest { windowId = id });
-            return View(window);
-        }
 
-        // POST: WindowsController/Edit/5
-        [HttpPost]
+        // PUT: WindowsController/Edit/5
+        [HttpPut]
         public async Task<ActionResult> Edit(WindowDto windowDto)
         {
             try
@@ -89,8 +87,8 @@ namespace WindowSellerWASM.Server.Controllers
             return View(windowDto);
         }
 
-        // POST: WindowsController/Delete/5
-        [HttpPost]
+        // DELETE: WindowsController/Delete/5
+        [HttpDelete]
         public async Task<ActionResult> Delete(long id)
         {
             try

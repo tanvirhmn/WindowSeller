@@ -11,6 +11,8 @@ using WindowSellerWASM.BLL.Responses;
 
 namespace WindowSellerWASM.Server.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class OrdersController : Controller
     {
         private readonly IMediator _mediator;
@@ -21,6 +23,7 @@ namespace WindowSellerWASM.Server.Controllers
         }
 
         // GET: OrdersController
+        [HttpGet]
         public async Task<ActionResult> Index()
         {
             var orders = await _mediator.Send(new GetOrderListRequest());
@@ -28,6 +31,7 @@ namespace WindowSellerWASM.Server.Controllers
         }
 
         // GET: OrdersController/Details/5
+        [HttpGet("{id}")]
         public async Task<ActionResult> Details(long id)
         {
             var order = await _mediator.Send(new GetOderByIDRequest { orderId = id });
@@ -58,15 +62,8 @@ namespace WindowSellerWASM.Server.Controllers
             return View(orderDto);
         }
 
-        // GET: OrdersController/Edit/5
-        public async Task<ActionResult> Edit(long id)
-        {
-            var model = await _mediator.Send(new GetOderByIDRequest { orderId = id });
-            return View(model);
-        }
-
-        // POST: OrdersController/Edit/
-        [HttpPost]
+        // PUT: OrdersController/Edit/
+        [HttpPut]
         public async Task<ActionResult> Edit(OrderDto orderDto)
         {
             try
@@ -90,8 +87,8 @@ namespace WindowSellerWASM.Server.Controllers
         }
 
 
-        // POST: OrdersController/Delete/5
-        [HttpPost]
+        // DELETE: OrdersController/Delete/5
+        [HttpDelete]
         public async Task<ActionResult> Delete(long id)
         {
             try

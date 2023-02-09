@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowsSellerWASM.DAL", "Wi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowSeller.Domain", "WindowSeller.Domain\WindowSeller.Domain.csproj", "{D6B31C45-32CB-400E-B9AC-6A41EE800D36}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowSellerWASM.BLL", "WindowSellerWASM.BLL\WindowSellerWASM.BLL.csproj", "{6253E9BC-B22D-4FE4-8C09-39163828C7C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WindowSellerWASM.BLL", "WindowSellerWASM.BLL\WindowSellerWASM.BLL.csproj", "{6253E9BC-B22D-4FE4-8C09-39163828C7C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

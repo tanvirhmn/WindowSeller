@@ -18,10 +18,10 @@ namespace WindowsSellerWASM.DAL
         {
             OrderCreation(modelBuilder);
             modelBuilder.Entity<Order>()
-    .HasMany<Window>(ordr => ordr.Windows)
-    .WithOne(wnd => wnd.Order)
-    .HasForeignKey(wnd => wnd.OrderId)
-    .OnDelete(DeleteBehavior.Cascade);
+                .HasMany<Window>(ordr => ordr.Windows)
+                .WithOne(wnd => wnd.Order)
+                .HasForeignKey(wnd => wnd.OrderId)
+                .OnDelete(DeleteBehavior.Cascade);
             WindowCreation(modelBuilder);
             SubElementtCreation(modelBuilder);
             modelBuilder.ApplyConfigurationsFromAssembly(typeof(WindowSellerDdContext).Assembly);

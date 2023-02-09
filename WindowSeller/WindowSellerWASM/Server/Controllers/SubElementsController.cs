@@ -11,6 +11,8 @@ using WindowSellerWASM.BLL.Responses;
 
 namespace WindowSellerWASM.Server.Controllers
 {
+    [ApiController]
+    [Route("[controller]")]
     public class SubElementsController : Controller
     {
         private readonly IMediator _mediator;
@@ -21,6 +23,7 @@ namespace WindowSellerWASM.Server.Controllers
         }
 
         //GET: SubElementsController/5
+        [HttpGet]
         public async Task<ActionResult> Index(long id)
         {
             var subElements = await _mediator.Send(new GetSubElementListByWindowIdRequest { windowId = id });
@@ -28,6 +31,7 @@ namespace WindowSellerWASM.Server.Controllers
         }
 
         // GET: SubElementsController/Details/5
+        [HttpGet("{id}")]
         public async Task<ActionResult> Details(long id)
         {
             var subElement = await _mediator.Send(new GetSubElementByIdRequest { subElementId = id });
@@ -59,15 +63,9 @@ namespace WindowSellerWASM.Server.Controllers
             return View(subElementDto);
         }
 
-        // GET: SubElementsController/Edit/5
-        public async Task<ActionResult> Edit(long id)
-        {
-            var subElement = await _mediator.Send(new GetSubElementByIdRequest { subElementId = id });
-            return View(subElement);
-        }
 
-        // POST: SubElementsController/Edit/
-        [HttpPost]
+        // PUT: SubElementsController/Edit/
+        [HttpPut]
         public async Task<ActionResult> Edit(SubElementDto subElementDto)
         {
             try
@@ -90,8 +88,8 @@ namespace WindowSellerWASM.Server.Controllers
             return View(subElementDto);
         }
 
-        // POST: SubElementsController/Delete/5
-        [HttpPost]
+        // DELETE: SubElementsController/Delete/5
+        [HttpDelete]
         public async Task<ActionResult> Delete(long id)
         {
             try

@@ -15,4 +15,8 @@
     <ProjectReference Include="..\Shared\WindowSellerWASM.Shared.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\css\Images\" />
+  </ItemGroup>
+
 </Project>
