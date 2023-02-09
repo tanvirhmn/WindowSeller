@@ -51,6 +51,7 @@ namespace WindowSellerWASM.BLL.Features.Orders.Handlers.Commands
                 _mapper.Map(request.OrderDto, order);
 
                 await _unitOfWork.OrderRepository.UpdateAsync(order);
+                await _unitOfWork.Save();
 
                 response.Success = true;
                 response.Message = "Update Sucessful";

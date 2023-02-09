@@ -39,6 +39,7 @@ namespace WindowSellerWASM.BLL.Features.Orders.Handlers.Commands
 
                 var order = _mapper.Map<Order>(request.OrderDto);
                 order = await _unitOfWork.OrderRepository.AddAsync(order);
+                await _unitOfWork.Save();
 
                 response.Message = "Creation Successful";
                 response.Success = true;

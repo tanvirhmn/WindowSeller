@@ -34,6 +34,7 @@ namespace WindowSellerWASM.BLL.Features.Windows.Handlers.Commands
 
                 var window = _mapper.Map<Window>(request.WindowDto);
                 window = await _unitOfWork.WindowRepository.AddAsync(window);
+                await _unitOfWork.Save();
 
                 response.Message = "Creation Successful";
                 response.Success = true;

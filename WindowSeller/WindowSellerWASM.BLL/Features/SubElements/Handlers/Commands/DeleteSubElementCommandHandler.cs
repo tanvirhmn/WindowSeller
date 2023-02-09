@@ -8,11 +8,12 @@ using System.Threading.Tasks;
 using WindowSeller.Domain;
 using WindowSellerWASM.BLL.Exceptions;
 using WindowSellerWASM.BLL.Features.SubElements.Requests.Commands;
+using WindowSellerWASM.BLL.Responses;
 using WindowSellerWASM.Shared.Persistance;
 
 namespace WindowSellerWASM.BLL.Features.SubElements.Handlers.Commands
 {
-    public class DeleteSubElementCommandHandler : IRequestHandler<DeleteSubElementCommand, Unit>
+    public class DeleteSubElementCommandHandler : IRequestHandler<DeleteSubElementCommand, BaseCommandResponse>
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
@@ -21,8 +22,10 @@ namespace WindowSellerWASM.BLL.Features.SubElements.Handlers.Commands
             this._unitOfWork = unitOfWork;
             this._mapper = mapper;
         }
-        public async Task<Unit> Handle(DeleteSubElementCommand request, CancellationToken cancellationToken)
+        public async Task<BaseCommandResponse> Handle(DeleteSubElementCommand request, CancellationToken cancellationToken)
         {
+            var response = new BaseCommandResponse();
+
             var subElement = await _unitOfWork.SubElementRepository.GetAsync(request.subElementId);
             if (subElement == null)
             {
@@ -30,8 +33,13 @@ namespace WindowSellerWASM.BLL.Features.SubElements.Handlers.Commands
             }
 
             await _unitOfWork.SubElementRepository.DeleteAsync(subElement);
+            await _unitOfWork.Save();
 
-            return Unit.Value;
+            response.Success = true;
+            response.Message = "Delete Sucessful";
+            response.Id = request.subElementId;
+
+            return response;
         }
     }
 }

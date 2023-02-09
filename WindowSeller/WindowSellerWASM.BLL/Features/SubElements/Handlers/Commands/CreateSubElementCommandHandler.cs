@@ -40,6 +40,7 @@ namespace WindowSellerWASM.BLL.Features.SubElements.Handlers.Commands
 
                 var subElement = _mapper.Map<SubElement>(request.SubElementDto);
                 subElement = await _unitOfWork.SubElementRepository.AddAsync(subElement);
+                await _unitOfWork.Save();
 
                 response.Message = "Creation Successful";
                 response.Success = true;

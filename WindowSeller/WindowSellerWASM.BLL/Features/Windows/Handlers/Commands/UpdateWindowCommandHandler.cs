@@ -51,6 +51,7 @@ namespace WindowSellerWASM.BLL.Features.Windows.Handlers.Commands
                 _mapper.Map(request.WindowDto, window);
 
                 await _unitOfWork.WindowRepository.UpdateAsync(window);
+                await _unitOfWork.Save();
 
                 response.Success = true;
                 response.Message = "Update Sucessful";

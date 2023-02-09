@@ -50,6 +50,7 @@ namespace WindowSellerWASM.BLL.Features.SubElements.Handlers.Commands
                 _mapper.Map(request.SubElementDto, subElement);
 
                 await _unitOfWork.SubElementRepository.UpdateAsync(subElement);
+                await _unitOfWork.Save();
 
                 response.Success = true;
                 response.Message = "Update Sucessful";
