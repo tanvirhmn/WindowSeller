@@ -1,8 +1,13 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding;
+using System.Threading.Tasks;
+using WindowSellerWASM.BLL.DTOs.Order;
 using WindowSellerWASM.BLL.Features.Orders.Handlers.Queries;
+using WindowSellerWASM.BLL.Features.Orders.Requests.Commands;
 using WindowSellerWASM.BLL.Features.Orders.Requests.Queries;
+using WindowSellerWASM.BLL.Responses;
 
 namespace WindowSellerWASM.Server.Controllers
 {
@@ -29,18 +34,14 @@ namespace WindowSellerWASM.Server.Controllers
             return View(order);
         }
 
-        // GET: OrdersController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
-
         // POST: OrdersController/Create
         [HttpPost]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult<BaseCommandResponse>> Post([FromBody] OrderDto orderDto)
         {
             try
             {
+                var command = new CreateOrderCommand { OrderDto = orderDto };
+                var respone = await _mediator.Send(command);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -49,18 +50,14 @@ namespace WindowSellerWASM.Server.Controllers
             }
         }
 
-        // GET: OrdersController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: OrdersController/Edit/5
-        [HttpPost]
-        public ActionResult Edit(int id, IFormCollection collection)
+        // PUT: OrdersController/Edit/5
+        [HttpPut]
+        public async Task<ActionResult> Put([FromBody] OrderDto orderDto)
         {
             try
             {
+                var command = new UpdateOrderCommand { OrderDto = orderDto };
+                var respone = await _mediator.Send(command);
                 return RedirectToAction(nameof(Index));
             }
             catch
@@ -69,24 +66,28 @@ namespace WindowSellerWASM.Server.Controllers
             }
         }
 
-        // GET: OrdersController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: OrdersController/Delete/5
-        [HttpPost]
-        public ActionResult Delete(int id, IFormCollection collection)
+        // DELETE: OrdersController/Delete/5
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> Delete(long id)
         {
             try
             {
-                return RedirectToAction(nameof(Index));
+                var command = new DeleteOrderCommand { orderId = id };
+                var respone = await _mediator.Send(command);
+                if (respone.Success)
+                {
+                    return RedirectToAction(nameof(Index));
+                }
+                if (respone.Errors != null)
+                {
+                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
+                }
             }
-            catch
+            catch (Exception ex)
             {
-                return View();
+                ModelState.AddModelError("", ex.Message);
             }
+            return BadRequest();
         }
     }
 }
