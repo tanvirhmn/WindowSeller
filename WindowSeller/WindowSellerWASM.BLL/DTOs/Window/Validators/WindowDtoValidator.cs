@@ -26,9 +26,7 @@ namespace WindowSellerWASM.BLL.DTOs.Window.Validators
 
             RuleFor(wndw => wndw.TotalSubELements)
                 .NotNull()
-                .NotEmpty().WithMessage("{PropertyName} is required.")
-                .GreaterThan(0).WithMessage("{PropertyName} must be larger than {ComparisonValue}");
-
+                .GreaterThanOrEqualTo(0).WithMessage("{PropertyName} must be larger than {ComparisonValue}");
         }
     }
 }

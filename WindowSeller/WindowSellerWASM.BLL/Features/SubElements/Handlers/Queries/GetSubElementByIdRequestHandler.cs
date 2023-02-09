@@ -6,9 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WindowSeller.Domain;
-using WindowSellerWASM.BLL.DTOs.Order;
-using WindowSellerWASM.BLL.DTOs.SubElement;
-using WindowSellerWASM.BLL.DTOs.Window;
+using WindowSellerWASM.BLL.DTOs;
 using WindowSellerWASM.BLL.Features.Orders.Requests.Queries;
 using WindowSellerWASM.BLL.Features.SubElements.Requests.Queries;
 using WindowSellerWASM.BLL.Features.Windows.Requests.Queries;
@@ -18,18 +16,20 @@ namespace WindowSellerWASM.BLL.Features.SubElements.Handlers.Queries
 {
     public class GetSubElementByIdRequestHandler : IRequestHandler<GetSubElementByIdRequest, SubElementDto>
     {
-        private readonly IOrderRepository _ordcerRepository;
+        private readonly ISubElementRepository _subElementRepository;
         private readonly IMapper _mapper;
 
-        public GetSubElementByIdRequestHandler(IOrderRepository ordcerRepository, IMapper mapper)
+        public GetSubElementByIdRequestHandler(ISubElementRepository subElementRepository, IMapper mapper)
         {
-            _ordcerRepository = ordcerRepository;
+            _subElementRepository = subElementRepository;
             _mapper = mapper;
         }
 
-        public Task<SubElementDto> Handle(GetSubElementByIdRequest request, CancellationToken cancellationToken)
+        public async Task<SubElementDto> Handle(GetSubElementByIdRequest request, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            var subElement = await _subElementRepository.GetAsync(request.subElementId);
+
+            return _mapper.Map<SubElementDto>(subElement);
         }
     }
 }

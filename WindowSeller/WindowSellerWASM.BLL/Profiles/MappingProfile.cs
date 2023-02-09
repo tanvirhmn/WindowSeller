@@ -5,9 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WindowSeller.Domain;
-using WindowSellerWASM.BLL.DTOs.Order;
-using WindowSellerWASM.BLL.DTOs.SubElement;
-using WindowSellerWASM.BLL.DTOs.Window;
+using WindowSellerWASM.BLL.DTOs;
 
 namespace WindowSellerWASM.BLL.Profiles
 {

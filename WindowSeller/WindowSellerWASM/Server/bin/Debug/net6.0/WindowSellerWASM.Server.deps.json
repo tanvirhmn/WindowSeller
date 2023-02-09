@@ -1705,6 +1705,20 @@
       "runtime.ubuntu.14.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.04-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
       "runtime.ubuntu.16.10-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
+      "Saapp.UI.Radzen.Blazor/3.13.4": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components": "6.0.9",
+          "Microsoft.AspNetCore.Components.Web": "6.0.9",
+          "Microsoft.CSharp": "4.7.0",
+          "System.Linq.Dynamic.Core": "1.2.14"
+        },
+        "runtime": {
+          "lib/net6.0/Radzen.Blazor.dll": {
+            "assemblyVersion": "3.13.4.0",
+            "fileVersion": "3.13.4.0"
+          }
+        }
+      },
       "Swashbuckle.AspNetCore/6.2.3": {
         "dependencies": {
           "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
@@ -2074,6 +2088,14 @@
           "System.Resources.ResourceManager": "4.3.0",
           "System.Runtime": "4.3.0",
           "System.Runtime.Extensions": "4.3.0"
+        }
+      },
+      "System.Linq.Dynamic.Core/1.2.14": {
+        "runtime": {
+          "lib/net6.0/System.Linq.Dynamic.Core.dll": {
+            "assemblyVersion": "1.2.14.0",
+            "fileVersion": "1.2.14.0"
+          }
         }
       },
       "System.Linq.Expressions/4.3.0": {
@@ -2577,6 +2599,8 @@
       "WindowSellerWASM.Client/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly": "6.0.9",
+          "Saapp.UI.Radzen.Blazor": "3.13.4",
+          "WindowSellerWASM.BLL": "1.0.0",
           "WindowSellerWASM.Shared": "1.0.0"
         },
         "runtime": {
@@ -3450,6 +3474,13 @@
       "path": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "hashPath": "runtime.ubuntu.16.10-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512"
     },
+    "Saapp.UI.Radzen.Blazor/3.13.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IWMoUFqdVleRoJYqYg8wbLuL91DKoCmgBpQToHVpbb8BpHtUWYgFfgDqXRDW0HJDtHNpq7UX/9RvNj1EU7sQlQ==",
+      "path": "saapp.ui.radzen.blazor/3.13.4",
+      "hashPath": "saapp.ui.radzen.blazor.3.13.4.nupkg.sha512"
+    },
     "Swashbuckle.AspNetCore/6.2.3": {
       "type": "package",
       "serviceable": true,
@@ -3687,6 +3718,13 @@
       "sha512": "sha512-5DbqIUpsDp0dFftytzuMmc0oeMdQwjcP/EWxsksIz/w1TcFRkZ3yKKz0PqiYFMmEwPSWw+qNVqD7PJ889JzHbw==",
       "path": "system.linq/4.3.0",
       "hashPath": "system.linq.4.3.0.nupkg.sha512"
+    },
+    "System.Linq.Dynamic.Core/1.2.14": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lXqCW9nmZ4GLVYhRsTvYQ5y/OVAgDK/t/fA4IL8diQiVNKVOE8OTjA3HE3dYxyfsgJPhoBPK2Tw5vqdW97JQKQ==",
+      "path": "system.linq.dynamic.core/1.2.14",
+      "hashPath": "system.linq.dynamic.core.1.2.14.nupkg.sha512"
     },
     "System.Linq.Expressions/4.3.0": {
       "type": "package",

@@ -4,8 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WindowSellerWASM.BLL.DTOs.Order;
-using WindowSellerWASM.BLL.DTOs.SubElement;
+using WindowSellerWASM.BLL.DTOs;
 
 namespace WindowSellerWASM.BLL.Features.SubElements.Requests.Queries
 {

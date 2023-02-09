@@ -32,7 +32,8 @@ namespace WindowsSellerWASM.DAL.Repositories
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _dbContext.Dispose();
+            GC.SuppressFinalize(this);
         }
 
         public async Task Save()

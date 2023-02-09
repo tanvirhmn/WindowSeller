@@ -1,0 +1,143 @@
+﻿@page "/ordermanager"
+@using WindowSellerWASM.Shared
+@using WindowSellerWASM.BLL
+@using WindowSellerWASM.BLL.DTOs
+@inject HttpClient Http
+
+
+<RadzenText TextStyle="TextStyle.H2" TagName="TagName.H1" class="rz-pt-8">
+    DataGrid InLine Editing
+</RadzenText>
+<RadzenText TextStyle="TextStyle.Subtitle1" class="rz-pb-4">
+    This page demonstrates how to configure the Razden Blazor DataGrid for inline editing.
+</RadzenText>
+
+<RadzenButton ButtonStyle="ButtonStyle.Success" class="mt-2 mb-4" Text="Add New Order" Click="@InsertRow" Disabled=@(orderToInsert != null || orderToUpdate != null) />
+<RadzenDataGrid @ref="ordersGrid" AllowAlternatingRows="false" AllowFiltering="true" AllowPaging="true" PageSize="5" AllowSorting="true" EditMode="DataGridEditMode.Single"
+                Data="@orders" TItem="OrderDto" RowUpdate="@OnUpdateRow" Sort="@Reset" Page="@Reset" Filter="@Reset">
+    <Columns>
+        <RadzenDataGridColumn TItem="OrderDto" Property="OrderId" Title="Order ID" Width="120px" Visible="false" />
+        <RadzenDataGridColumn TItem="OrderDto" Property="OrderName" Title="Order Name">
+            <EditTemplate Context="order">
+                <RadzenTextBox @bind-Value="order.OrderName" Style="width:100%; display: block" Name="OrderName" />
+                <RadzenRequiredValidator Text="Order Name is required" Component="OrderName" Popup="true" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="OrderDto" Property="State" Title="State">
+            <EditTemplate Context="order">
+                <RadzenTextBox @bind-Value="order.State" Style="width:100%; display: block" Name="OrderName" />
+                <RadzenRequiredValidator Text="State is required" Component="State" Popup="true" />
+            </EditTemplate>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="OrderDto" Context="order" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
+            <Template Context="order">
+                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@(args => EditRow(order))" @onclick:stopPropagation="true">
+                </RadzenButton>
+                <RadzenButton Icon="Delete" ButtonStyle="ButtonStyle.Danger" Variant="Variant.Flat" Shade="Shade.Lighter" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => DeleteRow(order))" @onclick:stopPropagation="true">
+                </RadzenButton>
+            </Template>
+            <EditTemplate Context="order">
+                <RadzenButton Icon="Save" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@((args) => SaveRow(order))">
+                </RadzenButton>
+                <RadzenButton Icon="Cancel" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@((args) => CancelEdit(order))">
+                </RadzenButton>
+            </EditTemplate>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+@code {
+    RadzenDataGrid<OrderDto> ordersGrid;
+    IList<OrderDto> orders;
+
+    OrderDto orderToInsert;
+    OrderDto orderToUpdate;
+
+    void Reset()
+    {
+        orderToInsert = null;
+        orderToUpdate = null;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        orders = await Http.GetFromJsonAsync<List<OrderDto>>("Orders");
+
+    }
+    async Task EditRow(OrderDto order)
+    {
+        orderToUpdate = order;
+        await ordersGrid.EditRow(order);
+    }
+    async Task OnUpdateRow(OrderDto order)
+    {
+        if (order == orderToInsert)
+        {
+            orderToInsert = null;
+        }
+
+        await Http.PutAsJsonAsync("Orders", order);
+
+        orderToUpdate = null;
+    }
+
+    async Task SaveRow(OrderDto order)
+    {
+        await Http.PostAsJsonAsync("Orders", order);
+
+        orderToInsert = null;
+
+        await ordersGrid.Reload();
+    }
+
+    void CancelEdit(OrderDto order)
+    {
+        if (order == orderToInsert)
+        {
+            orderToInsert = null;
+        }
+
+        orderToUpdate = null;
+
+        ordersGrid.CancelEditRow(order);
+    }
+
+    async Task DeleteRow(OrderDto order)
+    {
+        if (order == orderToInsert)
+        {
+            orderToInsert = null;
+        }
+
+        if (order == orderToUpdate)
+        {
+            orderToUpdate = null;
+        }
+
+        if (orders.Contains(order))
+        {
+            await Http.DeleteAsync("Orders" + order.OrderId);
+            await ordersGrid.Reload();
+        }
+        else
+        {
+            ordersGrid.CancelEditRow(order);
+            await ordersGrid.Reload();
+        }
+    }
+
+    async Task InsertRow()
+    {
+        orderToInsert = new OrderDto();
+        await ordersGrid.InsertRow(orderToInsert);
+    }
+
+    async Task OnCreateRow(OrderDto order)
+    {
+        await Http.PostAsJsonAsync("Orders", order);
+        
+        orderToInsert = null;
+    }
+}

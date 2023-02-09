@@ -2,12 +2,12 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using WindowSeller.Domain;
-using WindowSellerWASM.BLL.DTOs.SubElement;
-using WindowSellerWASM.BLL.DTOs.Window;
+using WindowSellerWASM.BLL.DTOs;
 using WindowSellerWASM.BLL.Features.SubElements.Requests.Commands;
 using WindowSellerWASM.BLL.Features.SubElements.Requests.Queries;
 using WindowSellerWASM.BLL.Features.Windows.Requests.Commands;
 using WindowSellerWASM.BLL.Features.Windows.Requests.Queries;
+using WindowSellerWASM.BLL.Responses;
 
 namespace WindowSellerWASM.Server.Controllers
 {
@@ -27,7 +27,7 @@ namespace WindowSellerWASM.Server.Controllers
         public async Task<ActionResult> Index(long id)
         {
             var window = await _mediator.Send(new GetWindowListByOrderIdRequest { orderId = id });
-            return View(window);
+            return Ok(window);
         }
 
         // GET: WindowsController/Details/5
@@ -35,80 +35,37 @@ namespace WindowSellerWASM.Server.Controllers
         public async Task<ActionResult> Details(long id)
         {
             var window = await _mediator.Send(new GetWindowByIdRequest { windowId = id });
-            return View(window);
+            return Ok(window);
         }
 
         // POST: WindowsController/Create
         [HttpPost]
-        public async Task<ActionResult> Create(WindowDto windowDto)
+        public async Task<ActionResult<BaseCommandResponse>> Create(WindowDto windowDto)
         {
-            try
-            {
-                var command = new CreateWindowCommand { WindowDto = windowDto };
-                var respone = await _mediator.Send(command);
-                if (respone.Success)
-                {
-                    return RedirectToAction(nameof(Index));
-                }
-                if (respone.Errors != null)
-                {
-                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
-                }
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", ex.Message);
-            }
-            return View(windowDto);
+
+            var command = new CreateWindowCommand { WindowDto = windowDto };
+            var respone = await _mediator.Send(command);
+            return Ok(respone);
         }
 
 
         // PUT: WindowsController/Edit/5
         [HttpPut]
-        public async Task<ActionResult> Edit(WindowDto windowDto)
+        public async Task<ActionResult<BaseCommandResponse>> Edit(WindowDto windowDto)
         {
-            try
-            {
-                var command = new UpdateWindowCommand { WindowDto = windowDto };
-                var respone = await _mediator.Send(command);
-                if (respone.Success)
-                {
-                    return RedirectToAction(nameof(Index));
-                }
-                if (respone.Errors != null)
-                {
-                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
-                }
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", ex.Message);
-            }
-            return View(windowDto);
+            var command = new UpdateWindowCommand { WindowDto = windowDto };
+            var respone = await _mediator.Send(command);
+
+            return Ok(respone);
         }
 
         // DELETE: WindowsController/Delete/5
         [HttpDelete]
-        public async Task<ActionResult> Delete(long id)
+        public async Task<ActionResult<BaseCommandResponse>> Delete(long id)
         {
-            try
-            {
-                var command = new DeleteWindowCommand { windowId = id };
-                var respone = await _mediator.Send(command);
-                if (respone.Success)
-                {
-                    return RedirectToAction(nameof(Index));
-                }
-                if (respone.Errors != null)
-                {
-                    respone.Errors.ForEach(error => ModelState.AddModelError("", error));
-                }
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", ex.Message);
-            }
-            return BadRequest();
+            var command = new DeleteWindowCommand { windowId = id };
+            var respone = await _mediator.Send(command);
+            return Ok(respone);
         }
     }
 }

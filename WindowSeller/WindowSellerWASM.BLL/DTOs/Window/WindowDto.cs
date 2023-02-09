@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowSellerWASM.BLL.DTOs.Window
+namespace WindowSellerWASM.BLL.DTOs
 {
     public class WindowDto
     {

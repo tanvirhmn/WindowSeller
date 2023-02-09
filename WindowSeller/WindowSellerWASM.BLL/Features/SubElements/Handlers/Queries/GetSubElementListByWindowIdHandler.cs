@@ -6,11 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
-using WindowSellerWASM.BLL.DTOs.Order;
+using WindowSellerWASM.BLL.DTOs;
 using WindowSellerWASM.Shared.Persistance;
 using WindowSellerWASM.BLL.Features.Orders.Requests.Queries;
 using WindowSeller.Domain;
-using WindowSellerWASM.BLL.DTOs.SubElement;
 using WindowSellerWASM.BLL.Features.SubElements.Requests.Queries;
 
 namespace WindowSellerWASM.BLL.Features.Orders.Handlers.Queries

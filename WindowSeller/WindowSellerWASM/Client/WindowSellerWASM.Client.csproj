@@ -9,9 +9,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="6.0.9" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="6.0.9" PrivateAssets="all" />
+    <PackageReference Include="Saapp.UI.Radzen.Blazor" Version="3.13.4" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\WindowSellerWASM.BLL\WindowSellerWASM.BLL.csproj" />
     <ProjectReference Include="..\Shared\WindowSellerWASM.Shared.csproj" />
   </ItemGroup>
 

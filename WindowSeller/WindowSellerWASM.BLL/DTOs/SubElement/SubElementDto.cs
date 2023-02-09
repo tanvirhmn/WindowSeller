@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowSellerWASM.BLL.DTOs.SubElement
+namespace WindowSellerWASM.BLL.DTOs
 {
     public class SubElementDto
     {

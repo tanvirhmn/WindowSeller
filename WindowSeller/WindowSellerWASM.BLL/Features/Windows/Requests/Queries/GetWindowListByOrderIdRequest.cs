@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using WindowSellerWASM.BLL.DTOs.Window;
+using WindowSellerWASM.BLL.DTOs;
 
 namespace WindowSellerWASM.BLL.Features.Windows.Requests.Queries
 {

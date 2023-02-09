@@ -34,12 +34,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/WindowSeller/WindowSellerWASM/Client/Pages/OrdeeDetails/OrderMaster.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZWVEZXRhaWxzXE9yZGVyTWFzdGVyLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/WindowSeller/WindowSellerWASM/Client/Pages/Order.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXIucmF6b3I=
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/WindowSeller/WindowSellerWASM/Client/Pages/OrderManager.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcT3JkZXJNYW5hZ2VyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/WorkCode/GitHub/Intus Windows/WindowSeller/WindowSeller/WindowSellerWASM/Client/Shared/SurveyPrompt.razor]
