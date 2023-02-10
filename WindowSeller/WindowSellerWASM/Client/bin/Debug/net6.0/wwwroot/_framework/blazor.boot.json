@@ -233,7 +233,7 @@
       "WindowSellerWASM.BLL.dll": "sha256-H8759Ny6DnkBmOvmJYwIyD\/cIGmCw78DcERBOtTcoZg=",
       "WindowSellerWASM.Shared.dll": "sha256-9zBvUE1tKhf7jUFxkjzniEfTAfvIvJ09yb+7\/b0TBp4=",
       "WindowsSellerWASM.DAL.dll": "sha256-QFIsAdfZrJxJE1Y36F\/5lIK+pOgr7RVuYB7PXUWioZs=",
-      "WindowSellerWASM.Client.dll": "sha256-In2ksVrY7L8+tNpHz2vK0MFK73oiGo27XUX5ETX5kT4="
+      "WindowSellerWASM.Client.dll": "sha256-3hKevdefs42n0wYNCxysiGUHSU9IeJDw1Of7kxwXLTM="
     },
     "extensions": null,
     "lazyAssembly": null,
@@ -243,7 +243,7 @@
       "WindowSellerWASM.Shared.pdb": "sha256-+tlM3F+ZJE0mfICc4Ya2ZybqZnuQOMl0KO7zfv4iE2E=",
       "WindowSeller.Domain.pdb": "sha256-Vkq6uKVG5duFqHd5zRp64BtY5umGUXU0eqi+yukLfB8=",
       "WindowsSellerWASM.DAL.pdb": "sha256-j6Jj0Uienln1HNywtc2SxMsXkhKlFNRIo+IOcUFAm4A=",
-      "WindowSellerWASM.Client.pdb": "sha256-rfe2o3p1qW0Q72OsoKL\/WuofvA9ZdRa05OVCa5vZbrw="
+      "WindowSellerWASM.Client.pdb": "sha256-\/W9u69nXhuBenSvfmiQTwEgODZdnhLx\/l9vdtLtuCFg="
     },
     "runtime": {
       "dotnet.6.0.8.tj9dcjyk4v.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",
