@@ -21,7 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\WindowSellerWASM.BLL\WindowSellerWASM.BLL.csproj" />
-    <ProjectReference Include="..\..\WindowsSellerWASM.DAL\WindowsSellerWASM.DAL.csproj" />
     <ProjectReference Include="..\Client\WindowSellerWASM.Client.csproj" />
     <ProjectReference Include="..\Shared\WindowSellerWASM.Shared.csproj" />
   </ItemGroup>

@@ -20,8 +20,8 @@ builder.Services.AddSwaggerGen(c =>
         Title = "Window Seller WASM Server",
     });
 });
-builder.Services.ConfigureBLLServices();
-builder.Services.ConfigureDALServices(configuration);
+builder.Services.ConfigureBLLServices(configuration);
+//builder.Services.ConfigureDALServices(configuration);
 
 var app = builder.Build();
 

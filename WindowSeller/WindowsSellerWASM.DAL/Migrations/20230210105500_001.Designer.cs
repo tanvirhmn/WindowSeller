@@ -11,7 +11,7 @@ using WindowsSellerWASM.DAL;
 namespace WindowsSellerWASM.DAL.Migrations
 {
     [DbContext(typeof(WindowSellerDdContext))]
-    [Migration("20230208160926_001")]
+    [Migration("20230210105500_001")]
     partial class _001
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

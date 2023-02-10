@@ -4128,7 +4128,8 @@
           "MediatR.Extensions.Microsoft.DependencyInjection": "10.0.1",
           "Microsoft.AspNetCore.Http.Abstractions": "2.2.0",
           "WindowSeller.Domain": "1.0.0",
-          "WindowSellerWASM.Shared": "1.0.0"
+          "WindowSellerWASM.Shared": "1.0.0",
+          "WindowsSellerWASM.DAL": "1.0.0"
         },
         "compile": {
           "bin/placeholder/WindowSellerWASM.BLL.dll": {}
@@ -11434,8 +11435,7 @@
       "Swashbuckle.AspNetCore >= 6.2.3",
       "WindowSellerWASM.BLL >= 1.0.0",
       "WindowSellerWASM.Client >= 1.0.0",
-      "WindowSellerWASM.Shared >= 1.0.0",
-      "WindowsSellerWASM.DAL >= 1.0.0"
+      "WindowSellerWASM.Shared >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -11481,9 +11481,6 @@
             },
             "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Shared\\WindowSellerWASM.Shared.csproj": {
               "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Shared\\WindowSellerWASM.Shared.csproj"
-            },
-            "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowsSellerWASM.DAL\\WindowsSellerWASM.DAL.csproj": {
-              "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowsSellerWASM.DAL\\WindowsSellerWASM.DAL.csproj"
             }
           }
         }

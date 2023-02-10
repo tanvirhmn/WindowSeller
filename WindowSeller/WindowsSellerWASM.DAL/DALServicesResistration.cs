@@ -13,18 +13,18 @@ namespace WindowsSellerWASM.DAL
 {
     public static class DALServicesResistration
     {
-        public static IServiceCollection ConfigureDALServices(this IServiceCollection servicess, IConfiguration configuration)
-        {
-            servicess.AddDbContext<WindowSellerDdContext>(options => options.UseSqlServer(configuration.GetConnectionString("WindowSellerConnectionString")));
+        //public static IServiceCollection ConfigureDALServices(this IServiceCollection servicess, IConfiguration configuration)
+        //{
+        //    servicess.AddDbContext<WindowSellerDdContext>(options => options.UseSqlServer(configuration.GetConnectionString("WindowSellerConnectionString")));
 
-            servicess.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
-            servicess.AddScoped<IUnitOfWork, UnitOfWork>();
+        //    servicess.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
+        //    servicess.AddScoped<IUnitOfWork, UnitOfWork>();
 
-            servicess.AddScoped<IOrderRepository, OrderRepository>();
-            servicess.AddScoped<IWindowRepository, WindowRepository>();
-            servicess.AddScoped<ISubElementRepository, SubElementRepository>();
+        //    servicess.AddScoped<IOrderRepository, OrderRepository>();
+        //    servicess.AddScoped<IWindowRepository, WindowRepository>();
+        //    servicess.AddScoped<ISubElementRepository, SubElementRepository>();
 
-            return servicess;
-        }
+        //    return servicess;
+        //}
     }
 }

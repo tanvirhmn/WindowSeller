@@ -16,6 +16,7 @@
   <ItemGroup>
     <ProjectReference Include="..\WindowSeller.Domain\WindowSeller.Domain.csproj" />
     <ProjectReference Include="..\WindowSellerWASM\Shared\WindowSellerWASM.Shared.csproj" />
+    <ProjectReference Include="..\WindowsSellerWASM.DAL\WindowsSellerWASM.DAL.csproj" />
   </ItemGroup>
 
 </Project>

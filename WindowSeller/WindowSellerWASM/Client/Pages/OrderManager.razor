@@ -30,26 +30,26 @@
                         <RadzenDataGridColumn TItem="SubElementDto" Property="SubElementId" Title="SubElementId" Visible="false" />
                         <RadzenDataGridColumn TItem="SubElementDto" Property="Element" Title="Element">
                             <EditTemplate Context="subElement">
-                                <RadzenNumeric @bind-Value="subElement.Element" Style="width:100%" Name="Element" Step="1" />
-                                <RadzenNumericRangeValidator Component="Element" Min="1" Text="Element should be greater than 0" Popup=true />
+                                <RadzenNumeric @bind-Value="subElement.Element" Style="width:100%; display: block" Name="Element" Step="1" />
+                                <RadzenNumericRangeValidator Component="Element" Min="1" Text="Element should be greater than 0"  />
                             </EditTemplate>
                         </RadzenDataGridColumn>
                         <RadzenDataGridColumn TItem="SubElementDto" Property="Width" Title="Width">
                             <EditTemplate Context="subElement">
-                                <RadzenNumeric @bind-Value="subElement.Width" Style="width:100%" Name="Width" Min="1" Step="1" />
-                                <RadzenNumericRangeValidator Component="Width" Min="1" Text="Width should be greater than 0" Popup=true />
+                                <RadzenNumeric @bind-Value="subElement.Width" Style="width:100%; display: block" Name="Width" Min="1" Step="1" />
+                                <RadzenNumericRangeValidator Component="Width" Min="1" Text="Width should be greater than 0" />
                             </EditTemplate>
                         </RadzenDataGridColumn>
                         <RadzenDataGridColumn TItem="SubElementDto" Property="Height" Title="Height">
                             <EditTemplate Context="subElement">
-                                <RadzenNumeric @bind-Value="subElement.Height" Style="width:100%" Name="Height" Min="1" Step="1" />
-                                <RadzenNumericRangeValidator Component="Height" Min="1" Text="Height should be greater than 0" Popup=true />
+                                <RadzenNumeric @bind-Value="subElement.Height" Style="width:100%; display: block" Name="Height" Min="1" Step="1" />
+                                <RadzenNumericRangeValidator Component="Height" Min="1" Text="Height should be greater than 0"  />
                             </EditTemplate>
                         </RadzenDataGridColumn>
                         <RadzenDataGridColumn TItem="SubElementDto" Property="Type" Title="Type">
                             <EditTemplate Context="subElement">
                                 <RadzenTextBox @bind-Value="subElement.Type" Style="width:100%; display: block" Name="Type" />
-                                <RadzenRequiredValidator Text="Type is required" Component="Type" Popup="true" />
+                                <RadzenRequiredValidator Text="Type is required" Component="Type"  />
                             </EditTemplate>
                         </RadzenDataGridColumn>
                         <RadzenDataGridColumn TItem="SubElementDto" Context="subElement" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
@@ -74,13 +74,13 @@
                 <RadzenDataGridColumn TItem="WindowDto" Property="WindowName" Title="Window Name">
                     <EditTemplate Context="window">
                         <RadzenTextBox @bind-Value="window.WindowName" Style="width:100%; display: block" Name="WindowName" />
-                        <RadzenRequiredValidator Text="Window Name is required" Component="WindowName" Popup="true" />
+                        <RadzenRequiredValidator Text="Window Name is required" Component="WindowName" />
                     </EditTemplate>
                 </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="WindowDto" Property="QuantityOfWindows" Title="Quantity Of Windows">
                     <EditTemplate Context="window">
-                        <RadzenNumeric @bind-Value="window.QuantityOfWindows" Style="width:100%" Name="QuantityOfWindows" Step="1" />
-                        <RadzenNumericRangeValidator Component="QuantityOfWindows" Min="1" Text="Quantity should be greater than 0" Popup=true />
+                        <RadzenNumeric @bind-Value="window.QuantityOfWindows" Style="width:100%; display: block" Name="QuantityOfWindows" Step="1" />
+                        <RadzenNumericRangeValidator Component="QuantityOfWindows" Min="1" Text="Quantity should be greater than 0"  />
                     </EditTemplate>
                 </RadzenDataGridColumn>
                 <RadzenDataGridColumn TItem="WindowDto" Context="window" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
@@ -105,13 +105,13 @@
         <RadzenDataGridColumn TItem="OrderDto" Property="OrderName" Title="Order Name">
             <EditTemplate Context="order">
                 <RadzenTextBox @bind-Value="order.OrderName" Style="width:100%; display: block" Name="OrderName" />
-                <RadzenRequiredValidator Text="Order Name is required" Component="OrderName" Popup="true" />
+                <RadzenRequiredValidator Text="Order Name is required" Component="OrderName"  />
             </EditTemplate>
         </RadzenDataGridColumn>
         <RadzenDataGridColumn TItem="OrderDto" Property="State" Title="State">
             <EditTemplate Context="order">
                 <RadzenTextBox @bind-Value="order.State" Style="width:100%; display: block" Name="State" />
-                <RadzenRequiredValidator Text="State is required" Component="State" Popup="true" />
+                <RadzenRequiredValidator Text="State is required" Component="State"  />
             </EditTemplate>
         </RadzenDataGridColumn>
         <RadzenDataGridColumn TItem="OrderDto" Context="order" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
