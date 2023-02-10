@@ -192,6 +192,7 @@
         orderToUpdate = null;
 
         ordersGrid.CancelEditRow(order);
+        ordersGrid.Reload();
     }
 
     async Task DeleteOrderRow(OrderDto order)
