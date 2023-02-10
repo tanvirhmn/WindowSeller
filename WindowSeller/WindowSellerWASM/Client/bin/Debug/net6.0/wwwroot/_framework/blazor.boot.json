@@ -230,20 +230,20 @@
       "netstandard.dll": "sha256-HhuK9zDkd1N7hODAEiNJ11VF8T54IgrM6hZfLHmHdqM=",
       "System.Private.CoreLib.dll": "sha256-dXaTqyg1PnXPiSwywpic1PVrd7P8Vb5tN0i0\/urdt3E=",
       "WindowSeller.Domain.dll": "sha256-C9OnD4p3vJ37iH1JQueY5xCsLZFPAHCTSrUZx+5fXZ4=",
-      "WindowSellerWASM.BLL.dll": "sha256-MzMc4hlBLp1KcnqpkL0hTX+kkmHBhovuz9rGD2Jqre8=",
-      "WindowSellerWASM.Shared.dll": "sha256-EhwQZDMzlEymuiotEvNRmwKKLlfFUumIrHF5CsjFTkE=",
-      "WindowsSellerWASM.DAL.dll": "sha256-zzEHWscTlX6TVbE4srawIoJtDXhRivf7ZWTrFxIk6t8=",
-      "WindowSellerWASM.Client.dll": "sha256-rXD6+39s0qrFlbnI8qnb15YxlYrUk66OU10JrD+NVS0="
+      "WindowSellerWASM.BLL.dll": "sha256-H8759Ny6DnkBmOvmJYwIyD\/cIGmCw78DcERBOtTcoZg=",
+      "WindowSellerWASM.Shared.dll": "sha256-9zBvUE1tKhf7jUFxkjzniEfTAfvIvJ09yb+7\/b0TBp4=",
+      "WindowsSellerWASM.DAL.dll": "sha256-QFIsAdfZrJxJE1Y36F\/5lIK+pOgr7RVuYB7PXUWioZs=",
+      "WindowSellerWASM.Client.dll": "sha256-In2ksVrY7L8+tNpHz2vK0MFK73oiGo27XUX5ETX5kT4="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "WindowSellerWASM.BLL.pdb": "sha256-ShVnqaAAEd++SW2m5p89cbHJSxHqQaQmJ\/uTlCjckfY=",
-      "WindowSellerWASM.Shared.pdb": "sha256-dTpJ5yj8mEuRTg0ZiMgEwGSe4cwCnSSW39UWuU\/MP\/Q=",
+      "WindowSellerWASM.BLL.pdb": "sha256-gm95hqB8zatilTaLlURILuhbJPGjrl6o+uvjU+bL5nQ=",
+      "WindowSellerWASM.Shared.pdb": "sha256-+tlM3F+ZJE0mfICc4Ya2ZybqZnuQOMl0KO7zfv4iE2E=",
       "WindowSeller.Domain.pdb": "sha256-Vkq6uKVG5duFqHd5zRp64BtY5umGUXU0eqi+yukLfB8=",
-      "WindowsSellerWASM.DAL.pdb": "sha256-2Z42i3ebFys49SMu8maCidQO8giXcQSsWYhtjJ+GLX8=",
-      "WindowSellerWASM.Client.pdb": "sha256-zY0ax0L0s+49F1K0VEMFmV7GWUvog2ACR85YoVEiWLI="
+      "WindowsSellerWASM.DAL.pdb": "sha256-j6Jj0Uienln1HNywtc2SxMsXkhKlFNRIo+IOcUFAm4A=",
+      "WindowSellerWASM.Client.pdb": "sha256-rfe2o3p1qW0Q72OsoKL\/WuofvA9ZdRa05OVCa5vZbrw="
     },
     "runtime": {
       "dotnet.6.0.8.tj9dcjyk4v.js": "sha256-WT60vnXnQtCNURE40qo+XSL1o4iYFvABy0NVaFhm7MI=",

@@ -1,6 +1,7 @@
 ﻿@page "/ordermanager"
 
 @using WindowSellerWASM.Shared
+@using WindowSellerWASM.Shared.Constants
 @using WindowSellerWASM.BLL
 @using WindowSellerWASM.BLL.DTOs
 @using Radzen
@@ -48,7 +49,8 @@
                         </RadzenDataGridColumn>
                         <RadzenDataGridColumn TItem="SubElementDto" Property="Type" Title="Type">
                             <EditTemplate Context="subElement">
-                                <RadzenTextBox @bind-Value="subElement.Type" Style="width:100%; display: block" Name="Type" />
+                                <RadzenDropDown @bind-Value="subElement.Type" Data="@subElemetTYpes" Style="width:100%; display: block;" Name="Type" />
+                                @*<RadzenTextBox @bind-Value="subElement.Type" Style="width:100%; display: block" Name="Type" />*@
                                 <RadzenRequiredValidator Text="Type is required" Component="Type"  />
                             </EditTemplate>
                         </RadzenDataGridColumn>
@@ -110,7 +112,8 @@
         </RadzenDataGridColumn>
         <RadzenDataGridColumn TItem="OrderDto" Property="State" Title="State">
             <EditTemplate Context="order">
-                <RadzenTextBox @bind-Value="order.State" Style="width:100%; display: block" Name="State" />
+                <RadzenDropDown @bind-Value="order.State" Data="@stateCodes" Style="width:100%; display: block;" Name="State" />
+                @*<RadzenTextBox @bind-Value="order.State" Style="width:100%; display: block" Name="State" />*@
                 <RadzenRequiredValidator Text="State is required" Component="State"  />
             </EditTemplate>
         </RadzenDataGridColumn>
@@ -135,6 +138,9 @@
     #region Order
     RadzenDataGrid<OrderDto> ordersGrid;
     IList<OrderDto> orders;
+
+    List<string> subElemetTYpes = SubelementTypes.Types;
+    List<string> stateCodes = UnitedStates.StateCodes;
 
     OrderDto orderToInsert;
     OrderDto orderToUpdate;
