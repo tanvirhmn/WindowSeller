@@ -14,13 +14,61 @@
 </RadzenText>
 
 <RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add New Order" Click="@InsertOrderRow" Disabled=@(orderToInsert != null || orderToUpdate != null) />
-<RadzenDataGrid @ref="ordersGrid" AllowAlternatingRows="true" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single"
+<RadzenDataGrid @ref="ordersGrid" AllowAlternatingRows="true" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single" ExpandMode="DataGridExpandMode.Single"
                 Data="@orders" TItem="OrderDto" RowUpdate="@OnUpdateOrderRow" RowCreate="@OnCreateOrderRow" Sort="@Reset" Page="@Reset" Filter="@Reset" ShowExpandColumn="true" RowExpand="@OnOrderRowExpand">
     <Template Context="order">
         <RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add New Window" Click="@InsertWindowRow" Disabled=@(windowToInsert != null || windowToUpdate != null) />
-        <RadzenDataGrid @ref="windowsGrid" AllowAlternatingRows="true" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single"
-                        Data="@windows" TItem="WindowDto" RowUpdate="@OnUpdateWindowRow" RowCreate="@OnCreateWindowRow"
+        <RadzenDataGrid @ref="windowsGrid" AllowAlternatingRows="true" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single" ExpandMode="DataGridExpandMode.Single"
+                        Data="@windows" TItem="WindowDto" RowUpdate="@OnUpdateWindowRow" RowCreate="@OnCreateWindowRow" RowExpand="@OnWindowRowExpand" ShowExpandColumn="true"
                         Sort="@ResetWindow" Page="@ResetWindow" Filter="@ResetWindow">
+            <Template Context="window">
+                <RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add New SubElement" Click="@InsertSubElementRow" Disabled=@(subElementToInsert != null || subElementToUpdate != null) />
+                <RadzenDataGrid @ref="subElementsGrid" AllowAlternatingRows="true" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single"
+                                Data="@subElements" TItem="SubElementDto" RowUpdate="@OnUpdateSubElementRow" RowCreate="@OnCreateSubElementRow" 
+                                Sort="@ResetSubElement" Page="@ResetSubElement" Filter="@ResetSubElement">
+                    <Columns>
+                        <RadzenDataGridColumn TItem="SubElementDto" Property="SubElementId" Title="SubElementId" Visible="false" />
+                        <RadzenDataGridColumn TItem="SubElementDto" Property="Element" Title="Element">
+                            <EditTemplate Context="subElement">
+                                <RadzenNumeric @bind-Value="subElement.Element" Style="width:100%" Name="Element" Min="1" Step="1" />
+                                <RadzenRequiredValidator Text="Element is required" Component="Element" Popup="true" />
+                            </EditTemplate>
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="SubElementDto" Property="Width" Title="Width">
+                            <EditTemplate Context="subElement">
+                                <RadzenNumeric @bind-Value="subElement.Width" Style="width:100%" Name="Width" Min="1" Step=".5" />
+                                <RadzenRequiredValidator Text="Width is required" Component="Width" Popup="true" />
+                            </EditTemplate>
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="SubElementDto" Property="Height" Title="Height">
+                            <EditTemplate Context="subElement">
+                                <RadzenNumeric @bind-Value="subElement.Height" Style="width:100%" Name="Height" Min="1" Step=".5" />
+                                <RadzenRequiredValidator Text="Height is required" Component="Height" Popup="true" />
+                            </EditTemplate>
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="SubElementDto" Property="Type" Title="Type">
+                            <EditTemplate Context="subElement">
+                                <RadzenTextBox @bind-Value="subElement.Type" Style="width:100%; display: block" Name="Type" />
+                                <RadzenRequiredValidator Text="Type is required" Component="Type" Popup="true" />
+                            </EditTemplate>
+                        </RadzenDataGridColumn>
+                        <RadzenDataGridColumn TItem="SubElementDto" Context="subElement" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
+                            <Template Context="subElement">
+                                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@(args => EditSubElementRow(subElement))" @onclick:stopPropagation="true">
+                                </RadzenButton>
+                                <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Variant="Variant.Flat" Shade="Shade.Lighter" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => DeleteSubElementRow(subElement))" @onclick:stopPropagation="true">
+                                </RadzenButton>
+                            </Template>
+                            <EditTemplate Context="subElement">
+                                <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@((args) => SaveSubElementRow(subElement))">
+                                </RadzenButton>
+                                <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@((args) => CancelSubElementEdit(subElement))">
+                                </RadzenButton>
+                            </EditTemplate>
+                        </RadzenDataGridColumn>
+                    </Columns>
+                </RadzenDataGrid>
+            </Template>
             <Columns>
                 <RadzenDataGridColumn TItem="WindowDto" Property="WindowId" Title="WindowId" Visible="false" />
                 <RadzenDataGridColumn TItem="WindowDto" Property="WindowName" Title="Window Name">
@@ -207,11 +255,20 @@
 
     WindowDto windowToInsert;
     WindowDto windowToUpdate;
+    long expandedWindowId = 0;
 
     void ResetWindow()
     {
         windowToInsert = null;
         windowToUpdate = null;
+    }
+
+
+    async Task OnWindowRowExpand(WindowDto window)
+    {
+        //orderToUpdate = order;
+        subElements = await Http.GetFromJsonAsync<List<SubElementDto>>("SubElements?id=" + window.WindowId);
+        expandedWindowId = window.WindowId;
     }
 
     async Task EditWindowRow(WindowDto window)
@@ -303,6 +360,110 @@
     {
 
         windowToInsert = null;
+    }
+    #endregion
+
+    #region SubElement
+    RadzenDataGrid<SubElementDto> subElementsGrid;
+    IList<SubElementDto> subElements;
+
+    SubElementDto subElementToInsert;
+    SubElementDto subElementToUpdate;
+
+    void ResetSubElement()
+    {
+        subElementToInsert = null;
+        subElementToUpdate = null;
+    }
+
+    async Task EditSubElementRow(SubElementDto subElement)
+    {
+        subElementToUpdate = subElement;
+        await subElementsGrid.EditRow(subElement);
+    }
+
+
+    async Task OnUpdateSubElementRow(SubElementDto subElement)
+    {
+        if (subElement == subElementToInsert)
+        {
+            subElementToInsert = null;
+        }
+
+        subElementToUpdate = null;
+    }
+
+    async Task SaveSubElementRow(SubElementDto subElement)
+    {
+        if (subElement.SubElementId == 0)
+        {
+            subElement.WindowId = expandedWindowId;
+            var response = await Http.PostAsJsonAsync("SubElements", subElement);
+            var readAsStringAsync = response.Content.ReadAsStringAsync();
+            var subElementId = Convert.ToInt64(readAsStringAsync.Result.Split(',')[0].Split(':')[1]);
+            subElement.SubElementId = subElementId;
+            subElements.Add(subElement);
+        }
+        else
+        {
+            await Http.PutAsJsonAsync("SubElements", subElement);
+        }
+
+        subElementToInsert = null;
+        subElementToUpdate = null;
+
+        await subElementsGrid.UpdateRow(subElement);
+
+        await subElementsGrid.Reload();
+    }
+
+    void CancelSubElementEdit(SubElementDto subElement)
+    {
+        if (subElement == subElementToInsert)
+        {
+            subElementToInsert = null;
+        }
+
+        subElementToUpdate = null;
+
+        subElementsGrid.CancelEditRow(subElement);
+    }
+
+    async Task DeleteSubElementRow(SubElementDto subElement)
+    {
+        if (subElement == subElementToInsert)
+        {
+            subElementToInsert = null;
+        }
+
+        if (subElement == subElementToUpdate)
+        {
+            subElementToUpdate = null;
+        }
+
+        if (subElements.Contains(subElement))
+        {
+            await Http.DeleteAsync("/SubElements?id=" + subElement.SubElementId);
+            subElements.Remove(subElement);
+            await subElementsGrid.Reload();
+        }
+        else
+        {
+            subElementsGrid.CancelEditRow(subElement);
+            await subElementsGrid.Reload();
+        }
+    }
+
+    async Task InsertSubElementRow()
+    {
+        subElementToInsert = new SubElementDto();
+        await subElementsGrid.InsertRow(subElementToInsert);
+    }
+
+    async Task OnCreateSubElementRow(SubElementDto subElement)
+    {
+
+        subElementToInsert = null;
     }
     #endregion
 }
