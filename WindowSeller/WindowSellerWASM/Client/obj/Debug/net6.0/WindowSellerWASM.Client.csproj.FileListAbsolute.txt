@@ -684,9 +684,7 @@ C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Clie
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\jJ+CAVR2.gz
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\nYdwquOn.gz
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\hUM+r+KR.gz
-C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\5LiYHVRm.gz
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\b2gEnPgs.gz
-C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\dCy4AnJE.gz
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\NVa2WWOq.gz
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\U2y8Gykd.gz
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\2+U8Gp4v.gz
@@ -881,3 +879,5 @@ C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Clie
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\refint\WindowSellerWASM.Client.dll
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\WindowSellerWASM.Client.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\ref\WindowSellerWASM.Client.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\55JoaPHJ.gz
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Client\obj\Debug\net6.0\build-gz\qt5hnqk4.gz

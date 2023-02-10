@@ -302,3 +302,4 @@ C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Serv
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\obj\Debug\net6.0\WindowSellerWASM.Server.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\obj\Debug\net6.0\WindowSellerWASM.Server.genruntimeconfig.cache
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\obj\Debug\net6.0\ref\WindowSellerWASM.Server.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\WindowSellerWASM\Server\obj\Debug\net6.0\WindowSellerWASM.Server.MvcApplicationPartsAssemblyInfo.cs

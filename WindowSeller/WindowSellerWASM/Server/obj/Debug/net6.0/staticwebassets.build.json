@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "h5NjzHp6qIY6eNlamidBbiL+j3NvPF7y1jDknkEImuA=",
+  "Hash": "RTGL0ZmLWtU0QaPpiSvm2KKdjCygyvM9qeAs6GAKcLA=",
   "Source": "WindowSellerWASM.Server",
   "BasePath": "_content/WindowSellerWASM.Server",
   "Mode": "Default",
@@ -29,11 +29,11 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\dark.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -43,14 +43,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\dark.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\dark-base.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark-base.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/dark-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -60,14 +60,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\dark-base.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\default.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/default.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -77,14 +77,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\default.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\default-base.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default-base.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/default-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -94,14 +94,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\default-base.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\humanistic.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/humanistic.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -111,14 +111,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\humanistic.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\humanistic-base.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic-base.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/humanistic-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -128,14 +128,48 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\humanistic-base.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\software.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material.css"
+    },
+    {
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material-base.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/material-base.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/software.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -145,14 +179,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\software.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\software-base.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software-base.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/software-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -162,14 +196,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\software-base.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\standard.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/standard.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -179,14 +213,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\standard.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\standard-base.css",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard-base.css",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "css/standard-base.css",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -196,14 +230,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\css\\standard-base.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/MaterialIcons-Regular.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -213,14 +247,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\MaterialIcons-Regular.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\MaterialIcons-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\roboto-v15-latin-300.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v15-latin-300.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-300.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -230,14 +264,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\roboto-v15-latin-300.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v15-latin-300.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\roboto-v15-latin-700.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v15-latin-700.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-700.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -247,14 +281,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\roboto-v15-latin-700.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v15-latin-700.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/roboto-v15-latin-regular.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -264,14 +298,82 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v15-latin-regular.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Black.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-300.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/roboto-v30-latin-300.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-300.woff"
+    },
+    {
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-500.woff",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/roboto-v30-latin-500.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-500.woff"
+    },
+    {
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-700.woff",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/roboto-v30-latin-700.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-700.woff"
+    },
+    {
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-regular.woff",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "fonts/roboto-v30-latin-regular.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\roboto-v30-latin-regular.woff"
+    },
+    {
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Black.woff",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Black.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -281,14 +383,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Black.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Black.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-BlackIt.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -298,14 +400,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-BlackIt.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Bold.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Bold.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Bold.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -315,14 +417,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Bold.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Bold.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-BoldIt.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -332,14 +434,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-BoldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLight.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -349,14 +451,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-ExtraLight.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-ExtraLightIt.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -366,14 +468,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-ExtraLightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-It.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-It.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-It.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -383,14 +485,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-It.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-It.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Light.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Light.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Light.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -400,14 +502,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Light.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Light.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-LightIt.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -417,14 +519,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-LightIt.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Regular.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Regular.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Regular.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -434,14 +536,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Regular.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Regular.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-Semibold.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -451,14 +553,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-Semibold.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "fonts/SourceSansPro-SemiboldIt.woff",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -468,14 +570,14 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\SourceSansPro-SemiboldIt.woff"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\Radzen.Blazor.js",
-      "SourceId": "Saapp.UI.Radzen.Blazor",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\Radzen.Blazor.js",
+      "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\",
-      "BasePath": "_content/Saapp.UI.Radzen.Blazor",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
       "RelativePath": "Radzen.Blazor.js",
       "AssetKind": "All",
       "AssetMode": "All",
@@ -485,7 +587,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\staticwebassets\\Radzen.Blazor.js"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\Radzen.Blazor.js"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\AutoMapper.dll",
@@ -1301,7 +1403,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\saapp.ui.radzen.blazor\\3.13.4\\lib\\net6.0\\Radzen.Blazor.dll"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\lib\\net6.0\\Radzen.Blazor.dll"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.AppContext.dll",
@@ -2236,7 +2338,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\system.linq.dynamic.core\\1.2.14\\lib\\net6.0\\System.Linq.Dynamic.Core.dll"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\system.linq.dynamic.core\\1.2.22\\lib\\net6.0\\System.Linq.Dynamic.Core.dll"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Expressions.dll",
@@ -4636,6 +4738,23 @@
       "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\55JoaPHJ.gz",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Radzen.Blazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Radzen.Blazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Radzen.Blazor.dll"
+    },
+    {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\5EE5Dgrk.gz",
       "SourceId": "WindowSellerWASM.Client",
       "SourceType": "Project",
@@ -4651,23 +4770,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Dynamic.Runtime.dll"
-    },
-    {
-      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\5LiYHVRm.gz",
-      "SourceId": "WindowSellerWASM.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Radzen.Blazor.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Radzen.Blazor.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Radzen.Blazor.dll"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\5UFEiDBG.gz",
@@ -5246,23 +5348,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.Common.dll"
-    },
-    {
-      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\dCy4AnJE.gz",
-      "SourceId": "WindowSellerWASM.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/System.Linq.Dynamic.Core.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.dll"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\DFVBUFVO.gz",
@@ -6912,6 +6997,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Expressions.dll"
+    },
+    {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\qt5hnqk4.gz",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/System.Linq.Dynamic.Core.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Dynamic.Core.dll"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\obj\\Debug\\net6.0\\build-gz\\R1ucsnRw.gz",

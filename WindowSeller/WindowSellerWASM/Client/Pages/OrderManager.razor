@@ -1,20 +1,57 @@
 ﻿@page "/ordermanager"
+
 @using WindowSellerWASM.Shared
 @using WindowSellerWASM.BLL
 @using WindowSellerWASM.BLL.DTOs
+@using Radzen
+@using Radzen.Blazor
+
 @inject HttpClient Http
 
 
 <RadzenText TextStyle="TextStyle.H2" TagName="TagName.H1" class="rz-pt-8">
-    DataGrid InLine Editing
-</RadzenText>
-<RadzenText TextStyle="TextStyle.Subtitle1" class="rz-pb-4">
-    This page demonstrates how to configure the Razden Blazor DataGrid for inline editing.
+    Order Manager
 </RadzenText>
 
-<RadzenButton ButtonStyle="ButtonStyle.Success" class="mt-2 mb-4" Text="Add New Order" Click="@InsertRow" Disabled=@(orderToInsert != null || orderToUpdate != null) />
-<RadzenDataGrid @ref="ordersGrid" AllowAlternatingRows="false" AllowFiltering="true" AllowPaging="true" PageSize="5" AllowSorting="true" EditMode="DataGridEditMode.Single"
-                Data="@orders" TItem="OrderDto" RowUpdate="@OnUpdateRow" Sort="@Reset" Page="@Reset" Filter="@Reset">
+<RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add New Order" Click="@InsertOrderRow" Disabled=@(orderToInsert != null || orderToUpdate != null) />
+<RadzenDataGrid @ref="ordersGrid" AllowAlternatingRows="true" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single"
+                Data="@orders" TItem="OrderDto" RowUpdate="@OnUpdateOrderRow" RowCreate="@OnCreateOrderRow" Sort="@Reset" Page="@Reset" Filter="@Reset" ShowExpandColumn="true" RowExpand="@OnOrderRowExpand">
+    <Template Context="order">
+        <RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add New Window" Click="@InsertWindowRow" Disabled=@(windowToInsert != null || windowToUpdate != null) />
+        <RadzenDataGrid @ref="windowsGrid" AllowAlternatingRows="true" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single"
+                        Data="@windows" TItem="WindowDto" RowUpdate="@OnUpdateWindowRow" RowCreate="@OnCreateWindowRow"
+                        Sort="@ResetWindow" Page="@ResetWindow" Filter="@ResetWindow">
+            <Columns>
+                <RadzenDataGridColumn TItem="WindowDto" Property="WindowId" Title="WindowId" Visible="false" />
+                <RadzenDataGridColumn TItem="WindowDto" Property="WindowName" Title="Window Name">
+                    <EditTemplate Context="window">
+                        <RadzenTextBox @bind-Value="window.WindowName" Style="width:100%; display: block" Name="WindowName" />
+                        <RadzenRequiredValidator Text="Window Name is required" Component="WindowName" Popup="true" />
+                    </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="WindowDto" Property="QuantityOfWindows" Title="Quantity Of Windows">
+                    <EditTemplate Context="window">
+                        <RadzenNumeric @bind-Value="window.QuantityOfWindows" Style="width:100%" Name="QuantityOfWindows" Min="1" Step="1" />
+                        <RadzenRequiredValidator Text="Quantity Of Windows is required" Component="QuantityOfWindows" Popup="true" />
+                    </EditTemplate>
+                </RadzenDataGridColumn>
+                <RadzenDataGridColumn TItem="WindowDto" Context="window" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
+                    <Template Context="window">
+                        <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@(args => EditWindowRow(window))" @onclick:stopPropagation="true">
+                        </RadzenButton>
+                        <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Variant="Variant.Flat" Shade="Shade.Lighter" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => DeleteWindowRow(window))" @onclick:stopPropagation="true">
+                        </RadzenButton>
+                    </Template>
+                    <EditTemplate Context="window">
+                        <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@((args) => SaveWindowRow(window))">
+                        </RadzenButton>
+                        <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@((args) => CancelWindowEdit(window))">
+                        </RadzenButton>
+                    </EditTemplate>
+                </RadzenDataGridColumn>
+            </Columns>
+        </RadzenDataGrid>
+    </Template>
     <Columns>
         <RadzenDataGridColumn TItem="OrderDto" Property="OrderId" Title="Order ID" Width="120px" Visible="false" />
         <RadzenDataGridColumn TItem="OrderDto" Property="OrderName" Title="Order Name">
@@ -25,21 +62,21 @@
         </RadzenDataGridColumn>
         <RadzenDataGridColumn TItem="OrderDto" Property="State" Title="State">
             <EditTemplate Context="order">
-                <RadzenTextBox @bind-Value="order.State" Style="width:100%; display: block" Name="OrderName" />
+                <RadzenTextBox @bind-Value="order.State" Style="width:100%; display: block" Name="State" />
                 <RadzenRequiredValidator Text="State is required" Component="State" Popup="true" />
             </EditTemplate>
         </RadzenDataGridColumn>
         <RadzenDataGridColumn TItem="OrderDto" Context="order" Filterable="false" Sortable="false" TextAlign="TextAlign.Right" Width="156px">
             <Template Context="order">
-                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@(args => EditRow(order))" @onclick:stopPropagation="true">
+                <RadzenButton Icon="edit" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@(args => EditOrderRow(order))" @onclick:stopPropagation="true">
                 </RadzenButton>
-                <RadzenButton Icon="Delete" ButtonStyle="ButtonStyle.Danger" Variant="Variant.Flat" Shade="Shade.Lighter" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => DeleteRow(order))" @onclick:stopPropagation="true">
+                <RadzenButton Icon="delete" ButtonStyle="ButtonStyle.Danger" Variant="Variant.Flat" Shade="Shade.Lighter" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@(args => DeleteOrderRow(order))" @onclick:stopPropagation="true">
                 </RadzenButton>
             </Template>
             <EditTemplate Context="order">
-                <RadzenButton Icon="Save" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@((args) => SaveRow(order))">
+                <RadzenButton Icon="check" ButtonStyle="ButtonStyle.Success" Variant="Variant.Flat" Size="ButtonSize.Medium" Click="@((args) => SaveOrderRow(order))">
                 </RadzenButton>
-                <RadzenButton Icon="Cancel" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@((args) => CancelEdit(order))">
+                <RadzenButton Icon="close" ButtonStyle="ButtonStyle.Light" Variant="Variant.Flat" Size="ButtonSize.Medium" class="my-1 ms-1" Click="@((args) => CancelOrderEdit(order))">
                 </RadzenButton>
             </EditTemplate>
         </RadzenDataGridColumn>
@@ -47,11 +84,13 @@
 </RadzenDataGrid>
 
 @code {
+    #region Order
     RadzenDataGrid<OrderDto> ordersGrid;
     IList<OrderDto> orders;
 
     OrderDto orderToInsert;
     OrderDto orderToUpdate;
+    long expandedOrderId = 0;
 
     void Reset()
     {
@@ -66,28 +105,38 @@
         orders = await Http.GetFromJsonAsync<List<OrderDto>>("Orders");
 
     }
-    async Task EditRow(OrderDto order)
+    async Task EditOrderRow(OrderDto order)
     {
         orderToUpdate = order;
         await ordersGrid.EditRow(order);
     }
-    async Task OnUpdateRow(OrderDto order)
+
+    async Task OnOrderRowExpand(OrderDto order)
+    {
+        //orderToUpdate = order;
+        windows = await Http.GetFromJsonAsync<List<WindowDto>>("Windows?id=" + order.OrderId);
+        expandedOrderId = order.OrderId;
+    }
+
+    async Task OnUpdateOrderRow(OrderDto order)
     {
         if (order == orderToInsert)
         {
             orderToInsert = null;
         }
 
-        await Http.PutAsJsonAsync("Orders", order);
-
         orderToUpdate = null;
     }
 
-    async Task SaveRow(OrderDto order)
+    async Task SaveOrderRow(OrderDto order)
     {
         if (order.OrderId == 0)
         {
-            await Http.PostAsJsonAsync("Orders", order);
+            var response = await Http.PostAsJsonAsync("Orders", order);
+            var readAsStringAsync = response.Content.ReadAsStringAsync();
+            var orderId = Convert.ToInt64(readAsStringAsync.Result.Split(',')[0].Split(':')[1]);
+            order.OrderId = orderId;
+            orders.Add(order);
         }
         else
         {
@@ -97,10 +146,12 @@
         orderToInsert = null;
         orderToUpdate = null;
 
+        await ordersGrid.UpdateRow(order);
+
         await ordersGrid.Reload();
     }
 
-    void CancelEdit(OrderDto order)
+    void CancelOrderEdit(OrderDto order)
     {
         if (order == orderToInsert)
         {
@@ -112,7 +163,7 @@
         ordersGrid.CancelEditRow(order);
     }
 
-    async Task DeleteRow(OrderDto order)
+    async Task DeleteOrderRow(OrderDto order)
     {
         if (order == orderToInsert)
         {
@@ -126,7 +177,8 @@
 
         if (orders.Contains(order))
         {
-            await Http.DeleteAsync("/Orders/" + order.OrderId);
+            await Http.DeleteAsync("/Orders?id=" + order.OrderId);
+            orders.Remove(order);
             await ordersGrid.Reload();
         }
         else
@@ -136,16 +188,121 @@
         }
     }
 
-    async Task InsertRow()
+    async Task InsertOrderRow()
     {
         orderToInsert = new OrderDto();
         await ordersGrid.InsertRow(orderToInsert);
     }
 
-    async Task OnCreateRow(OrderDto order)
+    async Task OnCreateOrderRow(OrderDto order)
     {
-        await Http.PostAsJsonAsync("Orders", order);
-        
+
         orderToInsert = null;
     }
+    #endregion
+
+    #region Window
+    RadzenDataGrid<WindowDto> windowsGrid;
+    IList<WindowDto> windows;
+
+    WindowDto windowToInsert;
+    WindowDto windowToUpdate;
+
+    void ResetWindow()
+    {
+        windowToInsert = null;
+        windowToUpdate = null;
+    }
+
+    async Task EditWindowRow(WindowDto window)
+    {
+        windowToUpdate = window;
+        await windowsGrid.EditRow(window);
+    }
+
+
+    async Task OnUpdateWindowRow(WindowDto window)
+    {
+        if (window == windowToInsert)
+        {
+            windowToInsert = null;
+        }
+
+        windowToUpdate = null;
+    }
+
+    async Task SaveWindowRow(WindowDto window)
+    {
+        if (window.WindowId == 0)
+        {
+            window.TotalSubELements = 0;
+            window.OrderId = expandedOrderId;
+            var response = await Http.PostAsJsonAsync("Windows", window);
+            var readAsStringAsync = response.Content.ReadAsStringAsync();
+            var windowId = Convert.ToInt64(readAsStringAsync.Result.Split(',')[0].Split(':')[1]);
+            window.WindowId = windowId;
+            windows.Add(window);
+        }
+        else
+        {
+            await Http.PutAsJsonAsync("Windows", window);
+        }
+
+        windowToInsert = null;
+        windowToUpdate = null;
+
+        await windowsGrid.UpdateRow(window);
+
+        await windowsGrid.Reload();
+    }
+
+    void CancelWindowEdit(WindowDto window)
+    {
+        if (window == windowToInsert)
+        {
+            windowToInsert = null;
+        }
+
+        windowToUpdate = null;
+
+        windowsGrid.CancelEditRow(window);
+    }
+
+    async Task DeleteWindowRow(WindowDto window)
+    {
+        if (window == windowToInsert)
+        {
+            windowToInsert = null;
+        }
+
+        if (window == windowToUpdate)
+        {
+            windowToUpdate = null;
+        }
+
+        if (windows.Contains(window))
+        {
+            await Http.DeleteAsync("/Windows?id=" + window.WindowId);
+            windows.Remove(window);
+            await windowsGrid.Reload();
+        }
+        else
+        {
+            windowsGrid.CancelEditRow(window);
+            await windowsGrid.Reload();
+        }
+    }
+
+    async Task InsertWindowRow()
+    {
+        windowToInsert = new WindowDto();
+        await windowsGrid.InsertRow(windowToInsert);
+    }
+
+    async Task OnCreateWindowRow(WindowDto window)
+    {
+
+        windowToInsert = null;
+    }
+    #endregion
 }
