@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "npy9YZuG9g3Is5DWKAUGRx0b3CxRrXHyPaxA/0mgdfgkos0Smfkmdma99aGMA7UIhqciDqalH48MsIG0l8K07w==",
+  "dgSpecHash": "Wky7O9UnlGzbgC+008ETwFxvv/ZpCwvAOUE1n3DyRymDFpIpB2C9VY5qrgCaCbqo14dApsBt4T8C2r5drK5hjQ==",
   "success": true,
   "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowsSellerWASM.DAL\\WindowsSellerWASM.DAL.csproj",
   "expectedPackageFiles": [
@@ -35,6 +35,7 @@
     "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.configuration.configurationmanager\\4.7.0\\system.configuration.configurationmanager.4.7.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

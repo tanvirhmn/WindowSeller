@@ -33,6 +33,7 @@ namespace WindowsSellerWASM.DAL
         public DbSet<Window> Windows { get; set; }
 
         public DbSet<SubElement> SubElements { get; set; }
+        public DbSet<Glass> Glasses { get; set; }
 
         private void OrderCreation(ModelBuilder modelBuilder)
         {

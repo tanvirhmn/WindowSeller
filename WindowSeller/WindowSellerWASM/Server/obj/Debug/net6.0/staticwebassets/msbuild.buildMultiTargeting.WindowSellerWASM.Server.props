@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\WindowSellerWASM.Server.props" />
+</Project>

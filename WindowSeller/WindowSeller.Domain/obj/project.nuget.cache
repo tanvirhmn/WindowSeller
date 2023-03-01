@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "1qP4n28IUghaSKZy4HAyQiJzCR7eNvV5k8MHOrtjDy4bIyAMK0cmOwnu0OPFAmuiuH42MvZhjAbwRBx5ULfXxw==",
+  "dgSpecHash": "1ztEzOgmmEiP5Tcu30qkfhyL1hT6f+5Qql9+w7u4Vfe9xrqWYQIlPEWyoSIFDTzSfqaavOvA7dRCGsfiAG02YQ==",
   "success": true,
   "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\WindowSeller.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\tanvi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
