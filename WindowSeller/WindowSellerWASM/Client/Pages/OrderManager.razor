@@ -16,7 +16,7 @@
 
 <RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add New Order" Click="@InsertOrderRow" Disabled=@(orderToInsert != null || orderToUpdate != null) />
 <RadzenDataGrid @ref="ordersGrid" AllowAlternatingRows="false" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single" ExpandMode="DataGridExpandMode.Single"
-                Data="@orders" TItem="OrderDto" RowUpdate="@OnUpdateOrderRow" RowCreate="@OnCreateOrderRow" Sort="@Reset" Page="@Reset" Filter="@Reset" ShowExpandColumn="true" RowExpand="@OnOrderRowExpand">
+                Data="@orders" TItem="OrderDto" RowUpdate="@OnUpdateOrderRow" RowCreate="@OnCreateOrderRow" Sort="@Reset" Page="@Reset" Filter="@Reset" ShowExpandColumn="true" RowExpand="@OnOrderRowExpand" IsLoading=@isLoading>
     <Template Context="order">
         <RadzenButton ButtonStyle="ButtonStyle.Success" Icon="add_circle_outline" class="mt-2 mb-4" Text="Add New Window" Click="@InsertWindowRow" Disabled=@(windowToInsert != null || windowToUpdate != null) />
         <RadzenDataGrid @ref="windowsGrid" AllowAlternatingRows="false" AllowFiltering="false" AllowPaging="false" PageSize="5" AllowSorting="false" EditMode="DataGridEditMode.Single" ExpandMode="DataGridExpandMode.Single"
@@ -135,6 +135,27 @@
 </RadzenDataGrid>
 
 @code {
+    #region General
+    async Task ShowLoading()
+    {
+        isLoading = true;
+
+        await Task.Yield();
+
+        isLoading = false;
+    }
+
+    protected override async Task OnInitializedAsync()
+    {
+        await base.OnInitializedAsync();
+
+        await ShowLoading();
+        orders = await Http.GetFromJsonAsync<List<OrderDto>>("Orders");
+
+
+    }
+    #endregion
+
     #region Order
     RadzenDataGrid<OrderDto> ordersGrid;
     IList<OrderDto> orders;
@@ -146,18 +167,12 @@
     OrderDto orderToUpdate;
     long expandedOrderId = 0;
 
+    bool isLoading = false;
+
     void Reset()
     {
         orderToInsert = null;
         orderToUpdate = null;
-    }
-
-    protected override async Task OnInitializedAsync()
-    {
-        await base.OnInitializedAsync();
-
-        orders = await Http.GetFromJsonAsync<List<OrderDto>>("Orders");
-
     }
     async Task EditOrderRow(OrderDto order)
     {
@@ -168,6 +183,7 @@
     async Task OnOrderRowExpand(OrderDto order)
     {
         //orderToUpdate = order;
+        await ShowLoading();
         windows = await Http.GetFromJsonAsync<List<WindowDto>>("Windows?id=" + order.OrderId);
         expandedOrderId = order.OrderId;
     }
@@ -178,6 +194,7 @@
         {
             orderToInsert = null;
         }
+        await ShowLoading();
         await Http.PutAsJsonAsync("Orders", order);
 
         orderToUpdate = null;
@@ -215,6 +232,7 @@
 
         if (orders.Contains(order))
         {
+            await ShowLoading();
             await Http.DeleteAsync("/Orders?id=" + order.OrderId);
             orders.Remove(order);
             await ordersGrid.Reload();
@@ -229,13 +247,18 @@
     async Task InsertOrderRow()
     {
         orderToInsert = new OrderDto();
+        isLoading = true;
         await ordersGrid.InsertRow(orderToInsert);
+        isLoading = false;
     }
 
     async Task OnCreateOrderRow(OrderDto order)
     {
+        await ShowLoading();
         var response = await Http.PostAsJsonAsync("Orders", order);
+
         var readAsStringAsync = response.Content.ReadAsStringAsync();
+
         var orderId = Convert.ToInt64(readAsStringAsync.Result.Split(',')[0].Split(':')[1]);
         order.OrderId = orderId;
         orders.Add(order);
@@ -260,8 +283,10 @@
 
     async Task OnWindowRowExpand(WindowDto window)
     {
-        //orderToUpdate = order;
+
+        await ShowLoading();
         subElements = await Http.GetFromJsonAsync<List<SubElementDto>>("SubElements?id=" + window.WindowId);
+
         expandedWindowId = window.WindowId;
     }
 
@@ -278,6 +303,7 @@
         {
             windowToInsert = null;
         }
+        await ShowLoading();
         await Http.PutAsJsonAsync("Windows", window);
         windowToUpdate = null;
     }
@@ -313,6 +339,7 @@
 
         if (windows.Contains(window))
         {
+            await ShowLoading();
             await Http.DeleteAsync("/Windows?id=" + window.WindowId);
             windows.Remove(window);
             await windowsGrid.Reload();
@@ -334,8 +361,11 @@
     {
         window.TotalSubELements = 0;
         window.OrderId = expandedOrderId;
+
+        await ShowLoading();
         var response = await Http.PostAsJsonAsync("Windows", window);
         var readAsStringAsync = response.Content.ReadAsStringAsync();
+
         var windowId = Convert.ToInt64(readAsStringAsync.Result.Split(',')[0].Split(':')[1]);
         window.WindowId = windowId;
         windows.Add(window);
@@ -370,6 +400,7 @@
             subElementToInsert = null;
         }
 
+        await ShowLoading();
         await Http.PutAsJsonAsync("SubElements", subElement);
         subElementToUpdate = null;
     }
@@ -407,6 +438,7 @@
 
         if (subElements.Contains(subElement))
         {
+            await ShowLoading();
             await Http.DeleteAsync("/SubElements?id=" + subElement.SubElementId);
             subElements.Remove(subElement);
             await subElementsGrid.Reload();
@@ -427,6 +459,8 @@
     async Task OnCreateSubElementRow(SubElementDto subElement)
     {
         subElement.WindowId = expandedWindowId;
+
+        await ShowLoading();
         var response = await Http.PostAsJsonAsync("SubElements", subElement);
         var readAsStringAsync = response.Content.ReadAsStringAsync();
         var subElementId = Convert.ToInt64(readAsStringAsync.Result.Split(',')[0].Split(':')[1]);
