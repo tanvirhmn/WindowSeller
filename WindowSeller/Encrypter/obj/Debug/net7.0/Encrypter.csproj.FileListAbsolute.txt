@@ -1,0 +1,15 @@
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\bin\Debug\net7.0\Encrypter.exe
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\bin\Debug\net7.0\Encrypter.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\bin\Debug\net7.0\Encrypter.runtimeconfig.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\bin\Debug\net7.0\Encrypter.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\bin\Debug\net7.0\Encrypter.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\refint\Encrypter.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\Encrypter.genruntimeconfig.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\WindowSeller\Encrypter\obj\Debug\net7.0\ref\Encrypter.dll

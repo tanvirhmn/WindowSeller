@@ -11,6 +11,10 @@ using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using WindowSellerWASM.Shared.Persistance;
+using WindowSellerWASM.Shared;
+using System.Data.Common;
+using Microsoft.Data.SqlClient;
+using System.Data;
 
 namespace WindowSellerWASM.BLL
 {
@@ -18,7 +22,15 @@ namespace WindowSellerWASM.BLL
     {
         public static IServiceCollection ConfigureBLLServices(this IServiceCollection servicess, IConfiguration configuration)
         {
-            servicess.AddDbContext<WindowSellerDdContext>(options => options.UseSqlServer(configuration.GetConnectionString("WindowSellerConnectionString")));
+            SqlConnectionStringBuilder builder = new SqlConnectionStringBuilder(configuration.GetConnectionString("WindowSellerConnectionString"));
+            builder.Password = TrippleDES.Decrypt(TrippleDES.GetBytes(builder.Password.ToString()));
+
+            SqlConnection dbCon = new SqlConnection(builder.ConnectionString);
+
+            //ssqlCred.
+
+
+            servicess.AddDbContext<WindowSellerDdContext>(options => options.UseSqlServer(dbCon));
 
             servicess.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             servicess.AddScoped<IUnitOfWork, UnitOfWork>();

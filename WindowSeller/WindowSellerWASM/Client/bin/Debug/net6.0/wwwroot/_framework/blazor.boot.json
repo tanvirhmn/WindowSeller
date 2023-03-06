@@ -231,20 +231,20 @@
       "netstandard.dll": "sha256-6NXprR7wyUZxpdXxaSPHSoC5uOL5UCc7bsZG3TSuVxE=",
       "System.Private.CoreLib.dll": "sha256-igtwZSR0\/lrbmwL\/XiTsEkIeSL+736GHTZPReYguZCQ=",
       "WindowSeller.Domain.dll": "sha256-Bo+JRuAyiXrRZKOQ1AnZp4XgvdOsXICVabVAVA8sc60=",
-      "WindowSellerWASM.BLL.dll": "sha256-LS\/poZH2ywTDVzRAFRqw9ATVmguzUozxi27\/IhbD1To=",
-      "WindowSellerWASM.Shared.dll": "sha256-+2yULHl2m1kdWko57oIVvibIiVVhrmkRbH6uXIrM8Bk=",
-      "WindowsSellerWASM.DAL.dll": "sha256-HeEVVRsnnmt19UV6ApX+Anqe+YNecmqTGhLjzz4wjAQ=",
-      "WindowSellerWASM.Client.dll": "sha256-9qam+Cr9F0HKWQjBnndj9olngvNsfpFyHRTw193U0EQ="
+      "WindowSellerWASM.BLL.dll": "sha256-gt7E2oMX6LH6IE7QP85h9u7HozFwsD3S6qx2kZ3SmBM=",
+      "WindowSellerWASM.Shared.dll": "sha256-yPzVt05FmP5\/KffPKvvjs47+e4kTeG1AH\/uI2k8N5AQ=",
+      "WindowsSellerWASM.DAL.dll": "sha256-TH7iO0\/0qPW8YYE0fL1YhdHFPiEQRUZRboUt4MXdDfk=",
+      "WindowSellerWASM.Client.dll": "sha256-5T1cPY4k45C2bIKR6nxFV2rkg2CmFIPyD0BXJA1tF3c="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "WindowSellerWASM.BLL.pdb": "sha256-84nWXSGLoOCKqqWVap0BN8mRfRRJjHYW4SLVTUyvJjk=",
-      "WindowSellerWASM.Shared.pdb": "sha256-JAvMhj3sO4IlHoXerm2nClWedtFB7muwnFRD17laSD4=",
+      "WindowSellerWASM.BLL.pdb": "sha256-nDP7KiTZYTv6bng0SY\/sSJ2\/qJ6K\/p3\/q+HaOVkYh5g=",
+      "WindowSellerWASM.Shared.pdb": "sha256-b3N7fCcEZHbly5tvPNFI+8VDfqd+G2dNEtA63S\/D14s=",
       "WindowSeller.Domain.pdb": "sha256-flU18DZJF3RN9zRXw\/1e0t7qjZvux9HdaiQXXUwpWwU=",
-      "WindowsSellerWASM.DAL.pdb": "sha256-pD6h9DHuiSRLSQh1y0fes3tKG7uQJQBvs3jzL01rTTI=",
-      "WindowSellerWASM.Client.pdb": "sha256-RTP7EGWwSrbM3kJ4+HxQD9MoSdU9rc21IoNqVyE8i7A="
+      "WindowsSellerWASM.DAL.pdb": "sha256-zVnOZg+oTWNnc92u2hq0ztKTzP0UI4rMmqfIhrosDmk=",
+      "WindowSellerWASM.Client.pdb": "sha256-r\/LsiMwYAHFG4fpe7cDFhVzRzfGBTz00tLgqNqjBpDk="
     },
     "runtime": {
       "dotnet.6.0.14.9aov866gon.js": "sha256-54cJ6JdGhGbKaLWxHfRYzYbuyRq2wlK\/ZDzfSXD3FEs=",
