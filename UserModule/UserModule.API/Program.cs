@@ -13,6 +13,7 @@ using UserModule.DAL;
 var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
 
+
 // Add services to the container.
 
 //AzureAdServices

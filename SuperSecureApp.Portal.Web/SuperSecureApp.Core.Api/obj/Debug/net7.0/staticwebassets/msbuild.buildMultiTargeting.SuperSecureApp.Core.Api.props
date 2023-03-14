@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SuperSecureApp.Core.Api.props" />
+</Project>

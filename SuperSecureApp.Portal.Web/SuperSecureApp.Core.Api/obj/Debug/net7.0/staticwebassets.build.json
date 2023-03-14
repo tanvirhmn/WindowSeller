@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "OuN8szcqhA30MPyAOqpurRKNvGzYfx0JqaE3jy2kQ1k=",
+  "Source": "SuperSecureApp.Core.Api",
+  "BasePath": "_content/SuperSecureApp.Core.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
