@@ -71,7 +71,7 @@ builder.Services.AddSwaggerGen(c =>
 
 //DBcontest
 SqlConnectionStringBuilder sqlbuilder = new SqlConnectionStringBuilder((builder.Configuration.GetConnectionString("UserModuleConnectionString")));
-sqlbuilder.Password = TrippleDES.Decrypt(TrippleDES.GetBytes(sqlbuilder.Password.ToString()));
+//sqlbuilder.Password = TrippleDES.Decrypt(TrippleDES.GetBytes(sqlbuilder.Password.ToString()));
 SqlConnection dbCon = new SqlConnection(sqlbuilder.ConnectionString);
 builder.Services.AddDbContext<UserModuleDdContext>(options => options.UseSqlServer(dbCon));
 

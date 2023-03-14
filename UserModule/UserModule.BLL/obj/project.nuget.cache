@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ixs1SbPgCX2podd/iuGFTgmxcGvt9IGrrSkFb1TsoqDz35yS1h+mX4XLkIu70eSJzvtG47MCnElJnUnc4XgWKw==",
+  "dgSpecHash": "RRyyB7Km0pVPD6M13Z0f5fD+YbOUBlJm16dmtsSQDEH3jayklRg3SfzJW1M/m2Y585nwNeJ7IJ29iHZFmm6Jxw==",
   "success": true,
-  "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj",
+  "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\tanvi\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",

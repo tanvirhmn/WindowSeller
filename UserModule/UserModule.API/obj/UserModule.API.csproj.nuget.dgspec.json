@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.API\\UserModule.API.csproj": {}
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.API\\UserModule.API.csproj": {}
   },
   "projects": {
-    "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.API\\UserModule.API.csproj": {
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.API\\UserModule.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.API\\UserModule.API.csproj",
+        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.API\\UserModule.API.csproj",
         "projectName": "UserModule.API",
-        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.API\\UserModule.API.csproj",
+        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.API\\UserModule.API.csproj",
         "packagesPath": "C:\\Users\\tanvi\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.API\\obj\\",
+        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -35,8 +35,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj": {
-                "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj"
+              "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj": {
+                "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj"
               }
             }
           }
@@ -64,6 +64,30 @@
               "version": "[7.0.3, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
             },
@@ -107,14 +131,14 @@
         }
       }
     },
-    "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj": {
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj",
+        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj",
         "projectName": "UserModule.BLL",
-        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj",
+        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.BLL\\UserModule.BLL.csproj",
         "packagesPath": "C:\\Users\\tanvi\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.BLL\\obj\\",
+        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -138,8 +162,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {
-                "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj"
+              "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {
+                "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj"
               }
             }
           }
@@ -179,14 +203,14 @@
         }
       }
     },
-    "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
+        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
         "projectName": "UserModule.DAL",
-        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
+        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
         "packagesPath": "C:\\Users\\tanvi\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\obj\\",
+        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

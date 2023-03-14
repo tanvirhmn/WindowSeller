@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {}
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {}
   },
   "projects": {
-    "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
+        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
         "projectName": "UserModule.DAL",
-        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
+        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\UserModule.DAL.csproj",
         "packagesPath": "C:\\Users\\tanvi\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\UserModule\\UserModule.DAL\\obj\\",
+        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\UserModule\\UserModule.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
