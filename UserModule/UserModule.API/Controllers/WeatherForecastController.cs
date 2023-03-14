@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Graph;
 using Microsoft.Identity.Web;
 using Microsoft.Identity.Web.Resource;
+using UserModule.API.Models;
 
 namespace StockMgtSys.API.Controllers
 {

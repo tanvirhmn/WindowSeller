@@ -1,4 +1,4 @@
-namespace StockMgtSys.API
+namespace UserModule.API.Models
 {
     public class WeatherForecast
     {
