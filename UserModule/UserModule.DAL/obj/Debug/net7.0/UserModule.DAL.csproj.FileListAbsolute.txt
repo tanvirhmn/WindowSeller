@@ -1,0 +1,14 @@
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\bin\Debug\net7.0\UserModule.DAL.deps.json
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\bin\Debug\net7.0\UserModule.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\bin\Debug\net7.0\UserModule.DAL.pdb
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\refint\UserModule.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.pdb
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\ref\UserModule.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\bin\Debug\net7.0\UserModule.DAL.runtimeconfig.json
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.DAL\obj\Debug\net7.0\UserModule.DAL.genruntimeconfig.cache

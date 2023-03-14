@@ -1,0 +1,15 @@
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\bin\Debug\net7.0\UserModule.BLL.deps.json
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\bin\Debug\net7.0\UserModule.BLL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\bin\Debug\net7.0\UserModule.BLL.pdb
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\refint\UserModule.BLL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.pdb
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\ref\UserModule.BLL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\bin\Debug\net7.0\UserModule.DAL.dll
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\bin\Debug\net7.0\UserModule.DAL.pdb
+C:\WorkCode\GitHub\Intus Windows\UserModule\UserModule.BLL\obj\Debug\net7.0\UserModule.BLL.csproj.CopyComplete
