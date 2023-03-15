@@ -38,6 +38,7 @@ namespace WindowSellerWASM.BLL
             servicess.AddScoped<IOrderRepository, OrderRepository>();
             servicess.AddScoped<IWindowRepository, WindowRepository>();
             servicess.AddScoped<ISubElementRepository, SubElementRepository>();
+
             servicess.AddAutoMapper(Assembly.GetExecutingAssembly());
             servicess.AddMediatR(Assembly.GetExecutingAssembly());
 

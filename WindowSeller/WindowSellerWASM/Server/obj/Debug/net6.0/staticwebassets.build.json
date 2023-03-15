@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "N5trIMgVc0mygphI9gy54zjKdarajn3oGzRosFU+WyI=",
+  "Hash": "DZMwRN3Zy8Kx1X/dWq9NURhN75ItW4IucKmXL53KwJc=",
   "Source": "WindowSellerWASM.Server",
   "BasePath": "_content/WindowSellerWASM.Server",
   "Mode": "Default",
@@ -11,10 +11,10 @@
       "Version": 2,
       "Source": "WindowSellerWASM.Client",
       "GetPublishAssetsTargets": "ComputeFilesToPublish;GetCurrentProjectPublishStaticWebAssetItems",
-      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true;Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishProperties": "BuildProjectReferences=false;ResolveAssemblyReferencesFindRelatedSatellites=true;_PublishingBlazorWasmProject=true",
       "AdditionalPublishPropertiesToRemove": "NoBuild;RuntimeIdentifier;WebPublishProfileFile;TargetFramework",
       "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
-      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildProperties": "",
       "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
     }
   ],
@@ -28,23 +28,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark.css",
-      "SourceId": "Radzen.Blazor",
-      "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
-      "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/dark.css",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark.css"
-    },
     {
       "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark-base.css",
       "SourceId": "Radzen.Blazor",
@@ -63,12 +46,12 @@
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default.css",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/default.css",
+      "RelativePath": "css/dark.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -77,7 +60,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\dark.css"
     },
     {
       "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default-base.css",
@@ -97,12 +80,12 @@
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic.css",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/humanistic.css",
+      "RelativePath": "css/default.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -111,7 +94,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\default.css"
     },
     {
       "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic-base.css",
@@ -131,12 +114,12 @@
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material.css",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/material.css",
+      "RelativePath": "css/humanistic.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -145,7 +128,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\humanistic.css"
     },
     {
       "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material-base.css",
@@ -165,12 +148,12 @@
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software.css",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/software.css",
+      "RelativePath": "css/material.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -179,7 +162,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\material.css"
     },
     {
       "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software-base.css",
@@ -199,12 +182,12 @@
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software-base.css"
     },
     {
-      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard.css",
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software.css",
       "SourceId": "Radzen.Blazor",
       "SourceType": "Package",
       "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
       "BasePath": "_content/Radzen.Blazor",
-      "RelativePath": "css/standard.css",
+      "RelativePath": "css/software.css",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -213,7 +196,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard.css"
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\software.css"
     },
     {
       "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard-base.css",
@@ -231,6 +214,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard-base.css"
+    },
+    {
+      "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard.css",
+      "SourceId": "Radzen.Blazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\",
+      "BasePath": "_content/Radzen.Blazor",
+      "RelativePath": "css/standard.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\css\\standard.css"
     },
     {
       "Identity": "C:\\Users\\tanvi\\.nuget\\packages\\radzen.blazor\\4.6.8\\staticwebassets\\fonts\\MaterialIcons-Regular.woff",
@@ -743,23 +743,6 @@
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\fluentvalidation\\11.2.1\\lib\\net6.0\\FluentValidation.dll"
     },
     {
-      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
-      "SourceId": "WindowSellerWASM.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/icudt.dat",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "BlazorWebAssemblyResource",
-      "AssetTraitValue": "native",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\native\\icudt.dat"
-    },
-    {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt_CJK.dat",
       "SourceId": "WindowSellerWASM.Client",
       "SourceType": "Project",
@@ -809,6 +792,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\native\\icudt_no_CJK.dat"
+    },
+    {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\icudt.dat",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/icudt.dat",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "native",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\native\\icudt.dat"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MediatR.Contracts.dll",
@@ -9039,6 +9039,23 @@
       "OriginalItemSpec": "wwwroot\\css\\Images\\toggle.png"
     },
     {
+      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "SourceId": "WindowSellerWASM.Client",
+      "SourceType": "Project",
+      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "css/open-iconic/FONT-LICENSE",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
+    },
+    {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "WindowSellerWASM.Client",
       "SourceType": "Project",
@@ -9139,23 +9156,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
-    },
-    {
-      "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
-      "SourceId": "WindowSellerWASM.Client",
-      "SourceType": "Project",
-      "ContentRoot": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "css/open-iconic/FONT-LICENSE",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
       "Identity": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
