@@ -1,3 +1,4 @@
+using AutoMapper;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.AzureAD.UI;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
@@ -7,12 +8,22 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Graph.ExternalConnectors;
 using Microsoft.Identity.Web;
 using Microsoft.OpenApi.Models;
+using StockModule.DAL.Services;
 using UserModule.BLL.Helpers;
+using UserModule.BLL.Interfaces;
+using UserModule.BLL.Logic;
 using UserModule.DAL;
+using UserModule.DAL.Services;
 
 var builder = Microsoft.AspNetCore.Builder.WebApplication.CreateBuilder(args);
 
-
+var mapperConfiguration = new MapperConfiguration(cfg =>
+{
+    var mapperProfile = new AutoMapperProfile();
+    cfg.AddProfile(mapperProfile);
+});
+var mapper = mapperConfiguration.CreateMapper();
+builder.Services.AddSingleton(mapper);
 
 // Add services to the container.
 
@@ -25,6 +36,10 @@ builder.Services.AddMicrosoftIdentityWebApiAuthentication(builder.Configuration)
 
 
 builder.Services.AddControllers();
+
+builder.Services.AddScoped<IPermissionLogic, PermissionLogic>();
+
+builder.Services.AddScoped<IPermissionService, PermissionService>();
 
 // Swagger
 builder.Services.AddSwaggerGen(c =>

@@ -15,12 +15,12 @@ namespace UserModule.API.Controllers
     {
         private readonly IPermissionLogic _permissionLogic;
 
-        private readonly ILogger _logger;
+        //private readonly ILogger _logger;
 
-        public PermissionController(IPermissionLogic permissionLogic, ILogger logger)
+        public PermissionController(IPermissionLogic permissionLogic)
         {
             _permissionLogic = permissionLogic;
-            _logger = logger;
+            //_logger = logger;
         }
 
         [HttpGet("{azuregroups}")]

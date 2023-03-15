@@ -18,13 +18,13 @@ namespace UserModule.BLL.Logic
     {
         private readonly IPermissionService _permissionService;
 
-        private readonly ILogger _logger;
+        //private readonly ILogger _logger;
         private readonly IMapper _mapper;
 
-        public PermissionLogic(IPermissionService permissionService, ILogger logger, IMapper mapper)
+        public PermissionLogic(IPermissionService permissionService, IMapper mapper)
         {
             _permissionService = permissionService;
-            _logger = logger;
+            //_logger = logger;
             _mapper = mapper;
         }
 
