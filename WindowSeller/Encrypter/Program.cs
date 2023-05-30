@@ -22,6 +22,7 @@ static void Apply3DES(string raw)
         {
             // Encrypt string 
             byte[] encrypted = Encrypt(raw, Key, IV);
+            string strENcrypt = System.Text.Encoding.Unicode.GetString(encrypted);
             // Print encrypted string 
             Console.WriteLine("Encrypted data:" + System.Text.Encoding.Unicode.GetString(encrypted));
             // Decrypt the bytes to a string. 

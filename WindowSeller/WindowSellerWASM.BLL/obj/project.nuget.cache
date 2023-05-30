@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Fae5ijrLjUt2APKGi5fiGk2Anw+Ds/pS7GIU56LRbGzAyNlkAGku7AORCOyTWSkbFtmeSrKqzD8NtCZaMC8bWQ==",
+  "dgSpecHash": "ze6lTnfzNmZ1u3apY91KDWFIcuy7pQ326HfDVGHjx13XTc6brNrPcdkRpn1e1FIOmu4+qxvHLFUqjqdLY57seA==",
   "success": true,
   "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM.BLL\\WindowSellerWASM.BLL.csproj",
   "expectedPackageFiles": [
@@ -56,7 +56,10 @@
     "C:\\Users\\tanvi\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.text.encoding.codepages\\4.7.0\\system.text.encoding.codepages.4.7.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512",
-    "C:\\Users\\tanvi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512"
+    "C:\\Users\\tanvi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

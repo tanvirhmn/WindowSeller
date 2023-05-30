@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0thxM0OrJ9UVyLG0aV0ZIjRB5zwG/NnBJIxEYn4mX3sa0AF7ArG4/w4P+XVYHqyBl63iZvC/0himunPc2aI1+w==",
+  "dgSpecHash": "4doKDLdQPhseZ0wGbW0UYlVWNMd5HLdNJJ7YQLnN3d7T6Gipna5wHf6F211yC7BzIPoQYnJd5/zv7jy/pmxA9w==",
   "success": true,
   "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Client\\WindowSellerWASM.Client.csproj",
   "expectedPackageFiles": [
@@ -78,7 +78,10 @@
     "C:\\Users\\tanvi\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.text.json\\6.0.0\\system.text.json.6.0.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.windows.extensions\\4.7.0\\system.windows.extensions.4.7.0.nupkg.sha512",
-    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.14.nupkg.sha512"
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.16\\microsoft.netcore.app.runtime.mono.browser-wasm.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

@@ -2,16 +2,18 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Web.Resource;
 using Microsoft.Graph;
+using Microsoft.Identity.Web;
 
 namespace SuperSecureApp.Core.Api.Controllers
 {
     [Authorize]
     [ApiController]
     [Route("[controller]")]
+    //[AuthorizeForScopes(Scopes = new string[] { "user.read" })]
     [RequiredScope(RequiredScopesConfigurationKey = "AzureAd:Scopes")]
     public class WeatherForecastController : ControllerBase
     {
-        private readonly GraphServiceClient _graphServiceClient;
+        //private readonly GraphServiceClient _graphServiceClient;
         private static readonly string[] Summaries = new[]
         {
         "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
@@ -19,16 +21,16 @@ namespace SuperSecureApp.Core.Api.Controllers
 
         private readonly ILogger<WeatherForecastController> _logger;
 
-        public WeatherForecastController(ILogger<WeatherForecastController> logger, GraphServiceClient graphServiceClient)
+        public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
-            _graphServiceClient = graphServiceClient;
+           // _graphServiceClient = graphServiceClient;
         }
 
         [HttpGet(Name = "GetWeatherForecast")]
         public async Task<IEnumerable<WeatherForecast>> Get()
         {
-            var user = await _graphServiceClient.Me.Request().GetAsync();
+            //var user = await _graphServiceClient.Me.Request().GetAsync();
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
                 Date = DateOnly.FromDateTime(DateTime.Now.AddDays(index)),

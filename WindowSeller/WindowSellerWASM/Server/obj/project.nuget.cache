@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ulchLs+UPkuVM5SzM5Ye7a3ckLVHgle8Nf80m7Jq7HXrbp/HYaKx9QuviiN1NSeuRboqQY7lYF0dejaU0SslrQ==",
+  "dgSpecHash": "MF6/gvWtlrWY0CdXHfeeaqQAxRRtoPCsllaA2fPn5zyLzbpCu2Rjvp9WBwc9Id0Th3A4xwGD0AG9l27KqUJvWw==",
   "success": true,
   "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSellerWASM\\Server\\WindowSellerWASM.Server.csproj",
   "expectedPackageFiles": [
@@ -211,7 +211,11 @@
     "C:\\Users\\tanvi\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\tanvi\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\tanvi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\tanvi\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.16\\microsoft.netcore.app.host.win-x64.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }

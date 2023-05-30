@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "D4DpydJo0WsDsP68IZJay0hjI0/YZXE27j1UMqXKJwbeDdQbag+8NZN0DsplXX+2LJpUKypvsD4x2MBu8WmWjQ==",
+  "dgSpecHash": "2BevdfKzwk18wWSQJbKCpztD5IQu1BUPmu8DUz4qoUrlJto/7jGl9AYPkUab4LhACEmVCFETRogtoGgc7nT98A==",
   "success": true,
   "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\WindowSeller\\WindowSeller.Domain\\WindowSeller.Domain.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\tanvi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512"
+    "C:\\Users\\tanvi\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.16\\microsoft.windowsdesktop.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.16\\microsoft.netcore.app.ref.6.0.16.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.16\\microsoft.aspnetcore.app.ref.6.0.16.nupkg.sha512"
   ],
   "logs": []
 }
