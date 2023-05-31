@@ -9,41 +9,41 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ChiildApp
 build_property.RootNamespace = ChiildApp
-build_property.ProjectDir = C:\WorkCode\GitHub\Intus Windows\MainApp\ChiildApp\
+build_property.ProjectDir = E:\Repos\GitHub\WindowSeller\MainApp\ChiildApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\WorkCode\GitHub\Intus Windows\MainApp\ChiildApp
+build_property.MSBuildProjectDirectory = E:\Repos\GitHub\WindowSeller\MainApp\ChiildApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/Error.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/Index.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/Privacy.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/Shared/_LoginPartial.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/_ViewImports.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/_ViewStart.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/MainApp/ChiildApp/Pages/Shared/_Layout.cshtml]
+[E:/Repos/GitHub/WindowSeller/MainApp/ChiildApp/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-06pi6gmu98
