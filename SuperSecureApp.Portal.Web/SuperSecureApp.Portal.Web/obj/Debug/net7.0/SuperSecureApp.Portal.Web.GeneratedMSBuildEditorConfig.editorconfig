@@ -9,61 +9,61 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SuperSecureApp.Portal.Web
 build_property.RootNamespace = SuperSecureApp.Portal.Web
-build_property.ProjectDir = E:\Repos\GitHub\WindowSeller\SuperSecureApp.Portal.Web\SuperSecureApp.Portal.Web\
+build_property.ProjectDir = C:\WorkCode\GitHub\Intus Windows\WindowSeller\SuperSecureApp.Portal.Web\SuperSecureApp.Portal.Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = E:\Repos\GitHub\WindowSeller\SuperSecureApp.Portal.Web\SuperSecureApp.Portal.Web
+build_property.MSBuildProjectDirectory = C:\WorkCode\GitHub\Intus Windows\WindowSeller\SuperSecureApp.Portal.Web\SuperSecureApp.Portal.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/App.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/CallWebApi.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/CallWebApi.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FsbFdlYkFwaS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/Counter.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/FetchData.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/Index.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/ShowProfile.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/ShowProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd1Byb2ZpbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/LoginDisplay.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/SurveyPrompt.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/_Imports.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/MainLayout.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-w840wmg5om
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/NavMenu.razor]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-y32c495gw1
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/Error.cshtml]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[E:/Repos/GitHub/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/_Host.cshtml]
+[C:/WorkCode/GitHub/Intus Windows/WindowSeller/SuperSecureApp.Portal.Web/SuperSecureApp.Portal.Web/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

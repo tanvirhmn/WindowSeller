@@ -4041,25 +4041,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\This Pc\\.nuget\\packages\\": {},
-    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\tanvi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Repos\\GitHub\\WindowSeller\\SuperSecureApp.Portal.Web\\SuperSecureApp.Core.Api\\SuperSecureApp.Core.Api.csproj",
+      "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\SuperSecureApp.Portal.Web\\SuperSecureApp.Core.Api\\SuperSecureApp.Core.Api.csproj",
       "projectName": "SuperSecureApp.Core.Api",
-      "projectPath": "E:\\Repos\\GitHub\\WindowSeller\\SuperSecureApp.Portal.Web\\SuperSecureApp.Core.Api\\SuperSecureApp.Core.Api.csproj",
-      "packagesPath": "C:\\Users\\This Pc\\.nuget\\packages\\",
-      "outputPath": "E:\\Repos\\GitHub\\WindowSeller\\SuperSecureApp.Portal.Web\\SuperSecureApp.Core.Api\\obj\\",
+      "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\SuperSecureApp.Portal.Web\\SuperSecureApp.Core.Api\\SuperSecureApp.Core.Api.csproj",
+      "packagesPath": "C:\\Users\\tanvi\\.nuget\\packages\\",
+      "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\SuperSecureApp.Portal.Web\\SuperSecureApp.Core.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\This Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tanvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -4067,7 +4070,6 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -4134,7 +4136,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
