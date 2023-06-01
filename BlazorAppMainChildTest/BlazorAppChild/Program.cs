@@ -1,4 +1,5 @@
 using BlazorAppChild.Data;
+using BlazorAppChild.Middleware;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.OpenIdConnect;
 using Microsoft.AspNetCore.Authorization;
@@ -54,5 +55,7 @@ app.UseAuthorization();
 app.MapControllers();
 app.MapBlazorHub();
 app.MapFallbackToPage("/_Host");
+
+app.UseXFrameOptions();
 
 app.Run();
