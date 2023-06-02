@@ -1,0 +1,9 @@
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\BlazorAppCompCon.exe
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\appsettings.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\BlazorAppCompCon.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\BlazorAppCompCon.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\BlazorAppCompCon.runtimeconfig.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\BlazorAppCompCon.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\TestRazorClassLibrary.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppCompCon\BlazorAppCompCon\obj\Release\net7.0\PubTmp\Out\TestRazorClassLibrary.pdb
