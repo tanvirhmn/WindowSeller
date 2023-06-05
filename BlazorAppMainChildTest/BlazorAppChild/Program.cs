@@ -32,7 +32,10 @@ builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor()
     .AddMicrosoftIdentityConsentHandler();
 builder.Services.AddSingleton<WeatherForecastService>();
-
+builder.Services.AddAntiforgery(x =>
+{
+    x.SuppressXFrameOptionsHeader = true;
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
