@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>D:\deployment\tests\comcon</_PublishTargetUrl>
+    <History>True|2023-06-02T03:44:20.2341234Z;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
