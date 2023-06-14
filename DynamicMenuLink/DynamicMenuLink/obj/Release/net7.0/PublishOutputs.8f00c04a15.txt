@@ -1,0 +1,7 @@
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Release\net7.0\PubTmp\Out\DynamicMenuLink.exe
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Release\net7.0\PubTmp\Out\appsettings.Development.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Release\net7.0\PubTmp\Out\appsettings.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Release\net7.0\PubTmp\Out\DynamicMenuLink.dll
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Release\net7.0\PubTmp\Out\DynamicMenuLink.deps.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Release\net7.0\PubTmp\Out\DynamicMenuLink.runtimeconfig.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Release\net7.0\PubTmp\Out\DynamicMenuLink.pdb

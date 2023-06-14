@@ -30,3 +30,35 @@ C:\WorkCode\GitHub\Intus Windows\WindowSeller\DynamicMenuLink\DynamicMenuLink\ob
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.pdb
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.genruntimeconfig.cache
 C:\WorkCode\GitHub\Intus Windows\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\ref\DynamicMenuLink.dll
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\appsettings.Development.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\appsettings.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\DynamicMenuLink.staticwebassets.runtime.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\DynamicMenuLink.exe
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\DynamicMenuLink.deps.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\DynamicMenuLink.runtimeconfig.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\DynamicMenuLink.dll
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\bin\Debug\net7.0\DynamicMenuLink.pdb
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.csproj.AssemblyReference.cache
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.AssemblyInfoInputs.cache
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.AssemblyInfo.cs
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.csproj.CoreCompileInputs.cache
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.MvcApplicationPartsAssemblyInfo.cache
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.RazorAssemblyInfo.cache
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.RazorAssemblyInfo.cs
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\staticwebassets\msbuild.DynamicMenuLink.Microsoft.AspNetCore.StaticWebAssets.props
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\staticwebassets\msbuild.build.DynamicMenuLink.props
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.DynamicMenuLink.props
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.DynamicMenuLink.props
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\staticwebassets.pack.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\staticwebassets.build.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\staticwebassets.development.json
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\scopedcss\bundle\DynamicMenuLink.styles.css
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\scopedcss\projectbundle\DynamicMenuLink.bundle.scp.css
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.dll
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\refint\DynamicMenuLink.dll
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.pdb
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\DynamicMenuLink.genruntimeconfig.cache
+E:\Repos\GitHub\WindowSeller\DynamicMenuLink\DynamicMenuLink\obj\Debug\net7.0\ref\DynamicMenuLink.dll

@@ -16,8 +16,14 @@ namespace DynamicMenuLink.Shared
 
                     string host = myUri.Host;
                     string port = myUri.Port.ToString();
-
-                return "https://" + host + ":"+ port + "/counter";
+                if (port != "80")
+                {
+                    return "https://" + host + ":" + port + "/counter";
+                }
+                else
+                {
+                    return "https://" + host + "/DynamicMenuTestWeb" + "/counter";
+                }
             }
         }
 
