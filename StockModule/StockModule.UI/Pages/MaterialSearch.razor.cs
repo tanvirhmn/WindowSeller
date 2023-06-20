@@ -41,6 +41,8 @@ namespace StockModule.UI.Pages
         IEnumerable<int> selectedIds;
         IEnumerable<int> materialIds;
 
+        bool auto = true;
+
         #region DataFilter
         void OnSelectedIdsChange(object value)
         {

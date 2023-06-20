@@ -11,8 +11,8 @@
 @inject ContextMenuService ContextMenuService
 @inject NavigationManager uriHelper;
 
-<RadzenDataFilter @ref="dataFilter" Auto="true" 
-    Data="@stockSettingsMaterial_FolderHierarchyVMs" 
+<RadzenDataFilter @ref="dataFilter" Auto="@auto"
+                  Data="@stockSettingsMaterial_FolderHierarchyVMs" 
     TItem="StockSettingsMaterial_FolderHierarchyVM"
                   ViewChanged=@(view => filtered_StockSettingsMaterial_FolderHierarchyVMs = view)>
     <Properties>
