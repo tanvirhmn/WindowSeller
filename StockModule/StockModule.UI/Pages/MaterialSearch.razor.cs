@@ -26,15 +26,32 @@ namespace StockModule.UI.Pages
         IEnumerable<FolderHierarchyVM>? parentfolderHierarchyVMs;
 
         IEnumerable<StockSettingsMaterial_FolderHierarchyVM>? stockSettingsMaterial_FolderHierarchyVMs;
+        IEnumerable<StockSettingsMaterial_FolderHierarchyVM>? filtered_StockSettingsMaterial_FolderHierarchyVMs;
         IList<StockSettingsMaterial_FolderHierarchyVM>? selectedstockSettingsMaterial_Folders;
         StockSettingsMaterial_FolderHierarchyVM? doubleClickedstockSettingsMaterial_Folders;
         bool sidebar4Expanded = true;
 
         RadzenDataGrid<StockSettingsMaterial_FolderHierarchyVM> materialGrid;
+        RadzenDataFilter<StockSettingsMaterial_FolderHierarchyVM> dataFilter;
         //RadzenTree hirechyTree;
 
         IList<StockSettingsMaterial_FolderHierarchyVM> selectedStockSettingsMaterial_FolderHierarchyVMs;
         bool hasChildren;
+
+        IEnumerable<int> selectedIds;
+        IEnumerable<int> materialIds;
+
+        bool auto = true;
+
+        #region DataFilter
+        void OnSelectedIdsChange(object value)
+        {
+            if (selectedIds != null && !selectedIds.Any())
+            {
+                selectedIds = null;
+            }
+        }
+        #endregion
 
         #region Page
         protected override async Task OnInitializedAsync()
@@ -50,11 +67,26 @@ namespace StockModule.UI.Pages
         {
             stockSettingsMaterial_FolderHierarchyVMs = await StockSettingsMaterial_FolderHierarchyService.GetAllAsync();
             count = stockSettingsMaterial_FolderHierarchyVMs.Count();
+            materialIds = stockSettingsMaterial_FolderHierarchyVMs.Select(x => x.Id).Distinct();
         }
         private async void LoadGrid()
         {
             stockSettingsMaterial_FolderHierarchyVMs = await StockSettingsMaterial_FolderHierarchyService.GetAllAsync();
             count = stockSettingsMaterial_FolderHierarchyVMs.Count();
+        }
+        protected override async Task OnAfterRenderAsync(bool firstRender)
+        {
+            await base.OnAfterRenderAsync(firstRender);
+
+            if (firstRender)
+            {
+                await dataFilter.AddFilter(new CompositeFilterDescriptor()
+                {
+                    Property = "StockSettingsMaterial_FolderHierarchyVM.Code",
+                    FilterValue = "AZF",
+                    FilterOperator = FilterOperator.Contains
+                });
+            }
         }
         #endregion
 
