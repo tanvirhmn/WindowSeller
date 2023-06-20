@@ -1,0 +1,32 @@
+﻿@page "/materialSearchBlazorise"
+@using System.Net.Http.Json
+@using StockModule.UI.Data;
+@using StockModule.UI.Model;
+
+@inject StockSettingsMaterial_FolderHierarchyService StockSettingsMaterial_FolderHierarchyService
+@inject FolderHierarchyService FolderHierarchyService
+@inject StockSettingsService StockSettingsService
+@inject Radzen.DialogService DialogService
+@inject TooltipService tooltipService
+@inject NotificationService NotificationService
+@inject ContextMenuService ContextMenuService
+
+<DataGrid TItem="StockSettingsMaterial_FolderHierarchyVM"
+          Data="@stockSettingsMaterial_FolderHierarchyVMs"
+          @bind-SelectedRow="@selectedstockSettingsMaterial_Folders"
+          Responsive
+          Virtualize
+          VirtualizeOptions="@(new() { DataGridHeight = "850px"})"
+          Groupable
+          ShowGrouping>
+    <DataGridCommandColumn />
+    <DataGridColumn Field="@nameof(StockSettingsMaterial_FolderHierarchyVM.Id)" Caption="#" Sortable="false" />
+    <DataGridColumn Field="@nameof(StockSettingsMaterial_FolderHierarchyVM.Code)" Caption="Cod"  />
+    <DataGridColumn Field="@nameof(StockSettingsMaterial_FolderHierarchyVM.Description)" Caption="Description"  />
+    <DataGridColumn Field="@nameof(StockSettingsMaterial_FolderHierarchyVM.BarLength)" Caption="BarLength" Groupable Grouping />
+    <DataGridColumn Field="@nameof(StockSettingsMaterial_FolderHierarchyVM.Type)" Caption="Type" Groupable Grouping>
+    </DataGridColumn>
+</DataGrid>
+@code {
+
+}

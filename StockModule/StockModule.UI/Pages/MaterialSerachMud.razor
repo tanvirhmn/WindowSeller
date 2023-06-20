@@ -1,0 +1,46 @@
+﻿@page "/materialSearchMud"
+@using System.Net.Http.Json
+@using StockModule.UI.Data;
+@using StockModule.UI.Model;
+
+@inject StockSettingsMaterial_FolderHierarchyService StockSettingsMaterial_FolderHierarchyService
+@inject FolderHierarchyService FolderHierarchyService
+@inject StockSettingsService StockSettingsService
+@inject Radzen.DialogService DialogService
+@inject TooltipService tooltipService
+@inject NotificationService NotificationService
+@inject ContextMenuService ContextMenuService
+
+<button @oncontextmenu=@(args => ShowContextMenuWithContent(args)) @oncontextmenu:preventDefault="true">
+    Right click me
+</button>
+
+<MudDataGrid Items="@stockSettingsMaterial_FolderHierarchyVMs" Virtualize="true" FixedHeader="true" Height="850px" @ref="dataGrid" T="StockSettingsMaterial_FolderHierarchyVM"
+             Hideable="true" Groupable="true" GroupExpanded="false" GroupClassFunc="GroupClassFunc" MultiSelection="true" Filterable="true"
+             RowClick="@RowClicked" SelectedItemsChanged="@SelectedItemsChanged">
+    <Columns>
+        <SelectColumn T="StockSettingsMaterial_FolderHierarchyVM" ShowInFooter="false" />
+        <TemplateColumn >
+            <CellTemplate>
+                <span @oncontextmenu=@(args => ShowContextMenuWithContent(args)) @oncontextmenu:preventDefault="true" style="font-weight:bold">@context.Item.Id </span>
+            </CellTemplate>
+        </TemplateColumn>
+        <PropertyColumn Property="x => x.Code" />
+        <PropertyColumn Property="x => x.Alias" />
+        <PropertyColumn Property="x => x.Description" />
+        <PropertyColumn Property="x => x.Color" />
+        <PropertyColumn Property="x => x.StockSettingsId" />
+        <PropertyColumn Property="x => x.FolderHierarchyId" />
+        <PropertyColumn Property="x => x.BarLength" />
+        <PropertyColumn Property="x => x.Description" />
+        <PropertyColumn Property="x => x.Type" Title="Type" Grouping GroupBy="@_groupByType">
+            <GroupTemplate>               
+                    <span style="font-weight:bold">Category: @context.Grouping.Key</span>
+            </GroupTemplate>
+        </PropertyColumn>
+    </Columns>
+</MudDataGrid>
+
+@code {
+
+}

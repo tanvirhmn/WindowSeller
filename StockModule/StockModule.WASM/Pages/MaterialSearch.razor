@@ -1,0 +1,67 @@
+﻿@page "/materialSearch"
+@using StockModule.UI.Data;
+@using StockModule.UI.Model;
+
+@inject StockSettingsMaterial_FolderHierarchyService StockSettingsMaterial_FolderHierarchyService
+@inject FolderHierarchyService FolderHierarchyService
+@inject StockSettingsService StockSettingsService
+@inject Radzen.DialogService DialogService
+@inject TooltipService tooltipService
+@inject NotificationService NotificationService
+@inject ContextMenuService ContextMenuService
+
+<h3>MaterialSearch</h3>
+<RadzenSplitter>
+    <RadzenSplitterPane Size="1200px" Min="1200px">
+        <RadzenDataGrid KeyProperty="Id"
+                        Data="@stockSettingsMaterial_FolderHierarchyVMs"
+                        Count="@count"
+                        Style="height:800px"
+                        AllowGrouping="true"
+                        AllowFiltering="true" 
+                        AllowColumnResize="true" 
+                        AllowAlternatingRows="false" 
+                        FilterMode="FilterMode.Simple" 
+                        FilterPopupRenderMode="PopupRenderMode.OnDemand"
+                        AllowSorting="true" 
+                        IsLoading="@isLoading"
+                        TItem="StockSettingsMaterial_FolderHierarchyVM"
+                        LogicalFilterOperator="LogicalFilterOperator.And"
+                        CellContextMenu="@OnCellContextMenu"
+                        SelectionMode="DataGridSelectionMode.Multiple"
+                        AllowRowSelectOnRowClick="true"
+                        RowDoubleClick="@OnRowDoubleClickAsync">
+            <Columns>
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Id" Filterable="false" Title="ID" Width="80px" TextAlign="TextAlign.Center" Visible="false" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Code" Title="Code" Frozen="true" Width="160px" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Alias" Title="Alias" Width="160px" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Description" Title="Description" Width="200px" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Color" Title="Color" Width="120px" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Type" Title="Type" Width="160px" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="BarLength" Title="Bar Length" Width="160px" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="StockSettingsId" Filterable="false" Title="StockSettingsId" Width="200px" Visible="false" />
+                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="FolderHierarchyId" Filterable="false" Title="FolderHierarchyId" Width="160px" Visible="false" />
+            </Columns>
+        </RadzenDataGrid>
+    </RadzenSplitterPane>
+    <RadzenSplitterPane>
+        <RadzenTextBox Change=@(args => OnChange(args, "TextBox")) class="w-100" />
+            <RadzenLayout style="height: 770px;overflow-y:scroll;width:100%;">
+                @*<RadzenTree Data=@folderHierarchyVMs Expand=@OnExpandAsync Style="width: 100%; height: 300px" ContextMenu=@(args => ShowContextMenuWithItems(args))
+                            Change="@OnTreeSelectionChange">*@
+                <RadzenTree Data=@folderHierarchyVMs Style="width: 100%;" ContextMenu=@(args => ShowContextMenuWithItems(args))
+                            Change="@OnTreeSelectionChange" @ref="materialSearchTree">
+                    <RadzenTreeLevel TextProperty="Name" Template=@FileOrFolderTemplate ChildrenProperty="Children" HasChildren="HasChildren" Expanded="ShouldExpand">
+                    </RadzenTreeLevel>
+                    @*<RadzenTreeLevel TextProperty="Name" Template=@FileOrFolderTemplate Expanded="ShouldExpand" HasChildren="HasChildren" >
+                    </RadzenTreeLevel>
+                    <RadzenTreeLevel TextProperty="Name" Template=@FileOrFolderTemplate Expanded="ShouldExpand" HasChildren="HasChildren">
+                    </RadzenTreeLevel>*@
+                </RadzenTree>
+            </RadzenLayout>
+    </RadzenSplitterPane>
+</RadzenSplitter>
+@code {
+
+ 
+}

@@ -1,0 +1,252 @@
+﻿@page "/stockaccounting"
+@using StockModule.UI.Helpers;
+@using StockModule.UI.Model;
+@using StockModule.UI.Data
+@using StockModule.UI.Helpers;
+@using StockModule.UI.Model;
+@using System.Linq.Dynamic.Core
+@inject StockAccountingService StockAccountingService
+@inject Radzen.DialogService DialogService
+@inject TooltipService TooltipService
+@inject NotificationService NotificationService
+
+
+<PageTitle>Supplier spoilage</PageTitle>
+
+<h3>Supplier spoilage</h3>
+
+<RadzenStack Orientation="Radzen.Orientation.Horizontal" AlignItems="Radzen.AlignItems.Center" Gap="1rem" Wrap="FlexWrap.Wrap">
+    <RadzenButton Variant="Radzen.Variant.Outlined" Click=@OnClickTransfer Text="Transfer To Rivilė" ButtonStyle="ButtonStyle.Primary" />
+</RadzenStack>
+<br />
+
+<RadzenDataGrid KeyProperty="Id"
+                @ref="grid"
+                AllowRowSelectOnRowClick="@allowRowSelectOnRowClick"
+                IsLoading="@isLoading"
+                Count="@count"
+                Data="@stockAccountings"
+                AllowSorting="true"
+                AllowFiltering="true"
+                AllowPaging="false"
+                FilterMode="FilterMode.Simple"
+                PagerHorizontalAlign="HorizontalAlign.Center"
+                TItem="StockAccountingVM"
+                SelectionMode="DataGridSelectionMode.Multiple"
+                Filter="@OnGridFilters"
+                @bind-Value=@selectedStockAccountings
+                ColumnWidth="100px">
+    <Columns>
+        <RadzenDataGridColumn TItem="StockAccountingVM" Sortable="false" Filterable="false" Width="20px">
+            <HeaderTemplate>
+                <RadzenCheckBox TriState="false" TValue="bool" Value="@(stockAccountings !=null && stockAccountings.Any(i => selectedStockAccountings != null && GetIsChecked(i)))"
+                                Change="@(args =>selectedStockAccountings = args && stockAccountings != null ? stockAccountings.Where(_ => _.Status == (int)EnumStatus.NotStarted || _.Status == (int)EnumStatus.Error).ToList() : null!)" />
+            </HeaderTemplate>
+            <Template Context="item">
+                <RadzenCheckBox TriState="false" Value="@GetIsChecked(item)"
+                                TValue="bool" Change="@(args =>OnCheckBoxChanged(item))" />
+            </Template>
+        </RadzenDataGridColumn>
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="Id" Filterable="false" Visible="false" Title="ID" Frozen="true" TextAlign="TextAlign.Center" />
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="Date" Title="Date" FormatString="{0:yyyy-MM-dd hh:mm:ss}" Width="90px"
+                              FilterOperator="Radzen.FilterOperator.GreaterThanOrEquals" FilterValue="@selectFilterDate">
+        </RadzenDataGridColumn>
+
+
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="MaterialCode" Title="Material Code" Width="80px" />
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="MaterialDescription" Title="Material Description" Width="150px" Filterable="false" />
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="Movement" Title="Movement" Width="70px" Filterable="false" />
+
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="Type" Title="Type" Width="70px" Type="typeof(IEnumerable<string>)"
+                              FilterValue="@selectedTypesValues" LogicalFilterOperator="LogicalFilterOperator.Or" FilterOperator="Radzen.FilterOperator.Contains">
+
+            <FilterTemplate>
+                <RadzenDropDown @bind-Value=@selectedTypesValues Data="@(typesValues)" AllowClear="true" Multiple="true" Change=@OnSelectedTypesChanged />
+            </FilterTemplate>
+        </RadzenDataGridColumn>
+
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="Measure" Title="Measure" Width="50px" Filterable="false" />
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="Quantity" Title="Quantity" Width="50px" FormatString="{0:0.00}" Filterable="false" />
+
+        <RadzenDataGridColumn TItem="StockAccountingVM" Property="Status" Title="Status" Width="12%" FilterValue="@selectedStatusValues"
+                              LogicalFilterOperator="LogicalFilterOperator.Or" FilterOperator="Radzen.FilterOperator.Contains" Type="typeof(IEnumerable<int>)">
+
+            <Template Context="data">
+                <RadzenButton ButtonStyle="@data.StatusButtonStyle" Variant="Radzen.Variant.Flat" Shade="Shade.Lighter" class="m-1" Text="@data.StatusEnum.GetDescription()" MouseEnter="@(args => ShowTooltip(args, data.LastResponseMessage, new TooltipOptions(){ Position = TooltipPosition.Left }))" />
+            </Template>
+            <FilterTemplate>
+                <RadzenDropDown @bind-Value=@selectedStatusValues Data="@(statusValues)" TextProperty="Value" ValueProperty="Key" AllowClear="true" Multiple="true"
+                                Change=@OnSelectedStatusChanged />
+            </FilterTemplate>
+        </RadzenDataGridColumn>
+    </Columns>
+</RadzenDataGrid>
+
+
+@code {
+    bool allowRowSelectOnRowClick = true;
+
+    bool isLoading = false;
+    int count = 0;
+    IEnumerable<StockAccountingVM> stockAccountings = null!;
+    IList<StockAccountingVM> selectedStockAccountings = null!;
+    RadzenDataGrid<StockAccountingVM> grid;
+
+
+    IDictionary<int, string> statusValues = new Dictionary<int, string>();
+    IEnumerable<int> selectedStatusValues = null!;
+
+    List<string> typesValues = new List<string>();
+    IEnumerable<string> selectedTypesValues = null!;
+
+    DateTime selectFilterDate;
+    string dateFilter = "_";//default filter
+
+
+    protected override async Task OnInitializedAsync()
+    {
+
+        base.OnInitialized();
+        Setfilters();
+        await LoadData(dateFilter);
+
+    }
+
+    private bool GetIsChecked(StockAccountingVM item)
+    {
+        return (selectedStockAccountings != null && (item.Status == (int)EnumStatus.NotStarted || item.Status == (int)EnumStatus.Error) && selectedStockAccountings.Contains(item));
+    }
+
+
+    /// <summary>
+    /// set defaults filter
+    /// </summary>
+    private void Setfilters()
+    {
+        typesValues = (new[] { "Warehouse", "Production", "IGU" }).ToList();
+        statusValues = typeof(EnumStatus).ToDictionary();
+
+        selectedTypesValues = typesValues.AsEnumerable();
+        selectedStatusValues = (new[] { (int)EnumStatus.Error, (int)EnumStatus.NotStarted }).AsEnumerable();
+        selectFilterDate = DateTime.Now.AddMonths(-1);
+    }
+
+    /// <summary>
+    /// Load data from stock api
+    /// </summary>
+    /// <param name="filter"></param>
+    /// <returns></returns>
+    private async Task LoadData(string filter = "_")
+    {
+        isLoading = true;
+        stockAccountings = await StockAccountingService.GetStockAccountingAsync(filter);
+        count = stockAccountings.Count();
+        await InvokeAsync(StateHasChanged);
+        isLoading = false;
+    }
+
+    /// <summary>
+    /// Send Transfer to stock
+    /// </summary>
+    /// <returns></returns>
+    private async Task OnClickTransfer()
+    {
+
+
+        if (selectedStockAccountings == null)
+        {
+            ShowNotification(null, "Transfer", "Marked lines to transfer", true);
+            return;
+        }
+
+        var checkedStockAccountingIds = selectedStockAccountings.Where(_ => _.Status == (int)EnumStatus.NotStarted || _.Status == (int)EnumStatus.Error).Select(_ => _.Id).ToList();
+        if (checkedStockAccountingIds.Count == 0)
+        {
+            ShowNotification(null, "Transfer", "No lines to transfer", true);
+            return;
+        }
+
+
+        var request = new StockAccountingTransferRequest()
+            {
+                StockAccountingIds = checkedStockAccountingIds,
+                IsConfirmTransfer = true
+            };
+        try
+        {
+            var r = await StockAccountingService.TransferAccountingAsync(request);
+            ShowNotification(r.IsSuccess, "Transfer", r.Message);
+        }
+        catch (Exception ex)
+        {
+            ShowNotification(null, "Transfer", ex.Message);
+        }
+
+        await LoadData(dateFilter);
+    }
+
+    void ShowNotification(bool? isSucess, string summary, string? message, bool isInfo = false)
+    {
+        var severity = isSucess.HasValue ? ((isSucess.Value) ? NotificationSeverity.Success : NotificationSeverity.Warning) : NotificationSeverity.Error;
+        severity = isInfo ? NotificationSeverity.Info : severity;
+        var detail = string.Format("{0}: {1}", severity.ToString(), message);
+        NotificationService.Notify(new NotificationMessage { Severity = severity, Summary = summary, Detail = detail });
+    }
+
+    void ShowTooltip(ElementReference elementReference, string? message, TooltipOptions options = null!)
+    {
+        if (!string.IsNullOrEmpty(message))
+        {
+            TooltipService.Open(elementReference, message, options);
+        }
+    }
+
+    /// <summary>
+    /// Chacked CheckBox
+    /// </summary>
+    /// <param name="item"></param>
+    void OnCheckBoxChanged(StockAccountingVM item)
+    {
+        if (!allowRowSelectOnRowClick && (item.Status == (int)EnumStatus.NotStarted || item.Status == (int)EnumStatus.Error)) { grid.SelectRow(item); }
+    }
+
+    /// <summary>
+    /// Selected status type change event
+    /// </summary>
+    /// <param name="value">Value</param>
+    void OnSelectedStatusChanged(object value)
+    {
+        if (selectedStatusValues != null && !selectedStatusValues.Any())
+        {
+            selectedStatusValues = null!;
+        }
+    }
+
+    /// <summary>
+    /// Selected status type change event
+    /// </summary>
+    /// <param name="value">Value</param>
+    void OnSelectedTypesChanged(object value)
+    {
+        if (selectedTypesValues != null && !selectedTypesValues.Any())
+        {
+            selectedTypesValues = null!;
+        }
+    }
+
+    /// <summary>
+    /// Change date reaload data from api
+    /// </summary>
+    /// <param name="args"></param>
+    /// <returns></returns>
+    protected async Task OnGridFilters(DataGridColumnFilterEventArgs<StockAccountingVM> args)
+    {
+        if (args.Column.Property == "Date")
+        {
+            selectFilterDate = (DateTime)args.FilterValue;
+            dateFilter = (new[] { args.Column }).AsEnumerable().ToFilterString();
+            await LoadData(dateFilter);
+        }
+    }
+
+}

@@ -1,0 +1,17 @@
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\bin\Release\net7.0\StockModule.DAL.deps.json
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\bin\Release\net7.0\StockModule.DAL.runtimeconfig.json
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\bin\Release\net7.0\StockModule.DAL.dll
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\bin\Release\net7.0\StockModule.DAL.pdb
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\bin\Release\net7.0\StockModule.Utility.dll
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\bin\Release\net7.0\StockModule.Utility.pdb
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.csproj.AssemblyReference.cache
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.AssemblyInfoInputs.cache
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.AssemblyInfo.cs
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.csproj.CoreCompileInputs.cache
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.csproj.CopyComplete
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.dll
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\refint\StockModule.DAL.dll
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.pdb
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\StockModule.DAL.genruntimeconfig.cache
+C:\WorkCode\Intus\GitLab\production\modules\StockModule\StockModule.DAL\obj\Release\net7.0\ref\StockModule.DAL.dll

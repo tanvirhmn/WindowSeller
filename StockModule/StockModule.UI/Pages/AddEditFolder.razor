@@ -1,0 +1,44 @@
+﻿@page "/addEditFolder"
+@using StockModule.UI.Data;@using System
+@using System.IO
+@using Microsoft.AspNetCore.Hosting
+@using Microsoft.Extensions.Logging
+
+@inject IWebHostEnvironment Environment
+
+@inject FolderHierarchyService FolderHierarchyService
+@inject Radzen.DialogService DialogService
+@inject TooltipService tooltipService
+@inject NotificationService NotificationService
+@inject ILogger<AddEditFolder> logger
+
+@*<h3>@title</h3>*@
+<RadzenCard>
+<EditForm Model="@fldrhrchy" OnValidSubmit="OnValidSubmit">
+
+    <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <InputText class="form-control" id="name" @bind-Value="fldrhrchy.Name" placeholder="Name" />
+                    <ValidationMessage For="(() => fldrhrchy.Name)"></ValidationMessage>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name">Icon</label>
+                    <InputFile OnChange="@LoadFiles"></InputFile>
+                </div>
+            </div>
+            <div class ="col-md-12 mt-3">
+                <button class="btn btn-primary" type="submit">Save</button>
+                <button class="btn btn-light" type="button" @onclick="clear">Close</button>
+            </div>
+    </div>
+        </EditForm>
+
+  
+</RadzenCard>
+@code {
+
+}

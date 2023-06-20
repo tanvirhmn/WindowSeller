@@ -1,0 +1,105 @@
+﻿@page "/materialSearch"
+@using StockModule.UI.Data;
+@using StockModule.UI.Model;
+
+@inject StockSettingsMaterial_FolderHierarchyService StockSettingsMaterial_FolderHierarchyService
+@inject FolderHierarchyService FolderHierarchyService
+@inject StockSettingsService StockSettingsService
+@inject Radzen.DialogService DialogService
+@inject TooltipService tooltipService
+@inject NotificationService NotificationService
+@inject ContextMenuService ContextMenuService
+@inject NavigationManager uriHelper;
+
+<!-- BEGIN: Content-->
+<div class="app-content content">
+    <div class="content-overlay"></div>
+    <div class="header-navbar-shadow"></div>
+    <div class="content-wrapper min-width-container p-0">
+        <div class="content-header row">
+        </div>
+        <div class="content-body">
+            <RadzenLayout style="height: 98vh;overflow:hidden;width:100%; grid-template-columns: 1fr auto; grid-template-areas: 'rz-header rz-sidebar' 'rz-body rz-sidebar'">
+                <div style="padding-bottom :16px;padding-left :16px;padding-right :16px;">
+                    <div style="float:right; clear:both;padding-bottom :10px;">
+                        <RadzenButton Click="@(() =>  sidebar4Expanded = !sidebar4Expanded)" Size="ButtonSize.ExtraSmall" class="rz-ripple rz-button rz-button-md rz-variant-outlined rz-primary rz-shade-default " Style="border-radius: var(--rz-sidebar-toggle-hover-border-radius);"
+                                      Variant="Radzen.Variant.Outlined" ButtonStyle="ButtonStyle.Primary" Image=@(sidebar4Expanded?"images/disc.svg":"images/circle.svg") />
+                    </div>
+                    <div style="float:right; clear:both">
+                        <RadzenDataGrid KeyProperty="Id"
+                                        Data="@stockSettingsMaterial_FolderHierarchyVMs"
+                                        Count="@count"
+                                        Style="height:2550px"
+                                        AllowVirtualization="true"
+                                        AllowFiltering="true"
+                                        AllowColumnResize="true"
+                                        AllowAlternatingRows="false"
+                                        FilterMode="FilterMode.Advanced"
+                                        FilterPopupRenderMode="PopupRenderMode.OnDemand"
+                                        AllowSorting="true"
+                                        IsLoading="@isLoading"
+                                        TItem="StockSettingsMaterial_FolderHierarchyVM"
+                                        LogicalFilterOperator="LogicalFilterOperator.And"
+                                        CellContextMenu="@OnCellContextMenu"
+                                        SelectionMode="Radzen.DataGridSelectionMode.Multiple"
+                                        AllowRowSelectOnRowClick="true"
+                                        RowDoubleClick="@OnRowDoubleClickAsync"
+                                        AllowColumnPicking="true"
+                                        AllowColumnReorder="true"
+                                        @bind-Value=@selectedstockSettingsMaterial_Folders
+                                        @ref="materialGrid">
+                            <HeaderTemplate>
+                                <div style="display: flex; justify-content: space-between;align-items: center;">
+                                    @*<RadzenSidebarToggle Click="@(() =>)" Style="border-radius: var(--rz-sidebar-toggle-hover-border-radius);" class="rz-ripple rz-button rz-button-md rz-variant-outlined rz-primary rz-shade-default" />*@
+                                    <RadzenButton Click="@ClearRowSelection" Text="Clear Selection" Variant="Radzen.Variant.Outlined" ButtonStyle="ButtonStyle.Primary" />
+                                    @if (selectedstockSettingsMaterial_Folders?.Any() == true)
+                                    {
+                                        <div style="margin-left: 16px;color: var(--rz-primary);">
+                                            @selectedstockSettingsMaterial_Folders.Count.ToString() Rows Selected
+                                        </div>
+                                    }
+                                    @*<RadzenSidebarToggle Click="@(() => sidebar4Expanded = !sidebar4Expanded)" Class="rz-m-0" Style="background-color: var(--rz-primary) !important;display:flex;" />*@
+                                </div>
+                            </HeaderTemplate>
+                            <Columns>
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Id" Filterable="false" Title="ID" Width="80px" TextAlign="TextAlign.Center" Visible="false" Pickable="false" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Code" Title="Code" Frozen="true" Width="160px" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Alias" Title="Alias" Width="160px" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Description" Title="Description" Width="200px" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Color" Title="Color" Width="120px" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Type" Title="Type" Width="160px" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="BarLength" Title="Bar Length" Width="160px" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="StockSettingsId" Filterable="false" Title="StockSettingsId" Width="200px" Visible="false" Pickable="false" />
+                                <RadzenDataGridColumn TItem="StockSettingsMaterial_FolderHierarchyVM" Property="FolderHierarchyId" Filterable="false" Title="FolderHierarchyId" Width="160px" Visible="false" Pickable="false" />
+                            </Columns>
+                        </RadzenDataGrid>
+                    </div>
+                </div>
+                <RadzenSidebar @bind-Expanded="@sidebar4Expanded">
+                    <RadzenTextBox Change=@(args => OnChange(args, "TextBox")) class="w-100" />
+
+                    <div style="overflow-y:scroll;height:80vh;">
+                        @*<RadzenTree Data=@folderHierarchyVMs Expand=@OnExpandAsync Style="width: 100%; height: 300px" ContextMenu=@(args => ShowContextMenuWithItems(args))
+                        Change="@OnTreeSelectionChange">*@
+                        <RadzenTree Data=@folderHierarchyVMs ContextMenu=@(args => ShowContextMenuWithItems(args))
+                                    Change="@OnTreeSelectionChange">
+                            <RadzenTreeLevel TextProperty="Name" Template=@FileOrFolderTemplate ChildrenProperty="Children" HasChildren="HasChildren" Expanded="ShouldExpand" Selected="ShouldSelect">
+                            </RadzenTreeLevel>
+                            @*<RadzenTreeLevel TextProperty="Name" Template=@FileOrFolderTemplate Expanded="ShouldExpand" HasChildren="HasChildren" >
+                            </RadzenTreeLevel>
+                            <RadzenTreeLevel TextProperty="Name" Template=@FileOrFolderTemplate Expanded="ShouldExpand" HasChildren="HasChildren">
+                            </RadzenTreeLevel>*@
+                        </RadzenTree>
+                    </div>
+                </RadzenSidebar>
+            </RadzenLayout>
+
+        </div>
+    </div>
+</div>
+<!-- END: Content-->
+
+@code {
+
+ 
+}

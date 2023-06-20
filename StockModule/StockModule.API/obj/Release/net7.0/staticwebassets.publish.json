@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "eZf7IloF7Rajj56Zyd1gniK+RczhYL2iVPCPIrJN0FA=",
+  "Source": "StockModule.API",
+  "BasePath": "_content/StockModule.API",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
