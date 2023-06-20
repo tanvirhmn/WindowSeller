@@ -22,3 +22,15 @@ C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.Utility\obj\Debug\net7.
 C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.Utility\obj\Debug\net7.0\refint\StockModule.Utility.dll
 C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.pdb
 C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.Utility\obj\Debug\net7.0\ref\StockModule.Utility.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\bin\Debug\net7.0\StockModule.Utility.deps.json
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\bin\Debug\net7.0\StockModule.Utility.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\bin\Debug\net7.0\StockModule.Utility.pdb
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.csproj.AssemblyReference.cache
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.AssemblyInfoInputs.cache
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.AssemblyInfo.cs
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.csproj.CoreCompileInputs.cache
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\refint\StockModule.Utility.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\StockModule.Utility.pdb
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.Utility\obj\Debug\net7.0\ref\StockModule.Utility.dll

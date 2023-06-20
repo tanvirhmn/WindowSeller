@@ -9222,28 +9222,25 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tanvi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\This Pc\\.nuget\\packages\\": {},
+    "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\StockModule\\StocckModule.UI.Test\\StocckModule.UI.Test.csproj",
+      "projectUniqueName": "E:\\Repos\\GitHub\\WindowSeller\\StockModule\\StocckModule.UI.Test\\StocckModule.UI.Test.csproj",
       "projectName": "StocckModule.UI.Test",
-      "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\StockModule\\StocckModule.UI.Test\\StocckModule.UI.Test.csproj",
-      "packagesPath": "C:\\Users\\tanvi\\.nuget\\packages\\",
-      "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\StockModule\\StocckModule.UI.Test\\obj\\",
+      "projectPath": "E:\\Repos\\GitHub\\WindowSeller\\StockModule\\StocckModule.UI.Test\\StocckModule.UI.Test.csproj",
+      "packagesPath": "C:\\Users\\This Pc\\.nuget\\packages\\",
+      "outputPath": "E:\\Repos\\GitHub\\WindowSeller\\StockModule\\StocckModule.UI.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        "E:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\tanvi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\This Pc\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
@@ -9257,8 +9254,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\WorkCode\\GitHub\\Intus Windows\\StockModule\\StockModule.UI\\StockModule.UI.csproj": {
-              "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\StockModule\\StockModule.UI\\StockModule.UI.csproj"
+            "E:\\Repos\\GitHub\\WindowSeller\\StockModule\\StockModule.UI\\StockModule.UI.csproj": {
+              "projectPath": "E:\\Repos\\GitHub\\WindowSeller\\StockModule\\StockModule.UI\\StockModule.UI.csproj"
             }
           }
         }
@@ -9310,7 +9307,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

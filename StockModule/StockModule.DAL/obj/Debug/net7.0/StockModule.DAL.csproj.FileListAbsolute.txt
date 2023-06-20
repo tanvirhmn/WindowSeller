@@ -32,3 +32,20 @@ C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.DAL\obj\Debug\net7.0\re
 C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.pdb
 C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.genruntimeconfig.cache
 C:\WorkCode\GitHub\Intus Windows\StockModule\StockModule.DAL\obj\Debug\net7.0\ref\StockModule.DAL.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\bin\Debug\net7.0\StockModule.DAL.deps.json
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\bin\Debug\net7.0\StockModule.DAL.runtimeconfig.json
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\bin\Debug\net7.0\StockModule.DAL.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\bin\Debug\net7.0\StockModule.DAL.pdb
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\bin\Debug\net7.0\StockModule.Utility.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\bin\Debug\net7.0\StockModule.Utility.pdb
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.csproj.AssemblyReference.cache
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.AssemblyInfoInputs.cache
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.AssemblyInfo.cs
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.csproj.CoreCompileInputs.cache
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.csproj.CopyComplete
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\refint\StockModule.DAL.dll
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.pdb
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\StockModule.DAL.genruntimeconfig.cache
+E:\Repos\GitHub\WindowSeller\StockModule\StockModule.DAL\obj\Debug\net7.0\ref\StockModule.DAL.dll
