@@ -16,13 +16,6 @@
     TItem="StockSettingsMaterial_FolderHierarchyVM"
                   ViewChanged=@(view => filtered_StockSettingsMaterial_FolderHierarchyVMs = view)>
     <Properties>
-        <RadzenDataFilterProperty TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Id" Title="Material ID" FilterValue="@selectedIds"
-                                  Type="typeof(IEnumerable<int>)" FilterOperator="Radzen.FilterOperator.Contains">
-                <FilterTemplate>
-                        <RadzenDropDown @bind-Value=@selectedIds Style="width:100%;"
-                                Change=@OnSelectedIdsChange Data="@(materialIds)" AllowClear="true" Multiple="true" />
-                </FilterTemplate>
-        </RadzenDataFilterProperty>
         <RadzenDataFilterProperty TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Code" Title="Code" />
         <RadzenDataFilterProperty TItem="StockSettingsMaterial_FolderHierarchyVM" Property="Type" Title="Type" />
         <RadzenDataFilterProperty TItem="StockSettingsMaterial_FolderHierarchyVM" Property="BarLength" Title="Bar Length" />
