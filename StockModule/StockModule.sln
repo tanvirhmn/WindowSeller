@@ -20,10 +20,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockModule.WASM", "StockMo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StocckModule.UI.Test", "StocckModule.UI.Test\StocckModule.UI.Test.csproj", "{2392EA3A-B766-4E9E-9A4D-3027571B9B7E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModulesUtilities", "..\ModulesUtilities\ModulesUtilities\ModulesUtilities.csproj", "{526A5118-857B-4656-BB41-D613E7C3286C}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CommonComponentsLibrary", "..\CommonComponents\CommonComponents\CommonComponentsLibrary\CommonComponentsLibrary.csproj", "{4FCFC64B-8E6C-4717-A7E2-524460B148B7}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -58,14 +54,6 @@ Global
 		{2392EA3A-B766-4E9E-9A4D-3027571B9B7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2392EA3A-B766-4E9E-9A4D-3027571B9B7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2392EA3A-B766-4E9E-9A4D-3027571B9B7E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{526A5118-857B-4656-BB41-D613E7C3286C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{526A5118-857B-4656-BB41-D613E7C3286C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{526A5118-857B-4656-BB41-D613E7C3286C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{526A5118-857B-4656-BB41-D613E7C3286C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4FCFC64B-8E6C-4717-A7E2-524460B148B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4FCFC64B-8E6C-4717-A7E2-524460B148B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4FCFC64B-8E6C-4717-A7E2-524460B148B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4FCFC64B-8E6C-4717-A7E2-524460B148B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
