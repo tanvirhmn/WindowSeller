@@ -38,20 +38,11 @@ namespace StockModule.UI.Pages
         IList<StockSettingsMaterial_FolderHierarchyVM> selectedStockSettingsMaterial_FolderHierarchyVMs;
         bool hasChildren;
 
-        IEnumerable<int> selectedIds;
-        IEnumerable<int> materialIds;
+     
 
         bool auto = true;
 
-        #region DataFilter
-        void OnSelectedIdsChange(object value)
-        {
-            if (selectedIds != null && !selectedIds.Any())
-            {
-                selectedIds = null;
-            }
-        }
-        #endregion
+
 
         #region Page
         protected override async Task OnInitializedAsync()
@@ -67,7 +58,6 @@ namespace StockModule.UI.Pages
         {
             stockSettingsMaterial_FolderHierarchyVMs = await StockSettingsMaterial_FolderHierarchyService.GetAllAsync();
             count = stockSettingsMaterial_FolderHierarchyVMs.Count();
-            materialIds = stockSettingsMaterial_FolderHierarchyVMs.Select(x => x.Id).Distinct();
         }
         private async void LoadGrid()
         {
@@ -82,10 +72,11 @@ namespace StockModule.UI.Pages
             {
                 await dataFilter.AddFilter(new CompositeFilterDescriptor()
                 {
-                    Property = "StockSettingsMaterial_FolderHierarchyVM.Code",
-                    FilterValue = "AZF",
+                    Property = "Code",
+                    FilterValue = "AZ",
                     FilterOperator = FilterOperator.Contains
                 });
+                await dataFilter.Filter();
             }
         }
         #endregion
