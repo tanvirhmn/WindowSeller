@@ -125,3 +125,4 @@ DynamicMenuLink/.vs/DynamicMenuLink/v17/.suo
 /StockModule/StockModule.WASM/obj/Debug/net7.0/project.razor.vs.json
 StockModule/.vs/StockModule/v17/.suo
 /StockModule/.vs/StockModule/v17/.suo
+*.bin
