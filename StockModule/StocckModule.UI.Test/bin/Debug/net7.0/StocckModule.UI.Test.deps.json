@@ -1809,32 +1809,11 @@
         }
       },
       "xunit.runner.visualstudio/2.4.5": {},
-      "CommonComponentsLibrary/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.5",
-          "Microsoft.Identity.Web": "2.11.1",
-          "Microsoft.Identity.Web.DownstreamApi": "2.11.1",
-          "Microsoft.Identity.Web.MicrosoftGraph": "2.11.1",
-          "Microsoft.Identity.Web.UI": "2.11.1"
-        },
-        "runtime": {
-          "CommonComponentsLibrary.dll": {}
-        }
-      },
-      "ModulesUtilities/1.0.0": {
-        "dependencies": {
-          "Gelf.Extensions.Logging": "2.6.0"
-        },
-        "runtime": {
-          "ModulesUtilities.dll": {}
-        }
-      },
       "StockModule.UI/1.0.0": {
         "dependencies": {
           "Blazorise.Bootstrap": "1.2.3",
           "Blazorise.DataGrid": "1.2.3",
           "Blazorise.Icons.FontAwesome": "1.2.3",
-          "CommonComponentsLibrary": "1.0.0",
           "Gelf.Extensions.Logging": "2.6.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.5",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "7.0.5",
@@ -1842,7 +1821,6 @@
           "Microsoft.Identity.Web.DownstreamApi": "2.11.1",
           "Microsoft.Identity.Web.MicrosoftGraph": "2.11.1",
           "Microsoft.Identity.Web.UI": "2.11.1",
-          "ModulesUtilities": "1.0.0",
           "MudBlazor": "6.4.1",
           "Newtonsoft.Json": "13.0.3",
           "Radzen.Blazor": "4.13.0",
@@ -3062,16 +3040,6 @@
       "sha512": "sha512-OwHamvBdUKgqsXfBzWiCW/O98BTx81UKzx2bieIOQI7CZFE5NEQZGi8PBQGIKawDW96xeRffiNf20SjfC0x9hw==",
       "path": "xunit.runner.visualstudio/2.4.5",
       "hashPath": "xunit.runner.visualstudio.2.4.5.nupkg.sha512"
-    },
-    "CommonComponentsLibrary/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ModulesUtilities/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "StockModule.UI/1.0.0": {
       "type": "project",

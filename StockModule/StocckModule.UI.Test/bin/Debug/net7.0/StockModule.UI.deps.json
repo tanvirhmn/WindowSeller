@@ -11,7 +11,6 @@
           "Blazorise.Bootstrap": "1.2.3",
           "Blazorise.DataGrid": "1.2.3",
           "Blazorise.Icons.FontAwesome": "1.2.3",
-          "CommonComponentsLibrary": "1.0.0",
           "Gelf.Extensions.Logging": "2.6.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "7.0.5",
           "Microsoft.AspNetCore.Authentication.OpenIdConnect": "7.0.5",
@@ -19,7 +18,6 @@
           "Microsoft.Identity.Web.DownstreamApi": "2.11.1",
           "Microsoft.Identity.Web.MicrosoftGraph": "2.11.1",
           "Microsoft.Identity.Web.UI": "2.11.1",
-          "ModulesUtilities": "1.0.0",
           "MudBlazor": "6.4.1",
           "Newtonsoft.Json": "13.0.3",
           "Radzen.Blazor": "4.13.0",
@@ -934,26 +932,6 @@
       },
       "System.Threading.Tasks.Dataflow/4.9.0": {},
       "System.Threading.Tasks.Extensions/4.5.4": {},
-      "CommonComponentsLibrary/1.0.0": {
-        "dependencies": {
-          "Microsoft.AspNetCore.Components.Web": "7.0.5",
-          "Microsoft.Identity.Web": "2.11.1",
-          "Microsoft.Identity.Web.DownstreamApi": "2.11.1",
-          "Microsoft.Identity.Web.MicrosoftGraph": "2.11.1",
-          "Microsoft.Identity.Web.UI": "2.11.1"
-        },
-        "runtime": {
-          "CommonComponentsLibrary.dll": {}
-        }
-      },
-      "ModulesUtilities/1.0.0": {
-        "dependencies": {
-          "Gelf.Extensions.Logging": "2.6.0"
-        },
-        "runtime": {
-          "ModulesUtilities.dll": {}
-        }
-      },
       "StockModule.Utility/1.0.0": {
         "runtime": {
           "StockModule.Utility.dll": {}
@@ -1652,16 +1630,6 @@
       "sha512": "sha512-zteT+G8xuGu6mS+mzDzYXbzS7rd3K6Fjb9RiZlYlJPam2/hU7JCBZBVEcywNuR+oZ1ncTvc/cq0faRr3P01OVg==",
       "path": "system.threading.tasks.extensions/4.5.4",
       "hashPath": "system.threading.tasks.extensions.4.5.4.nupkg.sha512"
-    },
-    "CommonComponentsLibrary/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ModulesUtilities/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "StockModule.Utility/1.0.0": {
       "type": "project",

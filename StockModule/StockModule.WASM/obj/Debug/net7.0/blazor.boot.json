@@ -202,15 +202,15 @@
       "mscorlib.dll": "sha256-qqpKd+W+AFb6UxudEYEKzrz7ma81p5LrWUwPBVvHV4U=",
       "netstandard.dll": "sha256-OYYuPT3JUknj4LdYIa58zF7kDB3tCnLzjCSuhEjtKXM=",
       "System.Private.CoreLib.dll": "sha256-EVS7zPxPV\/41g2mzPwdXtwiigWxI\/SeAHme1IgyD6tc=",
-      "StockModule.Utility.dll": "sha256-HbX4YBhkQE6KY\/aFYYW9jkjKCN1ih7U4Pxhjf77U4+E=",
-      "StockModule.WASM.dll": "sha256-gB5EmFJdxZ\/W6Vi8j6xnaMNHKdtHrn0KiXp8wVtFrkM="
+      "StockModule.Utility.dll": "sha256-eWD1PnonVIivZ3miXCkn01zaOrQsWTy8of1HIwjc9BU=",
+      "StockModule.WASM.dll": "sha256-rHnCv7LLz0stZJPTHacw9Kl7pwiqfZqIlu6J3LkauXk="
     },
     "extensions": null,
     "lazyAssembly": null,
     "libraryInitializers": null,
     "pdb": {
-      "StockModule.Utility.pdb": "sha256-5wnt5ul4AcN\/7TD38LVAx3hU1K0dfvoD43C3pMq++ww=",
-      "StockModule.WASM.pdb": "sha256-nO9\/wuvkS2PB3KUFA+xkY8T+AkUQyJY5U3HyYenXjrM="
+      "StockModule.Utility.pdb": "sha256-w8RAhU2PKQ0qPZEID063hiw8yMWwqSVqxEhjWvMzZkQ=",
+      "StockModule.WASM.pdb": "sha256-\/SEJLTPntvFZLlbvBPNRODqgPF74LPyUWsAGUHcZ8cE="
     },
     "runtime": {
       "dotnet.7.0.5.krkqb411uc.js": "sha256-codB25EodaFEP43MDCfMBuKXU4LqurUKnQrpoMIFnPs=",

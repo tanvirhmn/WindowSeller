@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StockModule.DAL.Models.MaterialColumn">
+    <Position X="5.25" Y="1" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAGCAAAAAAAAAAAAQAAAAQgAAAAAAAAASAAAAAAAAA=</HashCode>
+      <FileName>Models\MaterialColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockModule.DAL.Models.FolderHierarchy">
+    <Position X="13.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAABAAAAAAAAAAAAAAAQAAAAAAAAAAgAAAAEAAAA=</HashCode>
+      <FileName>Models\FolderHierarchy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StockModule.DAL.Models.FolderHierarchyMaterialColumnMap">
+    <Position X="9.5" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAEAAEAAAAACAAAAgAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Models\FolderHierarchyMaterialColumnMap.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="FolderHierarchy" />
+      <Property Name="MaterialColumn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StockModule.DAL.Models.MaterialColumnValue">
+    <Position X="0.75" Y="1" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAEAAAAAAAAAAAABAAAAAAAAAAAAgAEAAAAA=</HashCode>
+      <FileName>Models\MaterialColumnValue.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MaterialColumn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StockModule.DAL.Models.MaterialTypeEnumMaster">
+    <Position X="6" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Models\MaterialTypeEnumMaster.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MaterialColumn" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="StockModule.DAL.Models.MaterialTypeEnumDetail">
+    <Position X="6" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQAAQAAAAAAAAAAAAAAACAgAAAAAAA=</HashCode>
+      <FileName>Models\MaterialTypeEnumDetail.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="MaterialTypeEnumMaster" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.JSInterop;
 using Newtonsoft.Json.Linq;
 using Radzen;
 using Radzen.Blazor;
@@ -38,10 +39,12 @@ namespace StockModule.UI.Pages
         IList<StockSettingsMaterial_FolderHierarchyVM> selectedStockSettingsMaterial_FolderHierarchyVMs;
         bool hasChildren;
 
-     
+        private IJSObjectReference module;
 
         bool auto = true;
 
+        [Inject]
+        protected IJSRuntime JS { get; set; }
 
 
         #region Page
@@ -70,6 +73,7 @@ namespace StockModule.UI.Pages
 
             if (firstRender)
             {
+                module = await JS.InvokeAsync<IJSObjectReference>("import", "./Pages/MaterialSearch.razor.js");
                 await dataFilter.AddFilter(new CompositeFilterDescriptor()
                 {
                     Property = "Code",
@@ -80,6 +84,19 @@ namespace StockModule.UI.Pages
             }
         }
         #endregion
+
+        protected async  void ShowModal(string elementID)
+        {
+            if(module != null)
+            {
+                await module.InvokeAsync<string>("showModal",elementID);
+            }
+            else
+            {
+                module = await JS.InvokeAsync<IJSObjectReference>("import", "./Pages/MaterialSearch.razor.js");
+                await module.InvokeAsync<string>("showModal", elementID);
+            }
+        }
 
         #region Grid
 
