@@ -1,5 +1,7 @@
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.ResponseCompression;
+using SignalRApp.Hubs;
 using SignalRApp.Data;
 
 namespace SignalRApp
@@ -14,6 +16,10 @@ namespace SignalRApp
             builder.Services.AddRazorPages();
             builder.Services.AddServerSideBlazor();
             builder.Services.AddSingleton<WeatherForecastService>();
+            builder.Services.AddResponseCompression(opts =>
+            {
+                opts.MimeTypes= ResponseCompressionDefaults.MimeTypes.Concat(new[] { "application/octet-stream"});
+            });
 
             var app = builder.Build();
 
@@ -32,6 +38,7 @@ namespace SignalRApp
             app.UseRouting();
 
             app.MapBlazorHub();
+            app.MapHub<ChatHub>("/chathub");
             app.MapFallbackToPage("/_Host");
 
             app.Run();
