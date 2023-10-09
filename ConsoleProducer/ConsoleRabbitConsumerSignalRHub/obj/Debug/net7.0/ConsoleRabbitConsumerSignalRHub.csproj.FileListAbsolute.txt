@@ -1,0 +1,17 @@
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\bin\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.exe
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\bin\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\bin\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.runtimeconfig.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\bin\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\bin\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.csproj.CopyComplete
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\refint\ConsoleRabbitConsumerSignalRHub.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ConsoleRabbitConsumerSignalRHub.genruntimeconfig.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleRabbitConsumerSignalRHub\obj\Debug\net7.0\ref\ConsoleRabbitConsumerSignalRHub.dll

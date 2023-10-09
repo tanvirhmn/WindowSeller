@@ -1,0 +1,17 @@
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\bin\Debug\net7.0\ConsoleProducer.exe
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\bin\Debug\net7.0\ConsoleProducer.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\bin\Debug\net7.0\ConsoleProducer.runtimeconfig.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\bin\Debug\net7.0\ConsoleProducer.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\bin\Debug\net7.0\ConsoleProducer.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\bin\Debug\net7.0\RabbitMQ.Client.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.csproj.CopyComplete
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\refint\ConsoleProducer.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ConsoleProducer.genruntimeconfig.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleProducer\ConsoleProducer\obj\Debug\net7.0\ref\ConsoleProducer.dll
