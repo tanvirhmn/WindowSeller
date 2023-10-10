@@ -9,22 +9,30 @@ namespace ConsoleProducer
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Console.WriteLine("Producer Begin!");
 
-            ConnectionFactory factory = new ConnectionFactory { HostName = "http://factory-mq.intus.lt:8080/" };
+            ConnectionFactory factory = new ConnectionFactory
+            {
+                HostName = "factory-mq.intus.lt",
+                Port = 5672,
+                UserName = "stock-module",
+                Password = "stockm123",
+                VirtualHost = "/"
+            };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
 
-            channel.QueueDeclare(queue: "inventory-scan", durable: false,
+            channel.QueueDeclare(queue: "TestDevQ", 
+                     durable: true,
                      exclusive: false,
                      autoDelete: false,
                      arguments: null);
 
-            const string message = "Hello World!";
+            const string message = "Hello Rabbit!";
             var body = Encoding.UTF8.GetBytes(message);
 
             channel.BasicPublish(exchange: string.Empty,
-                                 routingKey: "hello",
+                                 routingKey: "TestDevQ",
                                  basicProperties: null,
                                  body: body);
             Console.WriteLine($" [x] Sent {message}");

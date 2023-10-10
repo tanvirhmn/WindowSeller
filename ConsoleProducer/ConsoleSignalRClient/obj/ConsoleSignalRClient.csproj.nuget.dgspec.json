@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj": {}
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\ConsoleSignalRClient.csproj": {}
   },
   "projects": {
-    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj": {
+    "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\ConsoleSignalRClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj",
-        "projectName": "ConsoleRabbitConsumerSignalRHub",
-        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj",
+        "projectUniqueName": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\ConsoleSignalRClient.csproj",
+        "projectName": "ConsoleSignalRClient",
+        "projectPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\ConsoleSignalRClient.csproj",
         "packagesPath": "C:\\Users\\tanvi\\.nuget\\packages\\",
-        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\obj\\",
+        "outputPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -47,17 +47,9 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
-            "Microsoft.AspNet.SignalR.SelfHost": {
+            "Microsoft.AspNet.SignalR.Client": {
               "target": "Package",
               "version": "[2.4.3, )"
-            },
-            "Microsoft.AspNetCore": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "RabbitMQ.Client": {
-              "target": "Package",
-              "version": "[6.5.0, )"
             }
           },
           "imports": [

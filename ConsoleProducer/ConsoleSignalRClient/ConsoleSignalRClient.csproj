@@ -8,12 +8,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNet.SignalR.SelfHost" Version="2.4.3" />
-    <PackageReference Include="Microsoft.AspNetCore" Version="2.2.0" />
-    <PackageReference Include="RabbitMQ.Client" Version="6.5.0" />
+    <PackageReference Include="Microsoft.AspNet.SignalR.Client" Version="2.4.3" />
   </ItemGroup>
   <ItemGroup>
-    <FramworkReference Include="Microsoft.AspNetCore.App" />
+    <FramworkReference Include="Microsoft.AspNetCore.App"/>
   </ItemGroup>
-
 </Project>

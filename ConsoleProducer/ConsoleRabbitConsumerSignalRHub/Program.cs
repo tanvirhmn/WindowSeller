@@ -1,4 +1,6 @@
 ﻿using System.Text;
+using Microsoft.AspNetCore;
+using Microsoft.AspNetCore.Hosting;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 
@@ -8,13 +10,21 @@ namespace ConsoleRabbitConsumerSignalRHub
     {
         static void Main(string[] args)
         {
+            CreateWebHostBuilder(args).Build().Run();
 
-            var factory = new ConnectionFactory { HostName = "http://factory-mq.intus.lt:8080/" };
+            var factory = new ConnectionFactory 
+            { 
+                HostName = "factory-mq.intus.lt" , 
+                Port = 5672,
+                UserName = "stock-module", 
+                Password = "stockm123", 
+                VirtualHost = "/" 
+            };
             using var connection = factory.CreateConnection();
             using var channel = connection.CreateModel();
 
-            channel.QueueDeclare(queue: "inventory-scan",
-                                 durable: false,
+            channel.QueueDeclare(queue: "TestDevQ",
+                                 durable: true,
                                  exclusive: false,
                                  autoDelete: false,
                                  arguments: null);
@@ -28,12 +38,16 @@ namespace ConsoleRabbitConsumerSignalRHub
                 var message = Encoding.UTF8.GetString(body);
                 Console.WriteLine($" [x] Received {message}");
             };
-            channel.BasicConsume(queue: "inventory-scan",
+            channel.BasicConsume(queue: "TestDevQ",
                                  autoAck: true,
                                  consumer: consumer);
 
             Console.WriteLine(" Press [enter] to exit.");
             Console.ReadLine();
         }
+
+        private static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+            WebHost.CreateDefaultBuilder(args).UseStartup<StartUp>();
     }
+
 }

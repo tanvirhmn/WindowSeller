@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "lB4PLkS4ohTBY1NGMdw7hGGOB7qPUebRCIyJwl74+Sp5GtQZroZkPQ4JuL6SkQoiXyE5EoujaquwudTW4L6stQ==",
+  "success": true,
+  "projectFilePath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\ConsoleSignalRClient.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.aspnet.signalr.client\\2.4.3\\microsoft.aspnet.signalr.client.2.4.3.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\newtonsoft.json\\11.0.2\\newtonsoft.json.11.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
