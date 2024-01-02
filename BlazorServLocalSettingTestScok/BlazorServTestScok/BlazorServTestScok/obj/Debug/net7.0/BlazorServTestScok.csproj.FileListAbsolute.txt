@@ -78,3 +78,44 @@ E:\Repos\BlazorServTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7
 E:\Repos\BlazorServTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.pdb
 E:\Repos\BlazorServTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.genruntimeconfig.cache
 E:\Repos\BlazorServTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\ref\BlazorServTestScok.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\appsettings.Development.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\appsettings.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\BlazorServTestScok.staticwebassets.runtime.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\BlazorServTestScok.exe
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\BlazorServTestScok.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\BlazorServTestScok.runtimeconfig.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\BlazorServTestScok.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\BlazorServTestScok.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\Microsoft.AspNetCore.Authorization.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\Microsoft.AspNetCore.Components.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\Microsoft.AspNetCore.Metadata.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\Radzen.Blazor.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\bin\Debug\net7.0\System.Linq.Dynamic.Core.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.csproj.AssemblyReference.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.MvcApplicationPartsAssemblyInfo.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.RazorAssemblyInfo.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.RazorAssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.sourcelink.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\staticwebassets.build.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\staticwebassets.development.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\staticwebassets\msbuild.BlazorServTestScok.Microsoft.AspNetCore.StaticWebAssets.props
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\staticwebassets\msbuild.build.BlazorServTestScok.props
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.BlazorServTestScok.props
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.BlazorServTestScok.props
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\staticwebassets.pack.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\scopedcss\bundle\BlazorServTestScok.styles.css
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\scopedcss\projectbundle\BlazorServTestScok.bundle.scp.css
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.csproj.CopyComplete
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\refint\BlazorServTestScok.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\BlazorServTestScok.genruntimeconfig.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorServLocalSettingTestScok\BlazorServTestScok\BlazorServTestScok\obj\Debug\net7.0\ref\BlazorServTestScok.dll

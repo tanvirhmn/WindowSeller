@@ -3,31 +3,41 @@
 @using Radzen
 @using Radzen.Blazor
 @using System.Text.Json
+@using Microsoft.AspNetCore.Components.Server.ProtectedBrowserStorage
+
+@inject ProtectedSessionStorage ProtectedSessionStore
 
 @inject IJSRuntime JSRuntime
 @inject NavigationManager NavigationManager
+@inject IHttpContextAccessor HttpContextAccessor
 
+<PageTitle>Counter</PageTitle>
 
-<RadzenDataGrid 
-    SelectionMode="DataGridSelectionMode.Multiple"  
-    Render="@OnRender" 
-    Data="@employees" 
-    TItem="Employee" 
-    ColumnWidth="400px"
-@bind-Settings="@Settings" 
-AllowFiltering="true" 
-AllowColumnPicking="true" 
-AllowGrouping="true" 
-                                                    AllowVirtualization="true"
-                                                    AllowPaging="false"
-                                                    PageSize="10000"
-                                                    ShowPagingSummary="false"
-                AllowSorting="true" 
-                AllowMultiColumnSorting="true" 
+<h1>Counter</h1>
+
+<p role="status">Current count: @currentCount</p>
+
+<button class="btn btn-primary" @onclick="IncrementCount">Click me</button>
+
+<RadzenDataGrid SelectionMode="DataGridSelectionMode.Multiple"
+                Render="@OnRender"
+                Data="@employees"
+                TItem="Employee"
+                ColumnWidth="400px"
+                @bind-Settings="@Settings"
+                AllowFiltering="true"
+                AllowColumnPicking="true"
+                AllowGrouping="true"
+                AllowVirtualization="true"
+                AllowPaging="false"
+                PageSize="10000"
+                ShowPagingSummary="false"
+                AllowSorting="true"
+                AllowMultiColumnSorting="true"
                 ShowMultiColumnSortingIndex="true"
-                AllowColumnResize="true" 
-                AllowColumnReorder="true" 
-                FilterPopupRenderMode="PopupRenderMode.OnDemand" 
+                AllowColumnResize="true"
+                AllowColumnReorder="true"
+                FilterPopupRenderMode="PopupRenderMode.OnDemand"
                 FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive">
     <Columns>
         <RadzenDataGridColumn TItem="Employee" Property="FirstName" Title="First Name" Width="150px" />
@@ -40,14 +50,35 @@ AllowGrouping="true"
 
 @code {
     IEnumerable<Employee> employees;
+    string settings = string.Empty;
 
     protected override async Task OnInitializedAsync()
     {
         await base.OnInitializedAsync();
 
-        employees = new List<Employee>();
+        employees = new List<Employee>()
+        {
+            new Employee()
+            {
+               FirstName="AA" ,
+               LastName="BA",
+               BirthDate = DateTime.Now,
+               Country="CA",
+               Notes="FA"
+            },
+                        new Employee()
+            {
+               FirstName="AB" ,
+               LastName="BB",
+               BirthDate = DateTime.Now,
+               Country="CB",
+               Notes="FB"
+            },
+        };
 
     }
+
+
     DataGridSettings _settings;
     public DataGridSettings Settings
     {
@@ -68,8 +99,9 @@ AllowGrouping="true"
     private async Task LoadStateAsync()
     {
         await Task.CompletedTask;
-
         var result = await JSRuntime.InvokeAsync<string>("window.localStorage.getItem", "Settings");
+        //var result = await ProtectedSessionStore.GetAsync<string>("Settings");
+        //var result = HttpContextAccessor.HttpContext!.Session.GetString("Settings");
         if (!string.IsNullOrEmpty(result))
         {
             _settings = JsonSerializer.Deserialize<DataGridSettings>(result);
@@ -81,13 +113,16 @@ AllowGrouping="true"
         await Task.CompletedTask;
 
         await JSRuntime.InvokeVoidAsync("window.localStorage.setItem", "Settings", JsonSerializer.Serialize<DataGridSettings>(Settings));
+        //await ProtectedSessionStore.SetAsync("Settings", JsonSerializer.Serialize<DataGridSettings>(Settings));
+        //HttpContextAccessor.HttpContext!.Session.SetString("Settings", JsonSerializer.Serialize<DataGridSettings>(Settings));
+        //settings = JsonSerializer.Serialize<DataGridSettings>(Settings);
     }
 
     protected override async Task OnAfterRenderAsync(bool firstRender)
     {
+        await LoadStateAsync();
         if (firstRender)
         {
-            await LoadStateAsync();
             StateHasChanged();
         }
     }
@@ -98,6 +133,33 @@ AllowGrouping="true"
             args.Grid.Sorts.Add(new SortDescriptor() { Property = "BirthDate", SortOrder = SortOrder.Descending });
             args.Grid.Sorts.Add(new SortDescriptor() { Property = "LastName", SortOrder = SortOrder.Ascending });
         }
+    }
+
+    private int currentCount = 0;
+
+    private void IncrementCount()
+    {
+        currentCount++;
+        employees = new List<Employee>()
+        {
+            new Employee()
+            {
+               FirstName="AA" ,
+               LastName="BA",
+               BirthDate = DateTime.Now,
+               Country="CA",
+               Notes="FA"
+            },
+                        new Employee()
+            {
+               FirstName="AB" ,
+               LastName="BB",
+               BirthDate = DateTime.Now,
+               Country="CB",
+               Notes="FB"
+            },
+        };
+        StateHasChanged();
     }
 
     public class Employee
