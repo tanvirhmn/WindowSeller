@@ -9,61 +9,65 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorAppMain
 build_property.RootNamespace = BlazorAppMain
-build_property.ProjectDir = C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppMainChildTest\BlazorAppMain\
+build_property.ProjectDir = E:\Repos\GitHub\WindowSeller\BlazorAppMainChildTest\BlazorAppMain\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\WorkCode\GitHub\Intus Windows\WindowSeller\BlazorAppMainChildTest\BlazorAppMain
+build_property.MSBuildProjectDirectory = E:\Repos\GitHub\WindowSeller\BlazorAppMainChildTest\BlazorAppMain
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 6.0
+build_property.EnableCodeStyleSeverity = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/App.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/Counter.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/FetchData.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/Index.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/ShowProfile.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/ShowProfile.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hvd1Byb2ZpbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/LoginDisplay.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/LoginDisplay.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luRGlzcGxheS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/SurveyPrompt.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/_Imports.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/MainLayout.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-vgtgg79uul
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/NavMenu.razor]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-od9zneci1m
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/Error.cshtml]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/_Host.cshtml]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/WorkCode/GitHub/Intus Windows/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/_Layout.cshtml]
+[E:/Repos/GitHub/WindowSeller/BlazorAppMainChildTest/BlazorAppMain/Pages/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0xheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
