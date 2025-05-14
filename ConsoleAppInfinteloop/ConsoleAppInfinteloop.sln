@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleAppInfinteloop", "ConsoleAppInfinteloop\ConsoleAppInfinteloop.csproj", "{2C6DFB14-C73B-4232-B666-4D89AF315383}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C6DFB14-C73B-4232-B666-4D89AF315383}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C6DFB14-C73B-4232-B666-4D89AF315383}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C6DFB14-C73B-4232-B666-4D89AF315383}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C6DFB14-C73B-4232-B666-4D89AF315383}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

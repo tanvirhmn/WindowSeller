@@ -1,0 +1,15 @@
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.exe
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.deps.json
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.runtimeconfig.json
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.dll
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.pdb
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.GeneratedMSBuildEditorConfig.editorconfig
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.AssemblyInfoInputs.cache
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.AssemblyInfo.cs
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.csproj.CoreCompileInputs.cache
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.sourcelink.json
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.dll
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\refint\ConsoleAppInfinteloop.dll
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.pdb
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.genruntimeconfig.cache
+E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ref\ConsoleAppInfinteloop.dll
