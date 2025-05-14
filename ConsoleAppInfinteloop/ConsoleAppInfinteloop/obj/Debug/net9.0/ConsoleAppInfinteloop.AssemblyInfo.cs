@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleAppInfinteloop")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5341c046287d65b53bacec363bb8ff597acac4ff")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9432f8053a09daa50ea02bae563d34763187d04a")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleAppInfinteloop")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleAppInfinteloop")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
