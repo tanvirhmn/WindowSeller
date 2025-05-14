@@ -1,0 +1,203 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|c:\\workcode\\github\\intus windows\\windowseller\\consoleproducer\\consolerabbitconsumersignalrhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|solutionrelative:consolerabbitconsumersignalrhub\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|c:\\workcode\\github\\intus windows\\windowseller\\consoleproducer\\consolerabbitconsumersignalrhub\\hubs\\learninghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|solutionrelative:consolerabbitconsumersignalrhub\\hubs\\learninghub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FF89A8A-3117-4193-8D98-8E1ED359F706}|ConsoleProducer\\ConsoleProducer.csproj|c:\\workcode\\github\\intus windows\\windowseller\\consoleproducer\\consoleproducer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2FF89A8A-3117-4193-8D98-8E1ED359F706}|ConsoleProducer\\ConsoleProducer.csproj|solutionrelative:consoleproducer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF96AF5-A463-4358-94AB-855E33CB297B}|ConsoleSignalRClient\\ConsoleSignalRClient.csproj|c:\\workcode\\github\\intus windows\\windowseller\\consoleproducer\\consolesignalrclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFF96AF5-A463-4358-94AB-855E33CB297B}|ConsoleSignalRClient\\ConsoleSignalRClient.csproj|solutionrelative:consolesignalrclient\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|c:\\workcode\\github\\intus windows\\windowseller\\consoleproducer\\consolerabbitconsumersignalrhub\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|solutionrelative:consolerabbitconsumersignalrhub\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|c:\\workcode\\github\\intus windows\\windowseller\\consoleproducer\\consolerabbitconsumersignalrhub\\consolerabbitconsumersignalrhub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{767A50C6-0336-4D2F-9A45-C24706CF4EDF}|ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj|solutionrelative:consolerabbitconsumersignalrhub\\consolerabbitconsumersignalrhub.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFF96AF5-A463-4358-94AB-855E33CB297B}|ConsoleSignalRClient\\ConsoleSignalRClient.csproj|c:\\workcode\\github\\intus windows\\windowseller\\consoleproducer\\consolesignalrclient\\consolesignalrclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{BFF96AF5-A463-4358-94AB-855E33CB297B}|ConsoleSignalRClient\\ConsoleSignalRClient.csproj|solutionrelative:consolesignalrclient\\consolesignalrclient.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 575,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleRabbitConsumerSignalRHub\\Program.cs",
+              "ToolTip": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\Program.cs",
+              "RelativeToolTip": "ConsoleRabbitConsumerSignalRHub\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-09T14:55:05.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleProducer\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleProducer\\Program.cs",
+              "ToolTip": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleProducer\\Program.cs",
+              "RelativeToolTip": "ConsoleProducer\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-09T14:45:10.149Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LearningHub.cs",
+              "DocumentMoniker": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\Hubs\\LearningHub.cs",
+              "RelativeDocumentMoniker": "ConsoleRabbitConsumerSignalRHub\\Hubs\\LearningHub.cs",
+              "ToolTip": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\Hubs\\LearningHub.cs",
+              "RelativeToolTip": "ConsoleRabbitConsumerSignalRHub\\Hubs\\LearningHub.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T04:40:25.891Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "StartUp.cs",
+              "DocumentMoniker": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\StartUp.cs",
+              "RelativeDocumentMoniker": "ConsoleRabbitConsumerSignalRHub\\StartUp.cs",
+              "ToolTip": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\StartUp.cs",
+              "RelativeToolTip": "ConsoleRabbitConsumerSignalRHub\\StartUp.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T04:41:54.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ConsoleRabbitConsumerSignalRHub.csproj",
+              "DocumentMoniker": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj",
+              "RelativeDocumentMoniker": "ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj",
+              "ToolTip": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj",
+              "RelativeToolTip": "ConsoleRabbitConsumerSignalRHub\\ConsoleRabbitConsumerSignalRHub.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-10-11T08:32:47.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConsoleSignalRClient.csproj",
+              "DocumentMoniker": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\ConsoleSignalRClient.csproj",
+              "RelativeDocumentMoniker": "ConsoleSignalRClient\\ConsoleSignalRClient.csproj",
+              "ToolTip": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\ConsoleSignalRClient.csproj",
+              "RelativeToolTip": "ConsoleSignalRClient\\ConsoleSignalRClient.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2023-10-11T08:32:47.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\Program.cs",
+              "RelativeDocumentMoniker": "ConsoleSignalRClient\\Program.cs",
+              "ToolTip": "C:\\WorkCode\\GitHub\\Intus Windows\\WindowSeller\\ConsoleProducer\\ConsoleSignalRClient\\Program.cs",
+              "RelativeToolTip": "ConsoleSignalRClient\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAEAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2023-10-10T04:17:27.215Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

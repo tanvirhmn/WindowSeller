@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SuperSecureApp.Core.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5341c046287d65b53bacec363bb8ff597acac4ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("SuperSecureApp.Core.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SuperSecureApp.Core.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

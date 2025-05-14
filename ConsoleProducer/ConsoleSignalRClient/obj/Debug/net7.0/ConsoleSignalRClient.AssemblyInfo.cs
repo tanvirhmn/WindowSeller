@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ConsoleSignalRClient")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5341c046287d65b53bacec363bb8ff597acac4ff")]
 [assembly: System.Reflection.AssemblyProductAttribute("ConsoleSignalRClient")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ConsoleSignalRClient")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
