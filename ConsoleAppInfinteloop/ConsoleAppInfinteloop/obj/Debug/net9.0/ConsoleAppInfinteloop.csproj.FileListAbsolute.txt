@@ -13,3 +13,18 @@ E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Deb
 E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.pdb
 E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.genruntimeconfig.cache
 E:\Repos\GitHub\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ref\ConsoleAppInfinteloop.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.exe
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.deps.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.runtimeconfig.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\bin\Debug\net9.0\ConsoleAppInfinteloop.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.GeneratedMSBuildEditorConfig.editorconfig
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.AssemblyInfoInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.AssemblyInfo.cs
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.csproj.CoreCompileInputs.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.sourcelink.json
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\refint\ConsoleAppInfinteloop.dll
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.pdb
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ConsoleAppInfinteloop.genruntimeconfig.cache
+C:\WorkCode\GitHub\Intus Windows\WindowSeller\ConsoleAppInfinteloop\ConsoleAppInfinteloop\obj\Debug\net9.0\ref\ConsoleAppInfinteloop.dll

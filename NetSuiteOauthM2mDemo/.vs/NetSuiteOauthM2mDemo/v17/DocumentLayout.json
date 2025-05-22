@@ -1,0 +1,154 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D41DFF99-09E2-4784-B702-94719557C90E}|NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj|d:\\downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\netsuiteoauthm2mdemo\\netsuiteoauthm2mdemo.core\\netsuiteapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D41DFF99-09E2-4784-B702-94719557C90E}|NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj|solutionrelative:netsuiteoauthm2mdemo.core\\netsuiteapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C948F538-580D-416A-A78E-93BF47C948F5}|NetSuiteOauthM2mDemo.Core.Tests\\NetSuiteOauthM2mDemo.Core.Tests.csproj|d:\\downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\netsuiteoauthm2mdemo\\netsuiteoauthm2mdemo.core.tests\\netsuiteapiclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C948F538-580D-416A-A78E-93BF47C948F5}|NetSuiteOauthM2mDemo.Core.Tests\\NetSuiteOauthM2mDemo.Core.Tests.csproj|solutionrelative:netsuiteoauthm2mdemo.core.tests\\netsuiteapiclienttests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D41DFF99-09E2-4784-B702-94719557C90E}|NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj|d:\\downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\netsuiteoauthm2mdemo\\netsuiteoauthm2mdemo.core\\nstoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D41DFF99-09E2-4784-B702-94719557C90E}|NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj|solutionrelative:netsuiteoauthm2mdemo.core\\nstoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D41DFF99-09E2-4784-B702-94719557C90E}|NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj|d:\\downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\netsuiteoauthm2mdemo\\netsuiteoauthm2mdemo.core\\nsfindidsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D41DFF99-09E2-4784-B702-94719557C90E}|NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj|solutionrelative:netsuiteoauthm2mdemo.core\\nsfindidsresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 17,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:137:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:136:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:138:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:139:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:143:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:144:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:145:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "NetSuiteApiClient.cs",
+              "DocumentMoniker": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NetSuiteApiClient.cs",
+              "RelativeDocumentMoniker": "NetSuiteOauthM2mDemo.Core\\NetSuiteApiClient.cs",
+              "ToolTip": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NetSuiteApiClient.cs",
+              "RelativeToolTip": "NetSuiteOauthM2mDemo.Core\\NetSuiteApiClient.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAtwD0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:14:33.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "NetSuiteApiClientTests.cs",
+              "DocumentMoniker": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core.Tests\\NetSuiteApiClientTests.cs",
+              "RelativeDocumentMoniker": "NetSuiteOauthM2mDemo.Core.Tests\\NetSuiteApiClientTests.cs",
+              "ToolTip": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core.Tests\\NetSuiteApiClientTests.cs",
+              "RelativeToolTip": "NetSuiteOauthM2mDemo.Core.Tests\\NetSuiteApiClientTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:50:10.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NsToken.cs",
+              "DocumentMoniker": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NsToken.cs",
+              "RelativeDocumentMoniker": "NetSuiteOauthM2mDemo.Core\\NsToken.cs",
+              "ToolTip": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NsToken.cs",
+              "RelativeToolTip": "NetSuiteOauthM2mDemo.Core\\NsToken.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:15:38.857Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "NsFindIdsResponse.cs",
+              "DocumentMoniker": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NsFindIdsResponse.cs",
+              "RelativeDocumentMoniker": "NetSuiteOauthM2mDemo.Core\\NsFindIdsResponse.cs",
+              "ToolTip": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NsFindIdsResponse.cs",
+              "RelativeToolTip": "NetSuiteOauthM2mDemo.Core\\NsFindIdsResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T03:15:23.628Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

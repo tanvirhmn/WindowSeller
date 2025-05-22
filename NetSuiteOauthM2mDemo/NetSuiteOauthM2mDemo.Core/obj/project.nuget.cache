@@ -1,0 +1,30 @@
+{
+  "version": 2,
+  "dgSpecHash": "Dc0aT/5TSOg=",
+  "success": true,
+  "projectFilePath": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.1\\microsoft.identitymodel.abstractions.6.22.1.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.22.1\\microsoft.identitymodel.jsonwebtokens.6.22.1.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.identitymodel.logging\\6.22.1\\microsoft.identitymodel.logging.6.22.1.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\microsoft.identitymodel.tokens\\6.22.1\\microsoft.identitymodel.tokens.6.22.1.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\portable.bouncycastle\\1.9.0\\portable.bouncycastle.1.9.0.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\system.identitymodel.tokens.jwt\\6.22.1\\system.identitymodel.tokens.jwt.6.22.1.nupkg.sha512",
+    "C:\\Users\\tanvi\\.nuget\\packages\\system.security.cryptography.cng\\4.5.0\\system.security.cryptography.cng.4.5.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 6.22.1 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "projectPath": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj",
+      "warningLevel": 1,
+      "filePath": "D:\\Downloads\\entech-blog-netsuite-oauth-m2m-demo-main\\entech-blog-netsuite-oauth-m2m-demo-main\\NetSuiteOauthM2mDemo\\NetSuiteOauthM2mDemo.Core\\NetSuiteOauthM2mDemo.Core.csproj",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

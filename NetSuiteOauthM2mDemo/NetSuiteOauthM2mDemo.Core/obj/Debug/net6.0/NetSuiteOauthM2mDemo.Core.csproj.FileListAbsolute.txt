@@ -1,0 +1,12 @@
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\bin\Debug\net6.0\NetSuiteOauthM2mDemo.Core.deps.json
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\bin\Debug\net6.0\NetSuiteOauthM2mDemo.Core.dll
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\bin\Debug\net6.0\NetSuiteOauthM2mDemo.Core.pdb
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\NetSuiteOauthM2mDemo.Core.csproj.AssemblyReference.cache
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\NetSuiteOauthM2mDemo.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\NetSuiteOauthM2mDemo.Core.AssemblyInfoInputs.cache
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\NetSuiteOauthM2mDemo.Core.AssemblyInfo.cs
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\NetSuiteOauthM2mDemo.Core.csproj.CoreCompileInputs.cache
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\NetSuiteOauthM2mDemo.Core.dll
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\refint\NetSuiteOauthM2mDemo.Core.dll
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\NetSuiteOauthM2mDemo.Core.pdb
+D:\Downloads\entech-blog-netsuite-oauth-m2m-demo-main\entech-blog-netsuite-oauth-m2m-demo-main\NetSuiteOauthM2mDemo\NetSuiteOauthM2mDemo.Core\obj\Debug\net6.0\ref\NetSuiteOauthM2mDemo.Core.dll
